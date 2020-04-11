@@ -19,7 +19,7 @@
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:type" content="blog"/>
     <meta property="og:image" content="{{ page.post_pic | absolute_url }}"/>
-    <meta property="og:url" content="{{ page.url | absolute_url }}"/>
+    <meta property="og:url" content="{{ site.url | append:page.url }}"/>
     <meta property="og:description" content="{{ page.summary }}"/>
     <meta property="og:site_name" content="planaspa"/>
 
@@ -27,6 +27,6 @@
     <meta name="twitter:site" content="@planaspa"/>
     <meta name="twitter:title" content="{{ page.title }}"/>
     <meta name="twitter:description" content="{{ page.summary }}"/>
-    <meta name="twitter:image" content="{{ page.post_pic | absolute_url }}"/>
+    <meta name="twitter:image" content="{{ site.url | append:page.post_pic }}"/>
   
 </head>
