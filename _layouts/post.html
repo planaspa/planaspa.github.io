@@ -1,0 +1,35 @@
+---
+layout: default
+minread: 0
+---
+<article class="post-container">
+    <header class="post-header">
+        <div class="post-title">{{ page.title }}</div><br/>
+        <div class="post-meta">
+            <div class="post-meta-left">
+                <img width="50" height="50" src="{{ "page.profile_pic }}" | relative_url }}"/>
+            </div>
+            <div class="post-meta-mid">
+                <span class="fa-1x">{{ page.author }}</span>
+                <br/>
+                <time class="post-dt-published fa-sm">
+                    {%- assign date_format = "%b %-d, %Y" -%}
+                    {{ page.date | date: date_format }} - 
+                </time>
+                <span class="post-dt-published fa-sm"">
+                    {%- assign words = page.content | strip_html | number_of_words -%}
+                    {%- assign min_read= words | divided_by: 180 | plus: 1 -%}
+                    {{ min_read }} min lectura
+                </span>
+            </div>
+            <div class="post-meta-right">
+                <!-- <i class="fas fa-share-alt"></i> -->
+            </div>
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+</article>

@@ -1,0 +1,509 @@
+---
+# My personal fragrance 
+---
+@charset "utf-8";
+
+.page-content{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: serif;
+    word-break: break-word;
+}
+
+/*
+    HEADER
+*/
+.site-header{    
+}
+
+/* Navbar container */
+.topnavbar {
+    overflow: hidden;
+    line-height: 5px;
+    -webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.1);
+    vertical-align: middle;
+}
+/* Links inside the navbar */
+.topnavbar a {
+    float: right;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .84);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: serif;
+    word-break: break-word;
+}
+.topnavbar i{
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-top: -7px;
+    color: rgba(0, 0, 0, .51);
+    -webkit-font-smoothing: antialiased;
+}
+/* Add a black background color to navbar links on hover */
+.topnavbar a:hover {
+    color: black;
+}
+
+.subscribe-button{
+    float: right;
+    vertical-align: center;
+    border: 1px solid rgba(0, 0, 0, .54);
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+/*
+    HOME
+*/
+.home_page {
+    display: table;
+    width: 80%;/* leave spaces around your text on responsive*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.home_page_left{
+    width: 30%;
+    display: table-cell;
+    position: fixed;
+    padding-top: 10px;
+}
+.home_page_right{
+    width: 60%;
+    display: table-cell;
+}
+
+.home_page_left_tittle{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* CV Box fields*/
+.cv_box{
+    display:table;
+}
+.cv_box_img{
+    width: 20%;
+    display: table-cell;
+    vertical-align:middle;
+}
+.cv_box_img img{
+    width: 100%;
+    border-radius: 8px;
+    vertical-align:middle;
+}
+.cv_box_bio{
+    width: 80%;
+    display: table-cell;
+    padding-left: 3%;
+    vertical-align:middle;
+}
+.cv_box_bio_name{
+    font-weight: bold;
+    color: black;
+    padding-bottom: 1px;
+}
+.cv_box_bio_name a{
+    color: inherit;
+}
+.cv_box_bio_name i{
+    float: right;
+    padding-right: 2%;
+}
+.cv_box_bio_data{
+    color:grey;
+}
+.cv_box_bio_data_work{
+    padding-bottom: 4px;
+    padding-top: 3px;
+}
+
+/* Boton al lado del placeholder del email */
+.email_container{ 
+    display: table;
+    width: 100%;
+}
+.email_container_left{
+    display: table-cell;
+    width: 60%;
+    padding-right: 5%;
+}
+.email_container_right{
+    display: table-cell;
+    text-align: left;
+    width: 40%;
+}
+
+
+/* Divider bar */
+.divider{
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    max-width: 1032px;
+    margin: 24px auto;
+}
+
+.feed_boxes ul{
+    padding: 0;
+}
+
+.feed_boxes a {
+    text-decoration: none;
+    list-style:none;
+}
+.feedbox {
+    background: #fff;
+    display: flex;
+    align-items:center;
+    margin: 25px 0 0 0;
+    padding:20px;
+    height: 130px;
+    border-radius: 2px 2px 2px 2px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+    /* shadows */
+    border-bottom: 0 none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+}
+
+/* Image on the left, text on the right */
+.feedbox_img {
+    float:center;
+    border-radius: 8px;
+    margin-right: 10px;
+    vertical-align: center;
+    width: 30%;
+} 
+.feedbox_img img{
+    max-width:100%;
+    max-height:130px;
+    vertical-align: center;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.feedbox_text {
+    text-align: left;
+    width: 70%;
+}
+.feedbox_text_time{
+    color: grey;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: serif;
+    word-break: break-word;
+    font-size: normal;
+}
+.feedbox_text_summary{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: serif;
+    word-break: break-word;
+    font-style: normal;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.54);
+    margin-bottom: 10px;
+}
+.feedbox_text_tittle{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 10px;
+    color: rgba(0,0,0,.84);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: serif;
+    word-break: break-word;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+    .home_page{
+        width: 100%;
+    }
+    .home_page_left {
+        margin-top: 1.5em;
+        width: 100%;
+        display: block;
+        position: static;
+    }
+    .home_page_right {
+        width: 100%;
+        display: block;
+    }
+    .feed_boxes ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    .feedbox {
+        width: 90%;
+        height: 150px;
+    }
+    .feedbox_img {
+        border-radius: 8px;
+        width: 30%;
+        height: auto;
+        float: left;
+        margin-right: 5%;
+    }
+    .feedbox_text {
+        width: 70%;
+        text-align: left;
+        vertical-align: middle;
+    }
+    .feedbox_text_tittle{
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+    .feedbox_text_summary{
+        font-size: small;
+    }
+    .subscribe_box{
+        visibility: hidden;
+        display: none; 
+    }
+}
+
+/*
+    POSTS
+*/
+.post-container{
+    width: 680px;
+    max-width:90%;/* leave spaces around your text on responsive*/
+    margin:auto;
+    margin-top: 1.5em;
+
+}
+
+.post-title{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+    line-height: 48px;
+    font-size: 40px;
+    font-family:    serif;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.post-meta{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: table;
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .post-meta{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: table;
+        width: 100%;
+    }
+}
+
+.post-meta-left{ /* Post header profile picture */
+    vertical-align:middle;
+    width: 15%;
+    display: table-cell;
+}
+.post-meta-left img{
+    width: 95%;
+    border-radius: 50%; 
+}
+
+.post-meta-mid{ /* Post author name and date */
+    width: 70%;
+    padding-left: 5%;
+    vertical-align:middle;
+    display: table-cell;
+}
+.post-dt-published{
+    color:grey;
+}
+
+.post-meta-right{ /* Post RRSS */
+    width: 15%;
+    display: table-cell;
+    text-align: right;
+    vertical-align:middle;
+}
+
+.post-content{ /* Post text */
+    text-align: left;
+    line-height: 1.58;
+    word-break: break-word;
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: serif;
+}
+.post-content a{
+    color: inherit;
+}
+
+.post-content h1, h2, h3, h4, h5, h6{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+    font-family: serif;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.post-content li{
+    margin-bottom: 0.55em;
+}
+
+@media screen and (max-width: 1000px) {
+    .post-content{
+        text-align: left;
+        line-height: 1.58;
+        word-break: break-word;
+        color: rgba(0, 0, 0, 0.84);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-family: serif;
+    }
+}
+
+/* FANCY POSTS */
+.post_quoting{
+    padding-left: 30px;
+    word-break: break-word;
+    line-height: 44px;
+    font-size: 30px;
+    font-family: serif;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+    text-align: left;
+}
+.block_text{
+    margin-left: -20px;
+    padding-left: 23px;
+    box-shadow: inset 3px 0 0 0 rgba(0, 0, 0, 0.84);
+    font-size: 21px;
+    font-style: italic;
+    font-family: serif;
+    letter-spacing: -0.004em;
+    line-height: 1.58;
+    word-break: break-word;
+    color: rgba(0, 0, 0, 0.84);
+    font-weight: 400;
+}
+
+/* Handling images in posts */
+.post_image_left{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 65%;
+    margin-right: 50px;
+    margin-left: -150px;
+    float:left;
+    border-width: 2px;
+    padding-bottom: 10px;
+}
+.post_image_center{
+    margin-top: 56px;
+}
+.post_image{
+    max-height: 100%;
+    max-width: 100%;
+    display:block;
+    margin:auto;
+}
+.post_image_caption{
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.54)
+}
+
+@media screen and (max-width: 1000px) {
+    .post_image_left, .post_image_center{
+        margin-top:40px;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 16px;
+        border-width: 2px;
+        padding-bottom: 10px;
+    }
+}
+
+/*
+    SUBSCRIBE
+*/
+.subscribe_page {
+    width: 680px;
+    max-width:95%;/* leave spaces around your text on responsive*/
+    margin:auto;
+    margin-top: 1.5em;
+    font-family: serif;
+    word-break: break-word;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    .subscribe_page{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: table;
+        width: 100%;
+    }
+    .subscribe_page h1{
+        margin-top: 0;
+    }
+}
+
+.promesa_privacidad{
+    max-width: 95%;
+}
+.privacy_box{
+    background: #fff;
+    height: 100px;
+    display: table;
+    margin-bottom: 10px;
+}
+.privacy_box_left{ 
+    width: 15%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.privacy_box_left img{
+    max-height: 85px;
+    height: 100%;
+}
+.privacy_box_right{
+    width: 80%;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: left;
+}
+.privacy_box_right span{
+}
