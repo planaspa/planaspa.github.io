@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Pagina Principal
-bio_pic: /assets/img/bio_img.png
+title: Pablo Lanaspa
+post_pic: /assets/img/bio_img.png
+summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital."
 ---
 <div class="home_page">
     <div class="home_page_left">
@@ -16,7 +17,7 @@ bio_pic: /assets/img/bio_img.png
             <br/>
             <div class="cv_box">
                 <div class="cv_box_img">
-                    <img src="{{ page.bio_pic }}"/>
+                    <img src="{{ page.post_pic }}"/>
                 </div>
                 <div class="cv_box_bio">
                     <div class="cv_box_bio_name">
