@@ -27,6 +27,9 @@ url: "https://www.planaspa.com" # the base hostname & protocol for your site, e.
 twitter_username: planaspa
 # github_username:  jekyll
 
+# Allow posts in future date
+future: true
+
 # Build settings
 # theme: 
 
