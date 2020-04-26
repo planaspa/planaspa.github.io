@@ -3,11 +3,17 @@
 ---
 @charset "utf-8";
 
+html, body{
+    height: 100%;
+    margin-bottom: 0;
+}
+
 .page-content{
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-family: serif;
     word-break: break-word;
+    min-height: 100%;
 }
 
 /*
@@ -63,8 +69,61 @@
     margin-top: 5px;
 }
 
+/*
+    FOOTER
+*/
+.site-footer{
+}
+.bottombar{
 
+    background-color: #eff1f3;
+    width: 100%;
 
+    color: rgba(0, 0, 0, 0.9);
+
+    padding-bottom: 12px;
+    padding-top: 12px;
+    
+    text-align: right;
+
+    font-weight: 350;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
+
+    display: table;
+}
+.bottombar a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.bottombar_left{
+    display: table-cell;
+    text-align: left;
+    max-width: 50%
+    width: auto;
+    padding-left: 64px;
+}
+.bottombar_right{
+    display: table-cell;
+    text-align: right;
+
+    max-width: 50%
+    width: auto;
+
+    padding-right: 64px;
+}
+
+@media screen and (max-width: 1000px) {
+    .bottombar_left{
+        padding-left: 10px;
+    }
+    .bottombar_right{
+        padding-right: 10px;
+    }
+}
 
 /*
     HOME
@@ -505,4 +564,32 @@
     text-align: left;
 }
 .privacy_box_right span{
+}
+
+/*
+    LEGAL
+*/
+/*
+    SUBSCRIBE
+*/
+.legal_page {
+    width: 680px;
+    max-width:95%;/* leave spaces around your text on responsive*/
+    margin:auto;
+    margin-top: 1.5em;
+    font-family: serif;
+    word-break: break-word;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    .legal_page{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: table;
+        width: 100%;
+    }
+    .legal_page h1{
+        margin-top: 0;
+    }
 }
