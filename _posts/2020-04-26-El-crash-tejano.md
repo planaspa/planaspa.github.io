@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'El "crash" tejano'
+title: "El crash tejano"
 author: Pablo Lanaspa
 profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200426/cotizacion.png
