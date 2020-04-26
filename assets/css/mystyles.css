@@ -3,11 +3,17 @@
 ---
 @charset "utf-8";
 
+html, body{
+    height: 100%;
+    margin-bottom: 0;
+}
+
 .page-content{
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-family: serif;
     word-break: break-word;
+    min-height: 100%;
 }
 
 /*
@@ -66,6 +72,8 @@
 /*
     FOOTER
 */
+.site-footer{
+}
 .bottombar{
 
     background-color: #eff1f3;
