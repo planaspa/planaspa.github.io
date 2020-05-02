@@ -18,7 +18,7 @@ minread: 0
                 </time>
                 <span class="post-dt-published fa-sm"">
                     {%- assign words = page.content | strip_html | number_of_words -%}
-                    {%- assign min_read= words | divided_by: 180 | plus: 1 -%}
+                    {%- assign min_read= words | divided_by: 180 -%}
                     {{ min_read }} min lectura
                 </span>
             </div>
