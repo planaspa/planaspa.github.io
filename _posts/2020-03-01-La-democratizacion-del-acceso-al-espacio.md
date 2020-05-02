@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200301/infografia.png
 date: 2020-03-01 10:10:10 -0000
 categories: []
-tags: []
+tags: [elon, musk, tesla, spacex, business-model, innovacion, espacio]
 summary: "SpaceX ha marcado un antes y un después en la puesta en órbita de satélites, abriendo así la oportunidad a conquistar el espacio."
 ---
 

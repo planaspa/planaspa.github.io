@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200419/diagrama.png
 date: 2020-04-19 11:30:00 -0000
 categories: []
-tags: []
+tags: [product-management, segmentacion, audiencia, growth, market-fit]
 summary: "Es una pregunta dolorosa pero... ¿Cómo se sentirían tus usuarios si tu producto desapareciese mañana? ¿Estás seguro?"
 ---
 

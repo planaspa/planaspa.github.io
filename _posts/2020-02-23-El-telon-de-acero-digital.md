@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200223/firewall.jpeg
 date: 2020-02-23 10:10:10 -0000
 categories: []
-tags: []
+tags: [china, privacidad, competencia, tecnologia, startups, innovacion]
 summary: "Una reflexión sobre cómo se ha creado el ecosistema digital chino y los retos que afrontamos con su manera de operar."
 ---
 

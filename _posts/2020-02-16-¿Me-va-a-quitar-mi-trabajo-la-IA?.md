@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200216/banco.jpeg
 date: 2020-02-16 10:10:10 -0000
 categories: []
-tags: []
+tags: [ia, revolucion, futuro, analisis]
 summary: "Una reflexión sobre la similitud entre el actual momento de la IA y la revolución industrial del siglo XVIII."
 ---
 
