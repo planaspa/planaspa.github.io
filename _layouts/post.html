@@ -24,6 +24,7 @@ minread: 0
             </div>
             <div class="post-meta-right">
                 <!-- <i class="fas fa-share-alt"></i> -->
+                <a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet" data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}" data-text="{{ page.title }}" data-via="planaspa"><i class="fab fa-twitter""></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </header>
@@ -32,9 +33,9 @@ minread: 0
         {{ content }}
     </div>
 
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="{{ "/assets/flickity/flickity.css" | relative_url }}"/>
-<script src="{{ "/assets/flickity/flickity.pkgd.min.js" | relative_url }}"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="{{ "/assets/flickity/flickity.css" | relative_url }}"/>
+    <script src="{{ "/assets/flickity/flickity.pkgd.min.js" | relative_url }}"></script>
 
     {% if site.related_posts != empty %}
 
