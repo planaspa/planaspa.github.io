@@ -7,7 +7,7 @@ post_pic: /assets/img/posts/20200503/cost_curve.png
 date: 2020-05-03 10:00:00 -0000
 categories: []
 tags: [petroleo, charles-schwab, saudi-aramco, pricing, competencia, estrategia]
-summary: "Lo que se puede aprender de una guerra de precios y sus efectos en nuestra vida."
+summary: "Lecciones que se pueden aprender de una guerra de precios."
 ---
 
 Hoy he querido traer dos ejemplos en dos industrias muy diferentes en las que recientemente han estallado una guerra de precios para analizar puntos en común y reflexionar sobre qué se puede aprender de estos escenarios. Por un lado, y siguiendo con el artículo de la semana pasada hablando del [*”crash”* tejano]({% post_url 2020-04-26-El-crash-tejano %}) hablaremos de la industria de la extracción de petróleo y del reciente jaque de Saudi Aramco. 
@@ -42,9 +42,11 @@ Esto quiere decir que a precios de derribo del petróleo la industria americana 
 
 ## Charles Schwab, cero comisiones
 
-The Charles Schwab Corporation es una empresa americana que ofrece servicios de *brokerage*, es decir, opera en un sector que donde cada competidor ofrece un canal de compra de activos financieros diferente a sus clientes por el que cobran unas comisiones por realizar operaciones. Charles Schwab, además, tiene una ventaja competitiva que lo hace un tanto diferente en su sector, el resumen de 1 minuto es que utiliza el *cash* de las cuentas de sus clientes para invertir o prestar y sacar rendimientos para sus clientes pero también para ellos.
+The Charles Schwab Corporation es una empresa americana que ofrece servicios de *brokerage*, es decir, opera en un sector donde cada *player* ofrece un canal de compra de activos financieros diferente a sus clientes por el que cobran unas comisiones por realizar operaciones. 
 
-Es decir, Charles Schwab se ha convertido en una especie de banco tradicional en un sector donde las compañías lo que ofrecen es acceso a la más amplia gama de productos financieros del mercado, permitiéndole no depender tan apenas de las comisiones cobradas. Este pequeño pivotaje le permitió en septiembre dar el paso a no cobrar comisiones a sus clientes por ninguna operación que realizasen. Algo inédito en un sector donde las comisiones son una de las mayores fuentes de ingresos. Este movimiento fue el inicio de una guerra de precios que toda la competencia tuvo que seguir cuando nadie más estaba preparado. 
+La característica que hace especial a Charles Schwab es que ha sabido cambiar su negocio para depender menos del cobro de comisiones para generar beneficios, es decir, convertirse en un productor low-cost del servicio principal ofrecido en su sector. Esto lo ha conseguido haciendo crecer sus otras líneas de negocios como servicios de asesoría o sus propios productos de inversión de bajo coste. Además, la empresa obtiene la mayor parte de sus ingresos reinvirtiendo el *cash* de sus clientes a través de su división bancaria.
+
+Charles Schwab, tiene el tamaño suficiente como para poder hacer uso de sus eficiencias de economía de escala que le permite ser operativamente mucho más eficiente que varios de sus competidores. Todo esto le llevó en septiembre a tomar la decisión de bajar las comisiones de todos sus productos a cero. Algo inédito en un sector donde las comisiones son una de las mayores fuentes de ingresos. Este movimiento fue el inicio de una guerra de precios que toda la competencia tuvo que seguir cuando nadie más estaba preparado. 
 
 A los dos días del anuncio de la bajada de comisiones de Charles Schwab, uno de sus principales competidores, TD Ameritrade había caído un 40% en bolsa por la bajada de previsión de beneficios fruto de la forzosa bajada de comisiones que tenia que realizar si no quería que toda su base de clientes se moviese poco a poco hacia Charles Schwab. ¿Y cuál fue el siguiente paso de Charles Schwab? Realizó una OPA sobre Ameritrade y compró todos sus clientes por casi la mitad de precio del que lo podía hacer unos días antes.
 
@@ -60,10 +62,10 @@ Como vemos, ambos movimientos son muy similares, ambos producidos por uno de los
 ## Aprendizajes
 
 De esta dos recientes historias se pueden aprender 3 cosas:
-1. Cuando lo que se vende es una *commodity*, es decir, un producto que no se diferencia de quien te lo de, mientras haya demanda creciente todo el sector crece, pero si la demanda baja **solo los productores de más bajo coste perduran**… 
-  * ¿Tu producto o empresa es una *commodity*? ¿Los clientes ven un valor añadido porque se lo hagas a tu que se lo haga otra persona? 
-  * En caso de ser una commodity, ¿eres un productor de bajo coste? En caso contrario es posible que tu producto vaya bien mientras haya viento de cola pero no se le augura buen final en tiempos de turbulencias.
-2. Si nos encontramos ante sectores muy desagregados, las políticas de guerra de precios propician una consolidación del sector centralizando el poder en menos *players* y promoviendo economías de escala, a través de dos vías:
+1. Cuando lo que se vende es una *commodity*, es decir, un producto que no se diferencia de quien te lo de, mientras haya demanda creciente todo el sector crece, pero si la demanda baja **solo los productores de más bajo coste perduran**... 
+  * ¿Tu producto es una *commodity*? ¿Los clientes ven un valor añadido porque les ofrezcas tu el servicio a que se lo ofrezca otra persona? 
+  * En caso de ser una *commodity*, ¿eres un productor de bajo coste? En caso contrario es posible que tu producto vaya bien mientras haya viento de cola pero no se le augura buen final en tiempos de turbulencias.
+2. Si nos encontramos ante sectores muy fragmentados, las políticas de guerra de precios propician una consolidación del sector centralizando el poder en menos *players* y promoviendo economías de escala, a través de dos vías:
   * Quiebra de los productores de mayor coste y crecimiento de la cuota de mercado de los supervivientes.
   * Procesos de *M&A* donde los productores de bajo coste, si tienen caja y pueden incluir a otras empresas dentro de sus procesos sin aumentar su coste de producción, adquieren a la competencia en los momentos difíciles.
 3. El principal beneficiado de una guerra de precios es el consumidor. Por lo menos a corto plazo.
