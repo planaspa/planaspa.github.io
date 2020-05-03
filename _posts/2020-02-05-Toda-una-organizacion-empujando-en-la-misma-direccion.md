@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200205/plantilla.png
 date: 2020-02-05 10:10:10 -0000
 categories: []
-tags: []
+tags: [product-management, equipos, direccion, okrs, objetivos, foco]
 summary: "Como mantener equipos enfocados en unos mismos objetivos."
 ---
 

@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200405/McNamara.jpeg
 date: 2020-04-05 11:00:00 -0000
 categories: []
-tags: []
+tags: [guerra, datos, falacia, covid]
 summary: "Lo que podemos aprender de la guerra de Vietnam."
 ---
 

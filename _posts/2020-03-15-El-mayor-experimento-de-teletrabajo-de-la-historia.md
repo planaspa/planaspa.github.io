@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200315/teletrabajo.jpeg
 date: 2020-03-15 10:10:10 -0000
 categories: []
-tags: []
+tags: [covid, teletrabajo, experimento, remoto]
 summary: "Nos encontramos ante un momento histórico en el que empresas y gobierno deben incentivar el teletrabajo para evitar una gran..."
 ---
 

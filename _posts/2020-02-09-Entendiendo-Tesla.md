@@ -6,7 +6,7 @@ profile_pic: /assets/img/bio_img.png
 post_pic: assets/img/posts/20200209/cortos.png
 date: 2020-02-09 11:10:10 -0000
 categories: []
-tags: []
+tags: [tesla, elon, musk, business-model, valoracion, bolsa, tecnologia]
 summary: "Mucho se ha hablado de Tesla últimamente, pero ¿cuales son sus ventajas competitivas? ¿a qué se debe tanto hype? ¿será la nueva Apple?"
 ---
 
