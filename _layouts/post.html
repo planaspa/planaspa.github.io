@@ -36,7 +36,7 @@ minread: 0
     <link rel="stylesheet" href="{{ "/assets/flickity/flickity.css" | relative_url }}"/>
     <script src="{{ "/assets/flickity/flickity.pkgd.min.js" | relative_url }}"></script>
 
-    {% if site.related_posts != empty %}
+    {% if site.posts != empty %}
 
         {% comment %}
         maxRelated: the maximum number of related to posts to be printed
@@ -52,7 +52,7 @@ minread: 0
         <div class="carousel-wrapper">
           <div class="carousel" data-flickity>
             
-            {% for post in site.related_posts %}
+            {% for post in site.posts %}
 
                 {% assign sameTagCount = 0 %}
                 {% assign commonTags = '' %}
