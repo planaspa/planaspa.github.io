@@ -7,6 +7,11 @@
     }
 </style>
 <div id="cookie-notice" class="cookie-bar"><span>Mi web utiliza cookies de Google para analizar el tráfico.</span><a id="cookie-notice-accept" class="cookie-button">Aceptar</a><a href="/legal" class="cookie-button">Más información</a></div>
+
+<!-- Add google analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159643548-1"></script>
+
+<!-- Laucnch script to get consent -->
 <script>
     function createCookie(name,value,days) {
         var expires = "";
@@ -33,7 +38,13 @@
 
     if(readCookie('cookie-notice-dismissed')=='true') {
         {%- if jekyll.environment == 'production' -%}
-            {%- include google-analytics.html -%}
+            // Actually starting analytics up
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-159643548-1');
+
         {%- endif -%}
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
