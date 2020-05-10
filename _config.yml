@@ -30,9 +30,6 @@ twitter_username: planaspa
 # Allow posts in future date
 future: true
 
-plugins:
-  - jekyll-feed
-
 # Build settings
 # theme: 
 
