@@ -17,6 +17,25 @@ html, body{
 }
 
 /*
+    COOKIE
+*/
+.cookie-bar{
+    font-size: 1.1rem;
+}
+.cookie-bar a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+.cookie-button{
+    vertical-align: center;
+    border: 1px solid rgba(0, 0, 0, .54);
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: rgba(255,255,255,0.8)
+}
+
+/*
     HEADER
 */
 .site-header{    
