@@ -12,7 +12,7 @@ summary: "¿Puede ser SpaceX un peligro para las empresas de telecomunicaciones?
 
 Tras postponer el lanzamiento por problemas meteorológicos tres días antes, ayer por la noche SpaceX fue capaz de poner en órbita a seres humanos en la estación espacial internacional.
 
-Ya hemos hablado de la preciosa [historia]({% post_url 2020-03-01-La-democratizacion-del-acceso-al-espacio %}) de SpaceX en artículos anteriores y ayer consiguió ir un paso más allá, incluir en sus lanzamientos a seres humanos. 
+Ya hemos hablado de la preciosa [historia](https://planaspa.com/2020/03/01/La-democratizacion-del-acceso-al-espacio.html) de SpaceX en artículos anteriores y ayer consiguió ir un paso más allá, incluir en sus lanzamientos a seres humanos. 
 
 Sin embargo, hoy no quiero hablar de la importancia de este hecho y de las consecuencias que puede desencadenar en la industria. Hoy quiero hablar de un, de momento, pequeño proyecto que va germinando al calor de SpaceX y que no aparece en tantas portadas en todo el mundo: Starlink. Un proyecto que puede revolucionar el sector de las telecomunicaciones.
 
@@ -24,7 +24,7 @@ Una constelación de satélites es básicamente un conjunto de satélites artifi
 
 {% include posts/images/image_left.html url="/assets/img/posts/20200531/constellation.jpeg" description="Constelación de Starlink" ref="https://www.newsbreak.com/news/0NmzLfzD/what-is-starlink-elon-musk-is-building-a-satellite-constellation" %}
 
-Es decir, construir miles de satélites que lancen al espacio ([ventaja competitiva]({% post_url 2020-03-01-La-democratizacion-del-acceso-al-espacio %}) muy importante siendo SpaceX la empresa que ofrece estos servicios al coste más bajo de la industria) y que se conecten entre si creando una gran red de telecomunicaciones en el espacio. 
+Es decir, construir miles de satélites que lancen al espacio ([ventaja competitiva](https://planaspa.com/2020/03/01/La-democratizacion-del-acceso-al-espacio.html) muy importante siendo SpaceX la empresa que ofrece estos servicios al coste más bajo de la industria) y que se conecten entre si creando una gran red de telecomunicaciones en el espacio. 
 
 Todo esto con el objetivo de poder cubrir cada centímetro de nuestro planeta y ofrecer la capacidad de conectarse a internet a través de su tecnología.
 
@@ -68,4 +68,4 @@ De esta manera, Starlink se nos vende como la solución para que países subdesa
 
 Por otro lado, nos hemos centrado mucho en la red de satélites de Starlink, sin embargo, Starlink también trabaja en construir un receptor compatible con esta red de satélites que va a ser el más pequeño y barato del mercado, capaz de colocarse en los techos de las casas o en los techos de los vehículos y ofrecer velocidades simétricas de subida y de bajada de hasta 100Mb según se especula... Parece una tontería, pero tener un receptor de conexión satélite de banda ancha de este calibre y del tamaño de una [pizza](https://www.inverse.com/innovation/spacex-starlink-heres-how-much-it-will-cost-to-subscribe) es algo que aún no se ha conseguido en la industria.
 
-Seguro que al leer que es posible poner estos receptores en los techos de los vehículos y si ya has leído el anterior artículo sobre [Tesla]({% post_url 2020-02-09-Entendiendo-Tesla %}) sobra explicar como Starlink puede verse como un servicio esencial para un coche conectado que ofrezca conducción autónoma y que por supuesto necesita tomar decisiones en milisegundos. Todas las piezas de Elon Musk acaban jugando un rol más importante en una partida más grande. 
+Seguro que al leer que es posible poner estos receptores en los techos de los vehículos y si ya has leído el anterior artículo sobre [Tesla](https://planaspa.com/2020/02/09/Entendiendo-Tesla.html) sobra explicar como Starlink puede verse como un servicio esencial para un coche conectado que ofrezca conducción autónoma y que por supuesto necesita tomar decisiones en milisegundos. Todas las piezas de Elon Musk acaban jugando un rol más importante en una partida más grande. 
