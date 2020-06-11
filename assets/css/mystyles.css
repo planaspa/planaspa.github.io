@@ -26,13 +26,22 @@ html, body{
     text-decoration: none;
     color: rgba(0,0,0,0.8);
 }
-.cookie-button{
+.cookie-button-accept{
     vertical-align: center;
     border: 1px solid rgba(0, 0, 0, .54);
     border-radius: 4px;
     padding-left: 2%;
     padding-right: 2%;
-    background: rgba(255,255,255,0.8)
+    background: rgba(255,255,255,1)
+}
+
+.cookie-button-decline{
+    vertical-align: center;
+    border: 1px solid rgba(0, 0, 0, .54);
+    border-radius: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: rgba(255,255,255,0.9)
 }
 
 /*
