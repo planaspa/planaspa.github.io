@@ -11,7 +11,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
 <p>La presente página se constituye como el Aviso Legal y las Condiciones de Uso que regulan el acceso, navegación y uso de mi sitio web personal ubicada en www.planaspa.com. Para comunicarse conmigo, se debe de escribir un correo electrónico a la siguiente dirección: <a href="mailto:info@planaspa.com">info@planaspa.com </a>.</p>
 
 <h3> Cookies </h3>
-<p> Las cookies son pequeños paquetes de información que se almacenan en tu navegador cuando visitas cualquier sitio web. Existen cookies de dos categorías: De origen y de terceros. Las cookies de origen son las cookies que generaro yo a través de mi propio sitio web,  en mi caso genero una cookie para saber si has dado consentimientos para poder utilizar tus datos para analizar el tráfico en misitio web. 
+<p> Las cookies son pequeños paquetes de información que se almacenan en tu navegador cuando visitas cualquier sitio web. Existen cookies de dos categorías: De origen y de terceros. Las cookies de origen son las cookies que generaro yo a través de mi propio sitio web,  en mi caso genero una cookie para saber si has dado consentimientos para poder utilizar tus datos para analizar el tráfico en mi sitio web, algo esencial para poder prestar mi servicio y entender que contenido debo ir creando en mi página web. 
 
 Por otro lado, las cookies de terceros son creadas por responsables del tratamiento de datos que no operan este sitio web, es decir, empresas terceras ajenas a mi de las cuales utilizo sus servicios. En mi caso utilizo las siguientes cookies de terceros y con el siguiente propósito:</p>
 <ul>
