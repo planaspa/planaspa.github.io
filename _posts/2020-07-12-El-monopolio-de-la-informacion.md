@@ -10,7 +10,7 @@ tags: [Google, privacidad, monopolio, Neeva, DuckDuckGo, publicidad]
 summary: "Google tiene el monopolio de la búsqueda de la información a nivel global. DuckDuckGo parece estar moviéndose y Neeva suena interesante como alternativa."
 ---
 
-El fin de semana pasado conducía camino de Huesca cuando al entrar a la ciudad vi un cartel en el que se anunciaba DuckDuckGo. Me hico gracia porque parecía que DuckDuckGo era un buscador para un perfil de personas más *freaks* o alternativas que luchan por su privacidad. Cuando llegué a casa decidí [publicarlo](https://twitter.com/planaspa/status/1277341507104759808) en mi cuenta de twitter lo que me llevó a un curioso hallazgo.
+El fin de semana pasado conducía camino de Huesca cuando al entrar a la ciudad vi un cartel en el que se anunciaba DuckDuckGo. Me hizo gracia porque parecía que DuckDuckGo era un buscador para un perfil de personas más *freaks* o alternativas que luchan por su privacidad. Cuando llegué a casa decidí [publicarlo](https://twitter.com/planaspa/status/1277341507104759808) en mi cuenta de twitter lo que me llevó a un curioso hallazgo.
 
 {% include posts/images/image_left.html url="/assets/img/posts/20200712/Anuncio_DuckDuckGo.jpeg" description="Anuncios de DuckDuckGo por toda España" ref="https://twitter.com/pablodmartin/status/1273694189109329922"%}
 
