@@ -10,7 +10,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
 ---
 <div class="subscribe_page">
     <h1>Recibe mis publicaciones</h1>
-    Si te apuntas a la mailinglist <b>Informe Lanaspa</b> recibirás mis publicaciones directamente en tu banceja de entrada.
+    Si te apuntas a la mailinglist <b>Informe Lanaspa Quincenal</b> recibirás mis publicaciones directamente en tu banceja de entrada.
 
 
     <!-- Begin Mailchimp Signup Form -->
