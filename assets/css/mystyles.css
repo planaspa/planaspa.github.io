@@ -166,21 +166,17 @@ html, body{
     width: 30%;
     display: table-cell;
     position: fixed;
-    padding-top: 10px;
 }
 .home_page_right{
     width: 60%;
     display: table-cell;
 }
 
-.home_page_left_tittle{
-    text-align: center;
-    font-weight: bold;
-}
-
 /* CV Box fields*/
 .cv_box{
+    margin-top: 43px;
     display:table;
+    height: 130px;
 }
 .cv_box_img{
     width: 20%;
@@ -371,6 +367,9 @@ html, body{
     .subscribe_box{
         visibility: hidden;
         display: none; 
+    }
+    .cv_box{
+        margin-top: 0px;
     }
 }
 
