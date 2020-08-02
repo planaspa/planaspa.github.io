@@ -77,7 +77,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 </div>
                 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group" style="margin-top:0">
                 <div class="content__gdpr fa-xs">
-                    <p>Dándole al botón de añadirse me darás permiso para enviarte mis artículos directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  como trataré tu información personal.</p> 
+                    <p>Dándole al botón de añadirse me darás permiso para enviarte mis informes directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  como trataré tu información personal.</p> 
                 </div>
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
