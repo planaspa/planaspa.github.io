@@ -416,9 +416,15 @@ html, body{
     width: 15%;
     display: table-cell;
 }
-.post-meta-left img{
-    width: 95%;
-    border-radius: 50%; 
+.post-meta-left-portrait{
+    width: 50px;
+    height: 50px;
+}
+.post-meta-left-portrait img{
+    border-radius: 50%;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .post-meta-mid{ /* Post author name and date */

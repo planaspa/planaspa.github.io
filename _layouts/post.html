@@ -9,7 +9,9 @@ minread: 0
         <div class="post-title">{{ page.title }}</div><br/>
         <div class="post-meta">
             <div class="post-meta-left">
-                <img width="50" height="50" src="{{ "page.profile_pic }}" | relative_url }}"/>
+                <div class="post-meta-left-portrait">
+                    <img src="{{ "page.profile_pic }}" | relative_url }}"/>
+                </div>
             </div>
             <div class="post-meta-mid">
                 <span class="fa-1x">{{ page.author }}</span>
