@@ -3,6 +3,8 @@ layout: default
 minread: 0
 ---
 <article class="post-container">
+
+    <!-- INCLUDE HEADER -->
     <header class="post-header">
         <div class="post-title">{{ page.title }}</div><br/>
         <div class="post-meta">
@@ -28,10 +30,25 @@ minread: 0
         </div>
     </header>
 
+
+    <!-- INCLUDE POST CONTENT -->
     <div class="post-content">
         {{ content }}
     </div>
 
+    <!-- INCLUDE SUBSCRIPTION CALL TO ACTION -->
+
+    <div class="divider"></div>
+
+    <div class="subscribe_CTA">
+        ¿Te ha gustado? ¡Apúntate a la Newsletter Premium!
+        <br/>
+        <br/>
+        <a href="{{ site.baseurl }}/subscribe" class="subscribe-button-CTA"><span>Suscríbete</span></a>
+    </div>
+
+
+    <!-- INCLUDE RELATED CONTENT -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="{{ "/assets/flickity/flickity.css" | relative_url }}"/>
     <script src="{{ "/assets/flickity/flickity.pkgd.min.js" | relative_url }}"></script>
@@ -48,7 +65,7 @@ minread: 0
         {% assign maxRelatedCounter = 0 %}
 
         <div class="divider"></div>
-        <h2>Posts relacionados...</h2>
+        <h2>Informes relacionados...</h2>
         <div class="carousel-wrapper">
           <div class="carousel" data-flickity>
             
