@@ -92,7 +92,17 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
     <div class="home_page_right">
         <div class="feed_boxes">
             <ul>
+            
+            {% comment %}
+            Publish post on timeline 36 hours after newsletter has been sent. Delay in seconds.
+            Javascript does the magic removing dynamically posts that do not meet publish date criteria.
+            {% endcomment %}
+            {% assign delay = 36 | times: 60 | times: 60 %}
+
               {% for post in site.posts %}
+                {% assign publish_date = post.date | date: '%s' %}
+                {% assign publish_date = publish_date | plus: delay %}
+                <div publish-date="{{ publish_date | date: '%Y-%m-%d' }}">
                 <a href="{{ post.url }}">
                 <li class="feedbox">
                     <div class="feedbox_img"><img src="{{ post.post_pic }}"/></div>
@@ -108,8 +118,11 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                     </div>
                 </li>
                 </a>
+                </div>
               {% endfor %}
             </ul>
         </div>
     </div>
 </div>
+
+{% include post_visibility.html %}
