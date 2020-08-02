@@ -22,7 +22,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 <div class="cv_box_bio">
                     <div class="cv_box_bio_name">
                         <span class="fa-lg">Pablo Lanaspa Ferrer</span>
-                        <a href="mailto:info@planaspa.com"><i class="fas fa-envelope"></i></a>
+                        <!-- <a href="mailto:info@planaspa.com"><i class="fas fa-envelope"></i></a> -->
                         <a href="https://linkedin.com/in/planaspa"><i class="fab fa-linkedin"></i></a>
                         <a href="https://twitter.com/planaspa"><i class="fab fa-twitter"></i></a>
                     </div>
