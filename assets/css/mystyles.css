@@ -364,6 +364,9 @@ html, body{
     }
     .feedbox_text_summary{
         font-size: small;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical; 
     }
     .subscribe_box{
         visibility: hidden;
