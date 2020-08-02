@@ -6,7 +6,7 @@ mail_pic: /assets/img/subscribe/mail.jpg
 unsubscribe_pic: /assets/img/subscribe/unsubscribe.png
 process_pic: /assets/img/subscribe/process.jpg
 post_pic: /assets/img/bio_img.png
-summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital."
+summary: "Suscríbete a Informe Lanaspa! Tecnología, innovación, IA, economía digital y más."
 ---
 <div class="subscribe_page">
     <h1>Recibe mis publicaciones</h1>

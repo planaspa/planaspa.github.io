@@ -7,7 +7,7 @@ post_pic: /assets/img/posts/20200614/figura_15.png
 date: 2020-06-14 10:10:10 -0000
 categories: []
 tags: [facebook, business-model, plataformas]
-summary: "¿Está Facebook girando hace una deconstrucción del concepto influencer? Los usuarios podrán monetizar sus perfiles."
+summary: "¿Está Facebook girando hacia una deconstrucción del concepto influencer? Los usuarios podrán monetizar sus perfiles."
 ---
 
 Hace unos días Facebook publicó [una patente](https://patents.google.com/patent/US20200143485A1/en?oq=US2020%2f0143485+A1){:target="_blank"} bastante curiosa que nos puede indicar hacia donde quiere enfocar su futuro.  Hasta ahora, Facebook, en sus diferentes sabores (Facebook o Instagram), permitía a sus usuarios gestionar sus perfiles subiendo fotos, compartirlas y permitir que las marcas hicieran lo mismo ejerciendo así como una empresa pura de publicidad donde las marcas podían publicitarse.

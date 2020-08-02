@@ -166,21 +166,17 @@ html, body{
     width: 30%;
     display: table-cell;
     position: fixed;
-    padding-top: 10px;
 }
 .home_page_right{
     width: 60%;
     display: table-cell;
 }
 
-.home_page_left_tittle{
-    text-align: center;
-    font-weight: bold;
-}
-
 /* CV Box fields*/
 .cv_box{
+    margin-top: 43px;
     display:table;
+    height: 130px;
 }
 .cv_box_img{
     width: 20%;
@@ -364,10 +360,16 @@ html, body{
     }
     .feedbox_text_summary{
         font-size: small;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical; 
     }
     .subscribe_box{
         visibility: hidden;
         display: none; 
+    }
+    .cv_box{
+        margin-top: 0px;
     }
 }
 
@@ -414,9 +416,15 @@ html, body{
     width: 15%;
     display: table-cell;
 }
-.post-meta-left img{
-    width: 95%;
-    border-radius: 50%; 
+.post-meta-left-portrait{
+    width: 50px;
+    height: 50px;
+}
+.post-meta-left-portrait img{
+    border-radius: 50%;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .post-meta-mid{ /* Post author name and date */
@@ -461,6 +469,28 @@ html, body{
 
 .post-content li{
     margin-bottom: 0.55em;
+}
+
+/* SUBSCRIBE CTA AT BOTTOM OF POST */
+.subscribe_CTA{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+}
+.subscribe-button-CTA{
+    float: center;
+    vertical-align: center;
+    background-color: #029E74;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 1000px) {

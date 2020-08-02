@@ -9,12 +9,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
 ---
 <div class="home_page">
     <div class="home_page_left">
-        <div class="home_page_left_tittle">
-            <span class="fa-2x">Surcando la economía digital</span>
-        </div>
         <div class="home_page_left_biobox">
-            <br/>
-            <br/>
             <div class="cv_box">
                 <div class="cv_box_img">
                     <img src="{{ page.post_pic }}"/>
@@ -22,7 +17,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 <div class="cv_box_bio">
                     <div class="cv_box_bio_name">
                         <span class="fa-lg">Pablo Lanaspa Ferrer</span>
-                        <a href="mailto:info@planaspa.com"><i class="fas fa-envelope"></i></a>
+                        <!-- <a href="mailto:info@planaspa.com"><i class="fas fa-envelope"></i></a> -->
                         <a href="https://linkedin.com/in/planaspa"><i class="fab fa-linkedin"></i></a>
                         <a href="https://twitter.com/planaspa"><i class="fab fa-twitter"></i></a>
                     </div>
@@ -42,10 +37,9 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                     </div>
                 </div>
             </div>
-            <br/>
         </div>
-        <div class="divider"></div>
         <div class="subscribe_box">
+        <div class="divider"></div>
 
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
@@ -77,7 +71,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 </div>
                 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group" style="margin-top:0">
                 <div class="content__gdpr fa-xs">
-                    <p>Dándole al botón de añadirse me darás permiso para enviarte mis artículos directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  como trataré tu información personal.</p> 
+                    <p>Dándole al botón de añadirse me darás permiso para enviarte mis informes directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  cómo trataré tu información personal.</p> 
                 </div>
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -92,7 +86,17 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
     <div class="home_page_right">
         <div class="feed_boxes">
             <ul>
+            
+            {% comment %}
+            Publish post on timeline 36 hours after newsletter has been sent. Delay in seconds.
+            Javascript does the magic removing dynamically posts that do not meet publish date criteria.
+            {% endcomment %}
+            {% assign delay = 36 | times: 60 | times: 60 %}
+
               {% for post in site.posts %}
+                {% assign publish_date = post.date | date: '%s' %}
+                {% assign publish_date = publish_date | plus: delay %}
+                <div publish-date="{{ publish_date | date: '%Y-%m-%d' }}">
                 <a href="{{ post.url }}">
                 <li class="feedbox">
                     <div class="feedbox_img"><img src="{{ post.post_pic }}"/></div>
@@ -108,8 +112,11 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                     </div>
                 </li>
                 </a>
+                </div>
               {% endfor %}
             </ul>
         </div>
     </div>
 </div>
+
+{% include post_visibility.html %}

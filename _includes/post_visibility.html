@@ -1,0 +1,25 @@
+<script>
+    function getComparableTodayDate() {
+        // Get Today date in format YYYYMMDD
+
+        // Months in Javascript start from 0 as January
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        //Complete MM if month only of one digit
+        if (month.length < 2) month = '0' + month;
+
+        //Complete DD if day only of one digit
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    // Select elements with publish date attribute
+    var elements = document.querySelectorAll('[publish-date]');
+
+    // Remove elements whose publish date is greater than today date
+    Array.prototype.forEach.call(elements, function(el, i){
+        if(el.getAttribute('publish-date').split('-').join('') > getComparableTodayDate()) el.remove();
+    });
+</script>
