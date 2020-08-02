@@ -362,6 +362,7 @@ html, body{
         vertical-align: middle;
     }
     .feedbox_text_tittle{
+        font-size: large;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;  
