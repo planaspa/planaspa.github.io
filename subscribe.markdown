@@ -1,16 +1,27 @@
 ---
 layout: page
-title: Suscribete!
+title: ¡Suscribete!
 permalink: /subscribe
 mail_pic: /assets/img/subscribe/mail.jpg
 unsubscribe_pic: /assets/img/subscribe/unsubscribe.png
 process_pic: /assets/img/subscribe/process.jpg
 post_pic: /assets/img/bio_img.png
-summary: "Suscríbete a Informe Lanaspa! Tecnología, innovación, IA, economía digital y más."
+summary: "¡Suscríbete a #InformeLanaspa! Tecnología, innovación, IA, economía digital y más."
 ---
 <div class="subscribe_page">
-    <h1>Recibe mis publicaciones</h1>
-    Si te apuntas a la mailinglist <b>Informe Lanaspa Quincenal</b> recibirás mis publicaciones directamente en tu banceja de entrada.
+    <h1>Suscríbete a #InformeLanaspa</h1>
+
+    <p>
+    <b>#InformeLanaspa</b> es un proyecto personal en el que a través de una <i>mail list</i> voy publicando diferentes investigaciones y reflexiones acerca de la economía digital en la que vivimos. Trato temas de actualidad relacionados con la tecnología, negocios, innovación, datos e IA y lanzo reflexiones y análisis al respecto.
+    </p>
+
+    <p>
+    Apuntándote a la lista recibirás mis publicaciones directamente en tu bandeja de entrada de manera recurrente cada dos semanas.
+    </p>
+
+    <p>
+    Además, por ser suscriptor <b>recibirás el informe días antes de que se haga público</b> en la web.
+    </p>
 
 
     <!-- Begin Mailchimp Signup Form -->
