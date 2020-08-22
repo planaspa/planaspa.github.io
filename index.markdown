@@ -88,10 +88,10 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
             <ul>
             
             {% comment %}
-            Publish post on timeline 36 hours after newsletter has been sent. Delay in seconds.
+            Publish post on timeline 48 hours after newsletter has been sent. Delay in seconds.
             Javascript does the magic removing dynamically posts that do not meet publish date criteria.
             {% endcomment %}
-            {% assign delay = 36 | times: 60 | times: 60 %}
+            {% assign delay = 48 | times: 60 | times: 60 %}
 
               {% for post in site.posts %}
                 {% assign publish_date = post.date | date: '%s' %}
