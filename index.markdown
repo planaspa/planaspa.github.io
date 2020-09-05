@@ -57,7 +57,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
             <div id="mc_embed_signup">
             <form action="https://gmail.us19.list-manage.com/subscribe/post?u=a375448b51d9009be2a4c9edf&amp;id=44834df6d1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="email_container">
-                    <label for="mce-EMAIL" style="margin-bottom: 5px">Únete a la mailing list!</label>
+                    <label for="mce-EMAIL" style="margin-bottom: 5px">Únete a #InformeLanaspa!</label>
                     <div class="email_container">
                         <div class="email_container_left">
                             <div id="mc_embed_signup_scroll">
