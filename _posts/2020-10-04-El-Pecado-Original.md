@@ -7,7 +7,7 @@ post_pic: /assets/img/posts/20201004/original_sin.jpg
 date: 2020-10-04 10:10:10 -0000
 categories: []
 tags: [internet, business-model, fintech, facebook, payments, google]
-summary: "blabalbal"
+summary: "Internet fue creado sin la capacidad nativa de realizar transacciones económica entre usuarios y servicios. Nuestro presente digital es fruto de ese pecado original."
 ---
 
 Internet se creó con un **pecado original** que ha determinado las dinámicas de las plataformas digitales que conocemos hoy en día. 
