@@ -8,6 +8,7 @@ date: 2020-03-22 10:10:10 -0000
 categories: []
 tags: [agile, vuca, decisiones, covid]
 summary: "La toma rápida de decisiones es clave en cualquier crisis, no ser ágiles implica la derrota pese a que elijamos la mejor estrategia..."
+visible_on_index: false
 ---
 
 Esta semana he tenido muchas conversaciones con amigos en las que comentábamos cuales estaban siendo las estrategias de los diferentes gobiernos del mundo para enfrentarse al COVID-19. Cada país parece estar enfrentándose a esta pandemia de una manera diferente y no es objeto de este artículo analizar cada una ellas y la posible efectividad de las mismas. Sin embargo, creo que si que cabe hacer una reflexión sobre la actitud que se está tomando a la hora de afrontar esta crisis y como **la agilidad en la toma de decisiones es clave**, sean las que sean.

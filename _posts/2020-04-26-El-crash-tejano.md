@@ -8,6 +8,7 @@ date: 2020-04-25 11:00:10 -0000
 categories: []
 tags: [petroleo, bolsa, crisis, sinsentido]
 summary: "El día que en Texas por cada barril de petróleo que quisieras te daban el barril gratis y 40 dólares de regalo."
+visible_on_index: false
 ---
 
 El mundo empezó a dejar de tener sentido hace unos meses. En Dinamarca, el pasado agosto comenzaron a [ofrecer hipotecas a tipos en negativo](https://www.theguardian.com/money/2019/aug/13/danish-bank-launches-worlds-first-negative-interest-rate-mortgage), eso implicaba que en vez de que un cliente tuviese que pagar intereses al banco por pedir un crédito, el banco te pagaba a ti intereses por endeudarte con ellos. Es decir, pedías un préstamo y tenías que devolverles menos dinero del que te habían dado. Un **sinsentido** total. 
