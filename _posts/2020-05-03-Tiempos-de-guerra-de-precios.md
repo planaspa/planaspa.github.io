@@ -8,6 +8,7 @@ date: 2020-05-03 10:00:00 -0000
 categories: []
 tags: [petroleo, charles-schwab, saudi-aramco, pricing, competencia, estrategia]
 summary: "Lecciones que se pueden aprender de una guerra de precios."
+visible_on_index: false
 ---
 
 Hoy he querido traer dos ejemplos en dos industrias muy diferentes en las que recientemente han estallado una guerra de precios para analizar puntos en común y reflexionar sobre qué se puede aprender de estos escenarios. Por un lado, y siguiendo con el artículo de la semana pasada hablando del [*”crash”* tejano]({% post_url 2020-04-26-El-crash-tejano %}) hablaremos de la industria de la extracción de petróleo y del reciente jaque de Saudi Aramco. 
