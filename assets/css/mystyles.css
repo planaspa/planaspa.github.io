@@ -503,6 +503,19 @@ html, body{
     color: white;
 }
 
+/* Boton al lado del placeholder del email */
+.subscribe_email_container{ 
+    display: table;
+    margin: auto;
+}
+.subscribe_email_container_left{
+    display: table-cell;
+    width: 300px;
+}
+.subscribe_email_container_right{
+    display: table-cell;
+}
+
 @media screen and (max-width: 1000px) {
     .post-content{
         text-align: left;
