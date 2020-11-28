@@ -8,6 +8,7 @@ date: 2020-02-23 10:10:10 -0000
 categories: []
 tags: [china, privacidad, competencia, tecnologia, startups, innovacion]
 summary: "Una reflexión sobre cómo se ha creado el ecosistema digital chino y los retos que afrontamos con su manera de operar."
+visible_on_index: false
 ---
 
 *Eiserner Vorhang* fue el término que ya utilizó Joseph Goebbels, Ministro de Propaganda del Tercer Reich en 1945, y que posteriormente se utilizó para hacer referencia a la frontera que existía en Europa entre la URSS (y los países satélites controlados por la misma) y el resto de países. El telón de acero fue uno de los grandes símbolos de la guerra fría porque encarnaba a la perfección la situación política, económica y militar entre la URSS y EEUU y sus países afines. La libertad del ciudadano y la libre competencia era lo que diferenciaba residir a un lado o a otro del telón de acero. En un lado los que apostaban porque el estado pudiese planificar, controlar y dirigir la vida de la población y al otro lado los que apostaban porque la población pudiese elegir libremente cómo afrontar su vida. **Una cuestión principalmente de libertad**.

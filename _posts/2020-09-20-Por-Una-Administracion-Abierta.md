@@ -8,6 +8,7 @@ date: 2020-09-20 09:10:10 -0000
 categories: []
 tags: [open-source, estado, administracion-publica, covid]
 summary: "La Administración Pública debería abrazar las ventajas del código abierto, es casi un derecho ciudadano."
+visible_on_index: false
 ---
 
 La semana pasada la Secretaría de Estado de Digitalización e Inteligencia Artificial decidió publicar el código de "RadarCovid", la aplicación que ha lanzado el gobierno para avisar de posibles contagios de coronavirus a la población que haga uso de la app.
