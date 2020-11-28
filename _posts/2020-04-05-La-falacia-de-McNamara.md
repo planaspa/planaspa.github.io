@@ -8,6 +8,7 @@ date: 2020-04-05 11:00:00 -0000
 categories: []
 tags: [guerra, datos, falacia, covid]
 summary: "Lo que podemos aprender de la guerra de Vietnam."
+visible_on_index: false
 ---
 
 De 1961 a 1968 la Secretaría de Defensa de los Estados Unidos estaba dirigida por Robert McNamara, coincidiendo con la guerra de Vietnam. McNamara decidió afrontar la guerra tomando decisiones únicamente basadas en observaciones cuantitativas, métricas, e ignorando todas las demás. De alguna manera se convirtió en el pionero en la implantación de OKRs en el sector bélico. Algo, que como [ya hablamos]({% post_url 2020-02-05-Toda-una-organizacion-empujando-en-la-misma-direccion %}) hace unas semanas puede ser muy interesante de aplicar cuando queremos garantizar que toda una organización trabaja con un mismo foco.
