@@ -168,7 +168,7 @@ html, body{
     padding-right: 64px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .bottombar_left{
         padding-left: 10px;
     }
@@ -352,7 +352,7 @@ html, body{
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .home_page{
         width: 100%;
     }
@@ -441,7 +441,7 @@ html, body{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .post-meta{
         padding-top: 10px;
         padding-bottom: 20px;
@@ -549,7 +549,7 @@ html, body{
     display: table-cell;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .post-content{
         text-align: left;
         line-height: 1.58;
@@ -616,7 +616,7 @@ html, body{
     color: rgba(0,0,0,0.54)
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .post_image_left, .post_image_center{
         margin-top:40px;
         width: 100%;
@@ -691,7 +691,7 @@ html, body{
     vertical-align: middle;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 
     .carousel-cell-title{
         display: -webkit-box;
@@ -727,7 +727,7 @@ html, body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .subscribe_page{
         padding-top: 10px;
         padding-bottom: 20px;
@@ -782,7 +782,7 @@ html, body{
     font-weight: 400;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     .legal_page{
         padding-top: 10px;
         padding-bottom: 20px;
@@ -792,4 +792,14 @@ html, body{
     .legal_page h1{
         margin-top: 0;
     }
+}
+
+/*
+    ABOUT
+*/
+.about_page {
+    width: 80%;/* leave spaces around your text on responsive*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
