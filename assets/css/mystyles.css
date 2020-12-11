@@ -429,6 +429,7 @@ html, body{
 .post-meta-left-portrait{
     width: 50px;
     height: 50px;
+    text-align: right;
 }
 .post-meta-left-portrait img{
     border-radius: 50%;  
@@ -450,7 +451,7 @@ html, body{
 .post-meta-right{ /* Post RRSS */
     width: 15%;
     display: table-cell;
-    text-align: right;
+    text-align: left;
     vertical-align:middle;
 }
 
