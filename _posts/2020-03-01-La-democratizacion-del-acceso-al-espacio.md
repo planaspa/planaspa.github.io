@@ -8,6 +8,7 @@ date: 2020-03-01 10:10:10 -0000
 categories: []
 tags: [elon, musk, tesla, spacex, business-model, innovacion, espacio]
 summary: "SpaceX ha marcado un antes y un después en la puesta en órbita de satélites, abriendo así la oportunidad a conquistar el espacio."
+popular: true
 ---
 
 Muchos servicios de los que disfrutamos en nuestro día a día hacen uso de tecnología ofrecida por satélites que orbitan sin descanso alrededor de nuestro planeta. Uno de los primeros que se nos puede venir a la cabeza es el servicio de GPS, que de manera invisible da servicio a múltiples aplicaciones que utilizamos de manera cotidiana. Sin embargo, existen otros muchos servicios ofrecidos a través del despliegue de satélites alrededor de nuestro planeta como servicios de telecomunicaciones o de meteorología que quizás no sean tan evidentes para todo el mundo.

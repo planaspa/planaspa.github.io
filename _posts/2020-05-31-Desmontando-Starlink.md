@@ -8,6 +8,7 @@ date: 2020-05-31 09:10:10 -0000
 categories: []
 tags: [elon, musk, tesla, spacex, business-model, innovacion, espacio]
 summary: "¿Puede ser SpaceX un peligro para las empresas de telecomunicaciones?"
+popular: true
 ---
 
 Tras postponer el lanzamiento por problemas meteorológicos tres días antes, ayer por la noche SpaceX fue capaz de poner en órbita a seres humanos en la estación espacial internacional.

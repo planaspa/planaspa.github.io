@@ -8,6 +8,7 @@ date: 2020-09-06 09:10:10 -0000
 categories: []
 tags: [product-management]
 summary: "Existe una mala concepción en muchos equipos que desarrollan software sobre el rol de un product manager."
+popular: true
 ---
 
 Una de las preguntas que más recurrentemente me hacen mis amigos, familia y novia es: "Pero Pablo, ¿tú que haces exactamente en tu trabajo?"
