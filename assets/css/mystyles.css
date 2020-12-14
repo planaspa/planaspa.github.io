@@ -155,51 +155,6 @@ html, body{
     display: table-cell;
 }
 
-/* CV Box fields*/
-.cv_box{
-    margin-top: 43px;
-    display:table;
-    height: 130px;
-}
-.cv_box_img{
-    width: 20%;
-    display: table-cell;
-    vertical-align:middle;
-}
-.cv_box_img img{
-    width: 100%;
-    border-radius: 8px;
-    vertical-align:middle;
-}
-.cv_box_bio{
-    width: 80%;
-    display: table-cell;
-    padding-left: 3%;
-    vertical-align:middle;
-}
-.cv_box_bio_name{
-    font-weight: bold;
-    color: black;
-    padding-bottom: 1px;
-}
-.cv_box_bio_name a{
-    color: inherit;
-}
-.cv_box_bio_name i{
-    float: right;
-    padding-right: 2%;
-}
-.cv_box_bio_data{
-    color:grey;
-}
-.cv_box_bio_data_work{
-    padding-bottom: 4px;
-    padding-top: 3px;
-}
-.cv_box_bio_social{
-    text-align: center;
-}
-
 /* Boton al lado del placeholder del email */
 .email_container{ 
     display: table;
@@ -221,7 +176,6 @@ html, body{
 .divider{
     border-bottom: 1px solid rgba(0,0,0,.15);
     max-width: 1032px;
-    margin: 24px auto;
 }
 
 .feed_boxes ul{
