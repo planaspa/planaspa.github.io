@@ -11,7 +11,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
     <div class="home_page_left">
         <div class="home_page_left_biobox">
             <div class="card text-center border-0" style="width: 100%; margin-top: 20px">
-              <img class="card-img-top mx-auto my-auto" src="{{ page.post_pic }}" alt="Card image cap" style="border-radius: 50%; max-height: 100px; max-width: 100px; height: auto; width:auto; ">
+              <img class="card-img-top mx-auto my-auto" src="{{ page.post_pic }}" alt="Imagen de perfil de Pablo" style="border-radius: 50%; max-height: 100px; max-width: 100px; height: auto; width:auto; ">
               <div class="card-body">
                 <h5 class="card-title" style="margin-top: 0">Pablo Lanaspa Ferrer</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Digital Product Manager</h6>
