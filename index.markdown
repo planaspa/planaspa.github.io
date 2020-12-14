@@ -17,9 +17,6 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 <div class="cv_box_bio">
                     <div class="cv_box_bio_name">
                         <span class="fa-lg">Pablo Lanaspa Ferrer</span>
-                        <!-- <a href="mailto:info@planaspa.com"><i class="fas fa-envelope"></i></a> -->
-                        <a href="https://linkedin.com/in/planaspa"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://twitter.com/planaspa"><i class="fab fa-twitter"></i></a>
                     </div>
                     <div class="cv_box_bio_data">
                         <div class="cv_box_bio_data_work">
@@ -36,6 +33,12 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                         </span>
                     </div>
                 </div>
+            </div>
+            <br/>
+            <div class="cv_box_bio_social">
+                <a href="https://twitter.com/planaspa"><button type="button" class="btn btn-primary btn-sm"><i class="fab fa-twitter"></i> <b>Sigueme</b></button></a>
+                <a href="https://linkedin.com/in/planaspa"><button type="button" class="btn btn-info btn-sm"><i class="fab fa-linkedin"></i> <b>Conecta</b></button></a>
+                <a href="mailto:info@planaspa.com"><button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-envelope"></i> <b>Email</b></button></a>
             </div>
         </div>
         <div class="subscribe_box">
