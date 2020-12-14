@@ -1,5 +1,5 @@
 <style>
-    #cookie-notice {padding: 1.5rem 0rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 1rem); background: rgba(255,255,255,1); color: #000000; z-index: 998;}
+    #cookie-notice {padding: 1.5rem 0rem; display: none; text-align: center; position: fixed; bottom: 0; width: 100%; background: rgba(255,255,255,1); color: #000000; z-index: 998;}
     #cookie-notice a { cursor: pointer; margin-left: 0.5rem; z-index: 998; position:relative; color: #029E74;}
     @media (max-width: 767px) {
         #cookie-notice span {padding-top: 3px; margin-bottom: 1rem; max-width: 90% z-index: 998; position:relative;}
@@ -10,8 +10,8 @@
 <div id="cookie-background-blocker"></div>
 <div id="cookie-notice" class="cookie-bar"><span>Mi sitio web utiliza cookies para poder funcionar. Además, puede utilizar cookies de Google para analizar el tráfico, pulsa continuar para aceptarlas todas o pulsa permitir básicas para solo aceptar las cookies sin las que el sitio no puede funcionar.<a href="/legal">(Ver más)</a></span>
 <br/><br/>
-<a id="cookie-notice-reject" class="cookie-button-decline" style="background:white; color:black;">Permitir básicas</a>
-<a id="cookie-notice-accept" class="cookie-button-accept" style="background: #029E74; color:white;">Continuar</a></div>
+<a id="cookie-notice-reject" class="btn btn-secondary cookie-bar" style="color:white;">Permitir básicas</a>
+<a id="cookie-notice-accept" class="btn btn-success cookie-bar" style="color:white;">Continuar</a></div>
 
 <!-- Add google analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159643548-1"></script>

@@ -40,6 +40,15 @@ html, body{
     margin-top: -0.5em;
 }
 
+.btn-success, .btn-success:active{
+    border-color: #029E74;
+    background-color: #029E74;
+}
+.btn-success:hover{
+    border-color: #018e68; /* smooth shade */
+    background-color: #018e68;
+}
+
 @media screen and (max-width: 768px) {
 .badge-success{
     font-size: x-small;
@@ -51,29 +60,18 @@ html, body{
     COOKIE
 */
 .cookie-bar{
-    font-size: 1.1rem;
+    font-size: normal;
 }
 .cookie-bar a{
     text-decoration: none;
     color: rgba(0,0,0,0.8);
 }
-.cookie-button-accept{
-    vertical-align: center;
-    border: 1px solid rgba(0, 0, 0, .54);
-    border-radius: 4px;
-    padding-left: 2%;
-    padding-right: 2%;
-    background: rgba(255,255,255,1);
+@media screen and (max-width: 768px){
+    .cookie-bar{
+        font-size: small;
+    }
 }
 
-.cookie-button-decline{
-    vertical-align: center;
-    border: 1px solid rgba(0, 0, 0, .54);
-    border-radius: 4px;
-    padding-left: 2%;
-    padding-right: 2%;
-    background: rgba(200,70,70,0.9);
-}
 
 /*
     HEADER
