@@ -40,6 +40,15 @@ html, body{
     margin-top: -0.5em;
 }
 
+.btn-success, .btn-success:active{
+    border-color: #029E74;
+    background-color: #029E74;
+}
+.btn-success:hover{
+    border-color: #018e68; /* smooth shade */
+    background-color: #018e68;
+}
+
 @media screen and (max-width: 768px) {
 .badge-success{
     font-size: x-small;
@@ -51,29 +60,18 @@ html, body{
     COOKIE
 */
 .cookie-bar{
-    font-size: 1.1rem;
+    font-size: normal;
 }
 .cookie-bar a{
     text-decoration: none;
     color: rgba(0,0,0,0.8);
 }
-.cookie-button-accept{
-    vertical-align: center;
-    border: 1px solid rgba(0, 0, 0, .54);
-    border-radius: 4px;
-    padding-left: 2%;
-    padding-right: 2%;
-    background: rgba(255,255,255,1);
+@media screen and (max-width: 768px){
+    .cookie-bar{
+        font-size: small;
+    }
 }
 
-.cookie-button-decline{
-    vertical-align: center;
-    border: 1px solid rgba(0, 0, 0, .54);
-    border-radius: 4px;
-    padding-left: 2%;
-    padding-right: 2%;
-    background: rgba(200,70,70,0.9);
-}
 
 /*
     HEADER
@@ -157,48 +155,6 @@ html, body{
     display: table-cell;
 }
 
-/* CV Box fields*/
-.cv_box{
-    margin-top: 43px;
-    display:table;
-    height: 130px;
-}
-.cv_box_img{
-    width: 20%;
-    display: table-cell;
-    vertical-align:middle;
-}
-.cv_box_img img{
-    width: 100%;
-    border-radius: 8px;
-    vertical-align:middle;
-}
-.cv_box_bio{
-    width: 80%;
-    display: table-cell;
-    padding-left: 3%;
-    vertical-align:middle;
-}
-.cv_box_bio_name{
-    font-weight: bold;
-    color: black;
-    padding-bottom: 1px;
-}
-.cv_box_bio_name a{
-    color: inherit;
-}
-.cv_box_bio_name i{
-    float: right;
-    padding-right: 2%;
-}
-.cv_box_bio_data{
-    color:grey;
-}
-.cv_box_bio_data_work{
-    padding-bottom: 4px;
-    padding-top: 3px;
-}
-
 /* Boton al lado del placeholder del email */
 .email_container{ 
     display: table;
@@ -220,7 +176,6 @@ html, body{
 .divider{
     border-bottom: 1px solid rgba(0,0,0,.15);
     max-width: 1032px;
-    margin: 24px auto;
 }
 
 .feed_boxes ul{
