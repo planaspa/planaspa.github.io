@@ -102,9 +102,17 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                     <li class="feedbox">
                         <div class="feedbox_img"><img src="{{ post.post_pic }}"/></div>
                         <div class="feedbox_text">
-                            <div class="feedbox_text_tittle">{{ post.title }}</div>
+                            <div class="feedbox_text_tittle">
+                                
+                                {% if post.popular %}
+                                    <span class="badge badge-success align-center">Popular</span>
+                                {% endif %}
+                                
+                                {{ post.title }}
+                            </div>
+
                             <div class="feedbox_text_summary">{{ post.summary }}</div>
-                            <time class="feedbox_text_time fa-sm">
+                            <time class="feedbox_text_time">
                                 {%- assign date_format = "%b %-d, %Y" -%}
                                 {%- assign words = post.content | strip_html | number_of_words -%}
                                 {%- assign min_read= words | divided_by: 180 | plus: 0 -%}

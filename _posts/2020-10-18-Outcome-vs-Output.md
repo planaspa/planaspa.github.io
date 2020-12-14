@@ -8,6 +8,7 @@ date: 2020-10-18 10:10:10 -0000
 categories: []
 tags: [product-management, agile]
 summary: "Lo importante no es la funcionalidad entregada si no el cambio de comportamiento conseguido."
+popular: true
 ---
 
 Una [investigación de Standish Group](https://www.standishgroup.com/sample_research_files/Exceeding%20Value_Layout.pdf) muestra que un 80% de las funcionalidades desarrolladas aportan un valor bajo o nulo al usuario. 

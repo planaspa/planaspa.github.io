@@ -1,30 +1,14 @@
 <header class="site-header">
-<div id="navbar" class="topnavbar">
-    <a href="{{ site.baseurl }}/"><i class="fas fa-home"></i></a>
-    <!-- <a href="{{ site.baseurl }}/about"><i class="far fa-user-circle"></i></a> -->
-    <a href="{{ site.baseurl }}/subscribe" class="subscribe-button" style="float:left;""><span>Suscríbete</span></a>
 
-
-</div>
-
-<script type="text/javascript">
-    // When the user scrolls the page, execute stickynavbar function 
-    window.onscroll = function() {stickynavbar()};
-
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function stickynavbar() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    } 
-</script>
+<nav class="navbar navbar-default navbar-light bg-light border-bottom">
+  <div class="navbar-header">
+    <a href="{{ site.baseurl }}/subscribe">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suscríbete</button>
+    </a>
+  </div>
+  <div class="nav navbar-nav navbar-right">
+    <a href="{{ site.baseurl }}/"><i class="fas fa-home fa-2x" style="color: black"></i></a>
+  </div>
+</nav>
 
 </header>
