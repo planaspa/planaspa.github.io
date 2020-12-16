@@ -51,13 +51,13 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                             </div>
                         </div>
                         <div class="email_container_right">
-                            <div class="clear"><input type="submit" value="¡Añádeme!" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#029E74"></div>
+                            <div class="clear"><input type="submit" value="¡Suscríbeme!" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#029E74"></div>
                         </div>
                     </div>
                 </div>
                 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group" style="margin-top:0">
                 <div class="content__gdpr fa-xs">
-                    <p>Dándole al botón de añadirse me darás permiso para enviarte mis informes directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  cómo trataré tu información personal.</p> 
+                    <p>Dándole al botón de suscríbeme me darás permiso para enviarte mis informes directamente a tu bandeja de entrada. Echa un vistazo en <a href="{{ site.baseurl }}/subscribe" target="_blank">esta sección</a>  cómo trataré tu información personal.</p> 
                 </div>
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
