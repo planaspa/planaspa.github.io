@@ -358,6 +358,10 @@ html, body{
     margin-bottom: 20px;
 }
 
+.post-content a{
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
     .post-meta{
         padding-top: 10px;
@@ -440,6 +444,7 @@ html, body{
     text-align: center;
     vertical-align: middle;
     font-size: x-large;
+    margin-top:10px;
 }
 .subscribe-button-CTA{
     float: center;
@@ -720,4 +725,19 @@ html, body{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.about_prof_pic img{
+    max-height: 500px; 
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .about_prof_pic{
+        text-align: center;
+    }
+    .about_prof_pic img{
+        border-radius: 50%;
+        max-height: 150px;
+        max-width: 150px;
+    }
 }
