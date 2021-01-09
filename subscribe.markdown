@@ -49,7 +49,7 @@ summary: "¡Suscríbete a #InformeLanaspa! Tecnología, innovación, IA, econom�
             <div class="email_container">
                 <div class="email_container_left">
                     <div id="mc_embed_signup_scroll">
-                        <input type="email" style="width:100%" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+                        <input autofocus type="email" style="width:100%" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
                     </div>
                 </div>
                 <div class="email_container_right">
