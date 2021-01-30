@@ -2,12 +2,21 @@
 
 <nav class="navbar navbar-default navbar-light bg-light border-bottom">
   <div class="navbar-header">
+    <ul class="navbar nav" style="padding-left: 0">
+        <li style="padding-right:10px">
+            <a href="{{ site.baseurl }}/" style="display: flex; align-items: center; text-decoration: none;"><i class="fas fa-home fa-2x" style="color: black"></i></a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/about">
+                <button class="btn btn btn-outline-secondary" type="button">Quién soy</button>
+            </a>
+        </li>
+    </ul>
+  </div>
+  <div class="nav navbar-nav navbar-right">
     <a href="{{ site.baseurl }}/subscribe">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suscríbete</button>
     </a>
-  </div>
-  <div class="nav navbar-nav navbar-right">
-    <a href="{{ site.baseurl }}/"><i class="fas fa-home fa-2x" style="color: black"></i></a>
   </div>
 </nav>
 

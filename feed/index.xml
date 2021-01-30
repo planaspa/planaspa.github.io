@@ -4,7 +4,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <language>es-es</language>
-    <title>{{ site.title | xml_escape }}</title>
+    <title>#InformeLanaspa</title>
     <description>{{ site.description | xml_escape }}</description>
     <atom:link href="{{ site.url }}/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>{{ site.url }}{{ site.baseurl }}/</link>

@@ -10,17 +10,12 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
 <div class="home_page">
     <div class="home_page_left">
         <div class="home_page_left_biobox">
+
             <div class="card text-center border-0" style="width: 100%; margin-top: 20px">
               <img class="card-img-top mx-auto my-auto" src="{{ page.post_pic }}" alt="Imagen de perfil de Pablo" style="border-radius: 50%; max-height: 100px; max-width: 100px; height: auto; width:auto; ">
               <div class="card-body">
-                <h5 class="card-title" style="margin-top: 0">Pablo Lanaspa Ferrer</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Digital Product Manager</h6>
-                <p class="card-text text-muted" style="font-size: small">Creando plataformas cognitivas en Telefónica<br/>Ing. Informático por la Univ. de Zaragoza<br/>Amante de la economía, negocios y deporte</p>
-                <div class="cv_box_bio_social">
-                    <a href="https://twitter.com/planaspa"><button type="button" class="btn btn-primary btn-sm"><i class="fab fa-twitter"></i> <b>Sígueme</b></button></a>
-                    <a href="https://linkedin.com/in/planaspa"><button type="button" class="btn btn-info btn-sm"><i class="fab fa-linkedin"></i> <b>Conecta</b></button></a>
-                    <a href="mailto:info@planaspa.com"><button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-envelope"></i> <b>Mail</b></button></a>
-                </div>
+                <h2 class="card-title" style="margin-top: 0">#InformeLanaspa</h2>
+                <p>Una newsletter para interesados en tecnología, productos y servicios digitales. Una newsletter donde tratamos de comprender la economía digital que nos rodea. Una newsletter donde lanzo mis reflexiones y aprendizajes personales.</p>
               </div>
             </div>
         </div> 
@@ -70,6 +65,8 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
         </div>
     </div>
     <div class="home_page_right">
+        <h1 class="text-center">Últimos informes</h1>
+        <div class="divider"></div>
         <div class="feed_boxes">
             <ul>
             
