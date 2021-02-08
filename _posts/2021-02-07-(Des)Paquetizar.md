@@ -7,7 +7,7 @@ post_pic: /assets/img/posts/20210207/Pendulo.png
 date: 2021-02-07 10:10:10 -0000
 categories: []
 tags: [mental-models, business-model, internet]
-summary: '"Sólo conozco dos maneras de hacer dinero, la primera es paquetizar y la segunda es despaquetizar", Jim Barksdale.'
+summary: "'Sólo conozco dos maneras de hacer dinero, la primera es paquetizar y la segunda es despaquetizar', Jim Barksdale."
 ---
 
 Hace unas semanas estuve viendo la [charla](https://www.linkedin.com/posts/product-school_productmanagement-activity-6756894232088195072-vmtw) de Victor Durán sobre modelos mentales y su importancia en nuestro día a día para el entendimiento de nuestro contexto y, en consecuencia, agilizar la toma de buenas decisiones.
