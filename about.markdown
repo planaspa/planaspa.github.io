@@ -214,7 +214,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                   <div class="card-body text-center">
                     <h5 class="card-title" style="margin-top: 0">Ponencia AgileTrends</h5>
                     <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2021</h6>
-                    <p class="card-text"><a href="/assets/resources/about/Outputs_vs_outcomes.pdf">Presentación</a> sobre la diferencia entre "outputs" y "outcomes" en la gestión de productos digitales.</p>
+                    <p class="card-text"><a href="/assets/resources/about/Outcomes_vs_outputs.pdf">Presentación</a> sobre la diferencia entre "outputs" y "outcomes" en la gestión de productos digitales.</p>
                   </div>
                 </div>
 
