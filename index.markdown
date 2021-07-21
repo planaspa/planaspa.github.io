@@ -14,7 +14,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
             <div class="card text-center border-0" style="width: 100%; margin-top: 20px">
               <img class="card-img-top mx-auto my-auto" src="{{ page.post_pic }}" alt="Imagen de perfil de Pablo" style="border-radius: 50%; max-height: 100px; max-width: 100px; height: auto; width:auto; ">
               <div class="card-body">
-                <h2 class="card-title" style="margin-top: 0">#InformeLanaspa</h2>
+                <h1 class="card-title" style="margin-top: 0; font-size: xx-large;">#InformeLanaspa</h1>
                 <h5 class="text-muted" style="margin-top: 0">Pablo Lanaspa Ferrer</h5>
                 <p>Una newsletter para interesados en tecnología, productos y servicios digitales. Una newsletter donde tratamos de comprender la economía digital que nos rodea. Una newsletter donde lanzo mis reflexiones y aprendizajes personales.</p>
               </div>
@@ -47,7 +47,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                             </div>
                         </div>
                         <div class="email_container_right">
-                            <div class="clear"><input type="submit" value="¡Suscríbeme!" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#029E74"></div>
+                            <div class="clear"><input type="submit" value="¡Suscríbeme!" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:#029E74; width: auto;"></div>
                         </div>
                     </div>
                 </div>
