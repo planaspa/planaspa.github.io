@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ¡Suscribete!
+title: Suscribete a Informe Lanaspa
 permalink: /subscribe
 mail_pic: /assets/img/subscribe/mail.jpg
 unsubscribe_pic: /assets/img/subscribe/unsubscribe.png
