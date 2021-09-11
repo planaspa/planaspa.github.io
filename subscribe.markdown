@@ -51,15 +51,15 @@ summary: "¡Suscríbete a #InformeLanaspa! Tecnología, innovación, IA, econom�
     <!--End mc_embed_signup-->
 
     <p>
-    <b>#InformeLanaspa</b> es un proyecto personal en el que a través de una <i>newsletter</i> publico diferentes investigaciones y reflexiones acerca de la economía digital en la que vivimos.
+    <b>#InformeLanaspa</b> es un proyecto totalmente personal en el que a través de una <i>newsletter</i> publico diferentes investigaciones y reflexiones acerca de la economía digital en la que vivimos.
     </p>
 
     <p>
-    Trato temas de actualidad relacionados con la gestión de productos digitales, tecnología y contexto económico digital.
+    Comparto mis vivencias, lo que se me pasa por la cabeza y lo que aprendo en mi día a día.
     </p>
 
     <p>
-    Apuntándote a la lista recibirás mis publicaciones directamente en tu bandeja de entrada de manera recurrente cada dos semanas.
+    Apuntándote a mi newsletter recibirás mis publicaciones directamente en formato email en tu bandeja de entrada cada dos semanas.
     </p>
 
     <h3>Mi promesa de privacidad</h3>
