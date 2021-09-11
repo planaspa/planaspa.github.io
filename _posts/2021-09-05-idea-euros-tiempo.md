@@ -28,7 +28,7 @@ Por esto, lo primero era pensar como con ese modelo de IA podía buscarse una op
 
 Esto seguía siendo un campo muy amplio así que decidimos reducir el **nicho** de mercado un poco más... ¿Podría ser de interés para los equipos de marketing saber donde se iría la vista de un usuario en las webs que diseñaban?
  
-Antes de lanzarnse a crear un SaaS capaz de ofrecer funcionalidades de IA sobre páginas web, tenía que **validar** que realmente existía esta necesidad en el mercado.
+Antes de lanzarse a crear un SaaS capaz de ofrecer funcionalidades de IA sobre páginas web, tenía que **validar** que realmente existía esta necesidad en el mercado.
 
 ### Posible competencia
 Echar un ojo a una posible competencia antes de lanzarse es importante, esto lo hicimos lo primero a la hora de elegir que uso darle al modelo de IA:
@@ -84,6 +84,6 @@ Teníamos poco tiempo para acabarlo antes de que se acabase el fin de semana as�
 
 Mi hermano dedicó un tiempo a buscar foros especializados en el sector y a crearse cuentas en cada uno de ellos. Estuvo pensando que usuarios potencialmente estarían interesados en este producto y creó un post tipo para adaptarlo a cada tipología de foro y hacer visible el producto.
 
-Con los posts publicados la camapaña había finalizado. Estaremos al loro de como evoluciona la validación de la idea de [Kemvy](https://www.kemvy.com?utm_source=planaspa) de mi hermano. 
+Con los posts publicados la campaña había finalizado. Estaremos al loro de como evoluciona la validación de la idea de [Kemvy](https://www.kemvy.com?utm_source=planaspa) de mi hermano. 
 
 Continuará...
