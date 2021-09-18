@@ -16,7 +16,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
               <div class="card-body">
                 <h1 class="card-title" style="margin-top: 0; font-size: xx-large;">#InformeLanaspa</h1>
                 <h5 class="text-muted" style="margin-top: 0">Pablo Lanaspa Ferrer</h5>
-                <p>Una newsletter para interesados en tecnología, productos y servicios digitales. Una newsletter donde tratamos de comprender la economía digital que nos rodea. Una newsletter donde lanzo mis reflexiones y aprendizajes personales.</p>
+                <p>Una newsletter para interesados en tecnología, producto y servicios digitales. Una newsletter para comprender la economía digital que nos rodea. Una newsletter donde lanzo mis reflexiones y aprendizajes personales.</p>
               </div>
             </div>
         </div> 

@@ -19,7 +19,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
         <div class="card-body">
           <h1 class="card-title" style="margin-top: 0">Pablo Lanaspa Ferrer</h1>
           <h2 class="card-subtitle mb-2 text-muted font-weight-normal">Digital Product Manager</h2>
-          <p class="card-text">Ingeniero Informático de formación. Actualmente trabajando en la gestión de productos digitales. Siempre he trabajado en proyectos relacionados con gestión de información e Inteligencia Artificial. Amante de la economía, deporte y negocios.</p>
+          <p class="card-text">Ingeniero Informático de formación. Actualmente trabajando en la gestión de productos digitales. Siempre he trabajado en proyectos relacionados con gestión de información e Inteligencia Artificial. Amante de la economía, deporte y tecnología.</p>
           <p class="card-text text-center"><small class="text-muted">¡Contacta conmigo!</small></p>
           <div class="container text-center">
             <a href="https://twitter.com/planaspa"><button type="button" class="btn btn-primary btn-sm mb-1"><i class="fab fa-twitter"></i> <b>Sígueme</b></button></a>
@@ -42,19 +42,30 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
       <div id="collapseOne" class="collapse show" aria-labelledby="experienciaProfesional">
         <div class="card-body">
 
-            <div class="card-deck">
-              <div class="card border-0 my-auto" style="max-width: 300px; margin-top:10px;">
+          <div class="card-deck">
+            <div class="card border-0 my-top" style="max-width: 300px; margin-top:10px;">
+              <div class="mx-auto my-auto">
+                <img src="/assets/img/about/clarity.png" class="card-img" alt="Clarity AI" style="max-width: 100px">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title" style="margin-top: 0">Product Manager</h5>
+                <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2021 - Ahora</h6>
+                <p class="card-text">Data Product Manager al cargo de la plataforma interna de datos.</p>
+              </div>
+            </div>
+
+              <div class="card border-0 my-top" style="max-width: 300px; margin-top:10px;">
                 <div class="mx-auto my-auto">
                   <img src="/assets/img/about/telefonica.png" class="card-img" alt="Telefónica" style="max-width: 100px">
                 </div>
                 <div class="card-body text-center">
                   <h5 class="card-title" style="margin-top: 0">Product Manager</h5>
-                  <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2016 - Ahora</h6>
-                  <p class="card-text">Comencé como data scientist y desde 2017 soy product manager. Siempre trabajando en proyectos internos relacionados con la gestión de datos dentro de la compañía.</p>
+                  <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2016 - 2021</h6>
+                  <p class="card-text">Comencé como data scientist y desde 2017 como product manager. Trabajando en proyectos internos estratégicos relacionados con la gestión de datos e IA.</p>
                 </div>
               </div>
 
-              <div class="card border-0 my-auto" style="max-width: 300px; margin-top:10px;">
+              <div class="card border-0 my-top" style="max-width: 300px; margin-top:10px;">
                 <div class="mx-auto my-auto">
                   <img src="/assets/img/about/Semmantica.jpg" class="card-img" alt="Semmantica" style="max-width: 100px">
                 </div>
@@ -65,9 +76,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 </div>
               </div>
 
-
-
-              <div class="card border-0 my-auto" style="max-width: 300px; margin-top:10px;">
+              <div class="card border-0 my-top" style="max-width: 300px; margin-top:10px;">
                 <div class="mx-auto my-auto">
                   <img src="/assets/img/about/ESA.jpg" class="card-img" alt="Agencia Espacial Europea" style="max-width: 100px">
                 </div>
@@ -77,7 +86,6 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                   <p class="card-text">Antes de acabar la carrera trabajé como becario en la misión Bepicolombo, creando software de gestión de datos de la sonda de la misión.</p>
                 </div>
               </div>
-
 
         </div>
       </div>
@@ -92,6 +100,17 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
       <div id="collapseThree" class="collapse show" aria-labelledby="headingThree">
         <div class="card-body">
           <div class="card-deck">
+
+            <div class="card border-0 my-auto" style="max-width: 300px; margin-top:10px;">
+              <div class="mx-auto my-auto">
+                <img src="/assets/img/about/Microsoft.png" class="card-img" alt="Microsoft" style="max-width: 100px">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title" style="margin-top: 0">Microsoft</h5>
+                <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2021</h6>
+                <p class="card-text">Certificaciones en Azure: <a href="https://www.credly.com/badges/f5338f6b-c22c-4561-8b2e-2c40ae1f602c?source=linked_in_profile">AZ-900</a> y <a href="https://www.credly.com/badges/ccb3efee-1f75-4932-8eab-8be59443be89?source=linked_in_profile">AI-900</a></p>
+              </div>
+            </div>
 
             <div class="card border-0 my-auto" style="max-width: 300px; margin-top:10px;">
               <div class="mx-auto my-auto">
