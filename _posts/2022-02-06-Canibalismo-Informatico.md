@@ -7,7 +7,7 @@ post_pic: /assets/img/posts/20220206/AlphaCode.png
 date: 2022-02-06 10:10:10 -0000
 categories: []
 tags: [ia, nlp, innovacion, deepmind]
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero,"
+summary: "¿Será el gremio informático el primero en crear una tecnología capaz de mandarse al paro?"
 ---
 
 Esta semana, DeepMind ha sacado a la luz resultados de otro de sus proyectos que prometen dejar huella en nuestra industria. 
