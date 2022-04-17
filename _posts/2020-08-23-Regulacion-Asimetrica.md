@@ -8,6 +8,7 @@ date: 2020-08-23 09:10:10 -0000
 categories: []
 tags: [regulacion, telefonica, innovacion, fang]
 summary: "La regulación genera distorsiones en el mercado, más aún si un sector no regulado compite contra otro regulado."
+visible_on_index: false
 ---
 
 Estas últimas semanas he estado leyendo los [ensayos](https://www.ben-evans.com/essays) más recientes de Benedict Evans en los que habla sobre cómo en los próximos años se hará frente a la regulación de las *Big Tech* e incluso se atreve a marcar ciertas guías sobre cómo debería hacerse. 
