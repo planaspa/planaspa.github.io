@@ -19,7 +19,7 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
         <div class="card-body">
           <h1 class="card-title" style="margin-top: 0">Pablo Lanaspa Ferrer</h1>
           <h2 class="card-subtitle mb-2 text-muted font-weight-normal">Digital Product Manager</h2>
-          <p class="card-text">Ingeniero Informático de formación. Actualmente trabajando en la gestión de productos digitales. Siempre he trabajado en proyectos relacionados con gestión de información e Inteligencia Artificial. Amante de la economía, deporte y tecnología.</p>
+          <p class="card-text">Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI.</p>
           <p class="card-text text-center"><small class="text-muted">¡Contacta conmigo!</small></p>
           <div class="container text-center">
             <a href="https://twitter.com/planaspa"><button type="button" class="btn btn-primary btn-sm mb-1"><i class="fab fa-twitter"></i> <b>Sígueme</b></button></a>
@@ -48,9 +48,9 @@ summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acer
                 <img src="/assets/img/about/clarity.png" class="card-img" alt="Clarity AI" style="max-width: 100px">
               </div>
               <div class="card-body text-center">
-                <h5 class="card-title" style="margin-top: 0">Product Manager</h5>
+                <h5 class="card-title" style="margin-top: 0">Lead Product Manager</h5>
                 <h6 class="card-subtitle mb-2 text-muted font-weight-normal">2021 - Ahora</h6>
-                <p class="card-text">Data Product Manager al cargo de la plataforma interna de datos.</p>
+                <p class="card-text">Dirección de estrategia y desarrollo de plataformas y productos digitales en ClarityAI, influencia semanal en +30 personas, gestión de proveedores tecnológicos.</p>
               </div>
             </div>
 
