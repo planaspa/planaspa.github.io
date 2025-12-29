@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "write_file": {
+      "enabled": true,
+      "description": "Write a file."
+     },
+    "read_file": {
+      "enabled": true,
+      "description": "Reads a file from the local filesystem."
+     },
+    "search_file_content": {
+      "enabled": true,
+      "description": "Searches for patterns within files (replaces grep)."
+    },
+    "save_memory": {
+      "enabled": true,
+      "description": "Saves technical context, stack details, and conventions for future use."
+    },
+    "write_todos": {
+      "enabled": true,
+      "description": "Writes tasks to the registry (use this for task tracking)."
+     },
+    "glob": {
+      "enabled": true,
+      "description": "Finds files matching patterns."
+     },
+    "run_shell_command":{
+      "enabled": true
+     }
+   }
+}
