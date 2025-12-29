@@ -13,9 +13,6 @@
 <a id="cookie-notice-reject" class="btn btn-secondary cookie-bar" style="color:white;">Permitir básicas</a>
 <a id="cookie-notice-accept" class="btn btn-success cookie-bar" style="color:white;">Continuar</a></div>
 
-<!-- Add google analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159643548-1"></script>
-
 <!-- Laucnch script to get consent -->
 <script>
     function createCookie(name,value,days) {
@@ -42,15 +39,7 @@
     }
 
     if(readCookie('accepted-cookie')=='true') {
-        {%- if jekyll.environment == 'production' -%}
-            // Actually starting analytics up
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-159643548-1');
-
-        {%- endif -%}
+        
     } else if(readCookie('accepted-cookie')=='false') {
         // do not ask again for accepting cookies
     }else {
