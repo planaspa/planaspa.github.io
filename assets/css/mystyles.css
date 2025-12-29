@@ -319,10 +319,7 @@ html, body{
         overflow: hidden;
         max-height: 60px;
     }
-    .subscribe_box{
-        visibility: hidden;
-        display: none; 
-    }
+
     .cv_box{
         margin-top: 0px;
     }
@@ -435,41 +432,7 @@ html, body{
     margin-bottom: 0.55em;
 }
 
-/* SUBSCRIBE CTA AT BOTTOM OF POST */
-.subscribe_CTA{
-    height: auto;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: center;
-    vertical-align: middle;
-    font-size: x-large;
-    margin-top:10px;
-}
-.subscribe-button-CTA{
-    float: center;
-    vertical-align: center;
-    background-color: #029E74;
-    border-radius: 4px;
-    font-weight: 400;
-    line-height: 5px;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-}
 
-/* Boton al lado del placeholder del email */
-.subscribe_email_container{ 
-    display: table;
-    margin: auto;
-}
-.subscribe_email_container_left{
-    display: table-cell;
-    width: 300px;
-}
-.subscribe_email_container_right{
-    display: table-cell;
-}
 
 @media screen and (max-width: 768px) {
     .post-content{
@@ -636,64 +599,12 @@ html, body{
     }
 }
 
-/*
-    SUBSCRIBE
-*/
-.subscribe_page {
-    width: 680px;
-    max-width:95%;/* leave spaces around your text on responsive*/
-    margin:auto;
-    margin-top: 1.5em;
-    font-family: serif;
-    word-break: break-word;
-    font-weight: 400;
-}
 
-@media screen and (max-width: 768px) {
-    .subscribe_page{
-        padding-top: 10px;
-        padding-bottom: 20px;
-        display: table;
-        width: 90%;
-    }
-    .subscribe_page h1{
-        margin-top: 0;
-    }
-}
-
-.promesa_privacidad{
-    max-width: 95%;
-}
-.privacy_box{
-    background: #fff;
-    height: 100px;
-    display: table;
-    margin-bottom: 10px;
-}
-.privacy_box_left{ 
-    width: 15%;
-    display: table-cell;
-    vertical-align: middle;
-}
-.privacy_box_left img{
-    max-height: 85px;
-    height: 100%;
-}
-.privacy_box_right{
-    width: 80%;
-    display: table-cell; 
-    vertical-align: middle;
-    text-align: left;
-}
-.privacy_box_right span{
-}
 
 /*
     LEGAL
 */
-/*
-    SUBSCRIBE
-*/
+
 .legal_page {
     width: 680px;
     max-width:95%;/* leave spaces around your text on responsive*/
