@@ -25,8 +25,7 @@ Por otro lado, las cookies de terceros son creadas por responsables del tratamie
     Para eliminar las cookies que ya hayas aceptado y/o volver a configurar tus permisos haz click <a id="remove-cookie" href="{{ site.baseurl }}/">aquí</a>.
 </p>
 
-<h3> Servicios ofrecidos </h3>
-<p>Uno de los servicios prestados por esta página web es la adhesion a una lista de emails cuya promesa de privacidad puede verse directamente en la <a href="{{ site.baseurl }}/subscribe">página de subscripción</a>. Dicha suscripción se realiza de manera totalmente gratuita y no produce ningun coste a los suscriptores.</p>
+
 
 <!-- Remove cookies -->
 <script>
