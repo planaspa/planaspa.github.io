@@ -6,30 +6,30 @@ post_pic: /assets/img/bio_img.png
 summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital."
 ---
 
-<div class="about_page">
-
-  <div class="card mb-3 border-0 text-center text-md-left">
-    <div class="row no-gutters">
-      <div class="col-md-6 order-1 order-md-2 about_prof_pic">
-        <div class="text-center">
-          <img src="{{ page.post_pic }}" class="card-img" alt="Foto de perfil de Pablo" style="max-height: 300px">
+<div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-6 col-t-12">
+        <div class="hero__image">
+          <img src="{{site.baseurl}}/images/{{ site.data.settings.author.image }}" alt="Imagen de perfil de Pablo" style="width: 50%; height: auto;">
         </div>
       </div>
-      <div class="col-md-6 order-2 order-md-1">
-        <div class="card-body">
-          <h1 class="card-title" style="margin-top: 0">Pablo Lanaspa Ferrer</h1>
-          <h2 class="card-subtitle mb-2 text-muted font-weight-normal">Digital Product Manager</h2>
-          <p class="card-text">Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI.</p>
+      <div class="col col-6 col-t-12 last-item">
+        <div class="hero__content">
+          <h1 class="hero__title">Pablo Lanaspa Ferrer</h1>
+          <h5 class="hero__subtitle">Digital Product Manager</h5>
+          <p>Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI.</p>
           <p class="card-text text-center"><small class="text-muted">¡Contacta conmigo!</small></p>
-          <div class="container text-center">
-            <a href="https://twitter.com/planaspa"><button type="button" class="btn btn-primary btn-sm mb-1"><i class="fab fa-twitter"></i> <b>Sígueme</b></button></a>
-            <a href="https://linkedin.com/in/planaspa"><button type="button" class="btn btn-info btn-sm mb-1"><i class="fab fa-linkedin"></i> <b>Conecta</b></button></a>
-            <a href="mailto:info@planaspa.com"><button type="button" class="btn btn-secondary btn-sm mb-1"><i class="fas fa-envelope"></i> <b>Mail</b></button></a>
+          <div class="hero__social">
+            <a href="https://twitter.com/planaspa" title="Twitter" style="font-size: 2em;"><i class="ion ion-logo-twitter"></i></a>
+            <a href="https://linkedin.com/in/planaspa" title="LinkedIn" style="padding: 0 15px; font-size: 2em;"><i class="ion ion-logo-linkedin"></i></a>
+            <a href="mailto:info@planaspa.com" title="Email" style="font-size: 2em;"><i class="ion ion-ios-mail"></i></a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
   <div class="accordion" id="accordion">
     <div class="card">
