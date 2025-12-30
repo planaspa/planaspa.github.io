@@ -42,3 +42,4 @@
 ## Git protocol
 - Before suggesting code, verify the current branch name.
 - All code suggestions must include a suggested "Conventional Commit" message.
+- When creating a commit, please dedicate some time to explain all the key changes made in the commit message.
