@@ -2,26 +2,17 @@
 layout: page
 title: "Quién soy"
 permalink: /about
-image: bio_img.png
+hero_title: "Pablo Lanaspa Ferrer"
+hero_subtitle: "Digital Product Manager"
+hero_description: "Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI."
+hero_contact: "¡Contacta conmigo!"
 ---
 
 <div class="container">
   <div class="row">
-    <article class="page col col-8 col-t-10 col-m-12">
+    <article class="page col col-12 col-m-12 page--no-margin-top">
       <div class="page__content">
-
-        <h1>Pablo Lanaspa Ferrer</h1>
-        <h2>Digital Product Manager</h2>
-        <p>Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI.</p>
-        <p><strong>¡Contacta conmigo!</strong></p>
-        <p>
-          <a href="https://twitter.com/planaspa">Twitter</a> |
-          <a href="https://linkedin.com/in/planaspa">LinkedIn</a> |
-          <a href="mailto:info@planaspa.com">Mail</a>
-        </p>
-
-        <hr>
-
+        <br>
         <h2>Experiencia profesional</h2>
         <div>
           <img src="/images/about/clarity.png" alt="Clarity AI" style="max-width: 100px;">
