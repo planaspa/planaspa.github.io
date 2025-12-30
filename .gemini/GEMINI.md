@@ -32,6 +32,7 @@
 - Top-level pages: `about.markdown`, `index.markdown`, `legal.markdown`, etc., are safe to edit for content changes.
 
 ## Implementation Rules
+- **No Jekyll Serve:** Do not execute `bundle exec jekyll serve`. The user runs the server locally. Instead, ask the user to verify changes after they have been implemented.
 - **Atomic Changes:** One feature per response. Prepare commits that only focus on one single feature. Always on a branch different to master.
 - **Variable Persistence:** Always use existing Liquid variables.
 - **Context review**: Analyze current layout before suggesting anything.
