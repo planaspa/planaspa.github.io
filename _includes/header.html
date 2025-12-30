@@ -1,19 +1,41 @@
-<header class="site-header">
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <!-- begin header -->
+      <header class="header">
 
-<nav class="navbar navbar-default navbar-light bg-light border-bottom">
-  <div class="navbar-header">
-    <ul class="navbar nav" style="padding-left: 0">
-        <li style="padding-right:10px">
-            <a href="{{ site.baseurl }}/" style="display: flex; align-items: center; text-decoration: none;"><i class="fas fa-home fa-2x" style="color: black"></i></a>
-        </li>
-        <li>
-            <a href="{{ site.baseurl }}/about">
-                <button class="btn btn btn-outline-secondary" type="button">Quién soy</button>
-            </a>
-        </li>
-    </ul>
+
+        <nav class="main-nav">
+
+          <div class="main-nav__box">
+            <div class="nav-icon__close">
+              <i class="ion ion-ios-close-circle-outline"></i>
+            </div>
+
+            <div class="nav__title">Menu</div>
+
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{ '/about' | prepend: site.baseurl }}" class="nav__link">Quién soy</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{ '/blog' | prepend: site.baseurl }}" class="nav__link">Blog</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+        <div class="nav-buttons">
+          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
+        </div>
+
+        <div class="header__overlay"></div>
+      </header>
+      <!-- end header -->
+    </div>
   </div>
-
-</nav>
-
-</header>
+</div>

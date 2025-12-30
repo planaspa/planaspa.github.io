@@ -1,104 +1,123 @@
 ---
 layout: default
-minread: 0
 ---
-<article class="post-container">
+<div class="container">
+  <div class="post-title-box">
+    <div class="row">
+      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+        <span class="post__date">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date-es.html date=page.date %}</time>
+        </span>
 
-    <!-- INCLUDE HEADER -->
-    <header class="post-header">
-        <h1>{{ page.title }}</h1>
-        <h4 class="text-muted">#InformeLanaspa</h4>
-        <div class="post-meta">
-            <div class="post-meta-left">
-                <div class="post-meta-left-portrait">
-                    <img src="{{ page.profile_pic | relative_url }}"/>
-                </div>
-            </div>
-            <div class="post-meta-mid">
-                <span class="fa-1x">{{ page.author }}</span>
-                <br/>
-                <time class="post-dt-published fa-sm">
-                    {%- assign date_format = "%b %-d, %Y" -%}
-                    {{ page.date | date: date_format }} - 
-                </time>
-                <span class="post-dt-published fa-sm"">
-                    {%- assign words = page.content | strip_html | number_of_words -%}
-                    {%- assign min_read= words | divided_by: 180 -%}
-                    {{ min_read }} min lectura
-                </span>
-            </div>
-            <div class="post-meta-right">
-                <a href="https://twitter.com/intent/tweet?text={{ page.title }} via @planaspa %23InformeLanaspa {{ site.url | append:page.url }}" style="color: black;"><span class="badge badge-primary align-top"><i class="fab fa-twitter"></i> Share</span></a>
-            </div>
-        </div>
-    </header>
+        <h1 class="post-title">{{ page.title | escape }}</h1>
 
+        <div class="post__info">
+          <div class="post__author">
+            <span>Por</span>
+            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
+          </div>
 
-    <!-- INCLUDE POST CONTENT -->
-    <div class="post-content">
-        {{ content }}
-    </div>
-
-
-
-    <!-- INCLUDE RELATED CONTENT -->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="{{ "/assets/flickity/flickity.css" | relative_url }}"/>
-    <script src="{{ "/assets/flickity/flickity.pkgd.min.js" | relative_url }}"></script>
-
-    {% if site.posts != empty %}
-
-        {% comment %}
-        maxRelated: the maximum number of related to posts to be printed
-        minCommonTags: the minimum number of common tags to have for a post to be considered as a related post 
-        {% endcomment %}
-
-        {% assign maxRelated = 5 %}
-        {% assign minCommonTags =  1 %}
-        {% assign maxRelatedCounter = 0 %}
-
-        <div class="divider"></div>
-        <h3>Informes relacionados...</h3>
-        <div class="carousel-wrapper">
-          <div class="carousel" data-flickity>
-            
-            {% for post in site.posts %}
-
-                {% assign sameTagCount = 0 %}
-                {% assign commonTags = '' %}
-
-                {% for tag in post.tags %}
-
-                    {% if post.url != page.url %}
-                        {% if page.tags contains tag %}
-                        {% assign sameTagCount = sameTagCount | plus: 1 %}
-                        {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-                        {% assign commonTags = commonTags | append: tagmarkup %}
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-
-                {% if sameTagCount >= minCommonTags %}
-                    <div class="carousel-cell">
-                        <a href="{{ post.url }}">
-                            <div class="carousel-cell-left">
-                                <img src="{{ post.post_pic | relative_url }}"/>
-                            </div>
-                            <div class="carousel-cell-right">
-                                <div class="carousel-cell-title">{{ post.title }}</div>
-                                <div class="carousel-cell-summary">{{ post.summary }}</div>
-                            </div>
-                        </a>
-                    </div>
-                    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-                    {% if maxRelatedCounter >= maxRelated %}
-                        {% break %}
-                    {% endif %}
-                {% endif %}
-
+          {% if page.tags.size >= 1 %}
+          <div class="post__tags">
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="post__tags-tag">{{ tag }}</a>
             {% endfor %}
-            </div>
+          </div>
+          {% endif %}
         </div>
-    {% endif %}        
+      </div>
+    </div>
+  </div>
 
-</article>
+  {% assign no-image = nil %}
+  {% if page.image %}
+    <div class="post__head">
+      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+    </div>
+  {% else %}
+    {% assign no-image = 'post-no-image' %}
+  {% endif %}
+
+  </div>
+
+
+  <div class="container">
+  <div class="row">
+    <!-- begin post -->
+    <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+
+      <div class="post__content">
+        {{ content }}
+      </div>
+
+      <div class="post__share">
+        <span class="share__title">Comparte este artículo:</span>
+        <ul class="share__list list-reset">
+          <li class="share__item">
+            <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+              title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
+          </li>
+
+          <li class="share__item">
+            <a class="share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}/images/{{ page.image }}&amp;description={{ page.title | uri_escape }}"
+              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
+              rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
+    </article>
+    <!-- end post -->
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="post__navigation">
+    {% if page.previous.url %}
+    <div class="prev">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}{{page.previous.post_pic}}); height: 200px; background-size: contain; background-position: center;"></a>
+      <h2 class="post__nav__title">
+        <i class="ion ion-md-arrow-back"></i>
+        <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
+      </h2>
+      <p class="prev__excerpt">
+        {% if page.previous.description %}
+          {{ page.previous.description }}
+        {% else %}
+          {{ page.previous.content | markdownify | strip_html | truncate: 110 }}
+        {% endif %}
+      </p>
+    </div>
+    {% endif %}
+
+    {% if page.next.url %}
+    <div class="next">
+      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}{{page.next.post_pic}}); height: 200px; background-size: contain; background-position: center;">
+      </a>
+      <h2 class="post__nav__title">
+        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
+        <i class="ion ion-md-arrow-forward"></i>
+      </h2>
+      <p class="next__excerpt">
+        {% if page.next.description %}
+          {{ page.next.description }}
+        {% else %}
+          {{ page.next.content | markdownify | strip_html | truncate: 110 }}
+        {% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+
+  </div>
