@@ -36,6 +36,7 @@
 - **Variable Persistence:** Always use existing Liquid variables.
 - **Context review**: Analyze current layout before suggesting anything.
 - **Request for approval**: Always suggest me for approval any modification to any file before applying it.
+- **Commit Approval**: Do not commit any changes before receiving specific approval from the developer you are working with. It is acceptable to modify files, but refrain from committing until clear approval is granted.
 
 ## Git protocol
 - Before suggesting code, verify the current branch name.
