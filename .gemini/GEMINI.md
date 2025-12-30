@@ -1,6 +1,7 @@
 ## Core Principles
 -- **Content is King:** All Markdown files in '/_posts' must remain untouched in content and structure.
 -- **Tech stack:** Jekyll, Liquid, HTML, CSS, JavaScript, and Ruby Gems for dependency management via Bundler.
+-- **Mobile/Desktop Optimization:** Optimize all changes for mobile experience and desktop experience following best UX and front-end practices when developing the code.
 
 
 ## Directory Map
