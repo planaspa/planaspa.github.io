@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <language>es-es</language>
+    <title>#InformeLanaspa</title>
+    <description>Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital. </description>
+    <atom:link href="https://www.planaspa.com/feed/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.planaspa.com/</link>
+    <pubDate>Tue, 30 Dec 2025 15:24:48 +0000</pubDate>
+    <lastBuildDate>Tue, 30 Dec 2025 15:24:48 +0000</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Proyectos vs. operaciones</title>
+        <description>&lt;p&gt;No suelo escribir sobre cómo las empresas se organizan internamente y qué estructuras organizativas tienen sentido o no en según que entornos.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, durante estos días le he estado dando vueltas a cómo las organizaciones, cuando se plantean formar nuevos equipos, tienen que saber si los equipos que están creando son equipos orientados a &lt;strong&gt;proyectos&lt;/strong&gt; o equipos orientados a &lt;strong&gt;operaciones&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dependiendo de la tipología de equipo que se cree no se requiere de los mismos perfiles ni han de tener los mismos tipos de objetivos ni maneras de trabajar, por lo que merece la pena entender las diferencias entre ambos.&lt;/p&gt;
+
+&lt;h2 id=&quot;proyectos&quot;&gt;Proyectos&lt;/h2&gt;
+&lt;p&gt;Los equipos que se dedican principalmente a proyectos dentro de un producto tienen como objetivo abordar una &lt;strong&gt;nueva oportunidad&lt;/strong&gt; que no se estaba ofreciendo antes en la organización.&lt;/p&gt;
+
+&lt;p&gt;Estas nuevas oportunidades pueden ser una necesidad comercial, un nuevo requisito legal, la incorporación de avances tecnológicos, un espacio nuevo en el mercado…&lt;/p&gt;
+
+&lt;p&gt;Implican siempre una fase de descubrimiento del espacio de oportunidad y de ejecución en un entorno desconocido. Pueden identificarse a posteriori fases claramente con principio y final.&lt;/p&gt;
+
+&lt;p&gt;Por lo general son equipos que deben saber manejar la &lt;strong&gt;incertidumbre&lt;/strong&gt;. Son equipos en los que se invierte sabiendo que tienen un &lt;strong&gt;riesgo alto&lt;/strong&gt; al trabajar en problemas que se hacen por primera vez.&lt;/p&gt;
+
+&lt;p&gt;Son equipos que necesitan mucha &lt;strong&gt;flexibilidad&lt;/strong&gt; en su día y una dosis extra de confianza en ellos porque no pueden garantizar siempre un resultado exacto.&lt;/p&gt;
+
+&lt;h2 id=&quot;operaciones&quot;&gt;Operaciones&lt;/h2&gt;
+&lt;p&gt;Los equipos que se dedican operaciones se dedican a ejecutar las &lt;strong&gt;acciones continuas&lt;/strong&gt; y repetitivas que el negocio necesita de manera diaria.&lt;/p&gt;
+
+&lt;p&gt;Su objetivo no es traer nada nuevo a la organización si no garantizar que el negocio funcione de la manera más eficiente posible ofreciendo el &lt;strong&gt;mejor servicio&lt;/strong&gt; a los clientes &lt;strong&gt;con las capacidades existentes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las operaciones son clave para ejecutar modelos comerciales regulares, asegurar la mejor calidad del servicio al cliente y respaldar el negocio a diario. Suelen tener KPIs bien conocidos y se deben de regir por la continua mejora de los mismos en todo momento.&lt;/p&gt;
+
+&lt;p&gt;A diferencia de los proyectos, no se puden identificar fases claramente con un principio y un final, si no que son infinitas.&lt;/p&gt;
+
+&lt;p&gt;A su vez poseen un grado de incertidumbre y riesgo menor al trabajar con entradas y salidas ciertamente dentro de lo previsto cada vez.&lt;/p&gt;
+
+&lt;h2 id=&quot;tenerlo-claro&quot;&gt;Tenerlo claro&lt;/h2&gt;
+&lt;p&gt;Una vez vista la diferencia entre proyectos y operaciones, se entiende que los perfiles a contratar y los objetivos que el equipo tendrá no tiene nada que ver si estamos hablando de equipos con una fuerte componente operacional que si tienen una fuerte componente de proyectos.&lt;/p&gt;
+
+&lt;p&gt;Además, tiene sentido que formen partes de &lt;strong&gt;estructuras organizativas diferentes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Las operaciones deben de incluirse dentro de un presupuesto operacional (&lt;em&gt;Opex&lt;/em&gt;) que garantice la estabilidad del negocio.&lt;/p&gt;
+
+&lt;p&gt;Mientras que los equipos orientados a proyectos deben de incluirse dentro de un presupuesto de inversión (&lt;em&gt;Capex&lt;/em&gt;). Estos equipos tendrán siempre una dimensión más variable y han de ser más flexibles al momento en el que se encuentre la organización, de la misma manera que han de tener más flexibilidad para explorar.&lt;/p&gt;
+
+&lt;p&gt;Por todo esto, es importante pensar si los equipos que estamos creando son orientados a proyectos o a operaciones para entender qué perfiles debemos de contratar, qué puedo esperar de ellos, cómo debo de hacerles trabajar, qué flexibilidad han detener y si estamos engordando la masa económica base para que la compañía funcione o si estamos inviertiendo en nuevas apuestas con un alto riesgo asociado.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jun 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/06/05/Proyectos-vs-operaciones/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/06/05/Proyectos-vs-operaciones/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Autoservicio</title>
+        <description>&lt;p&gt;Autoservicio, o &lt;em&gt;self-service&lt;/em&gt; en inglés, que suena más molón.&lt;/p&gt;
+
+&lt;p&gt;Este fin de semana me he estado releyendo las cartas anuales que Jeff Bezos escribía a los inversores de Amazon y me he topado con precisamente este concepto clave en su &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1018724/000119312512161812/d329990dex991.htm&quot;&gt;carta anual de 2011&lt;/a&gt; al hablar de algunos de sus productos, &lt;strong&gt;&lt;em&gt;self-service platform&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Os dejo aquí las partes de la carta que he subrayado para comentarla.&lt;/p&gt;
+
+&lt;h2 id=&quot;la-carta&quot;&gt;La carta&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;La innovación se sucede en muchas formas y a muchas escalas. Los inventos más radicales y transformadores suelen ser aquellos que permiten a terceras personas dar rienda suelta a su creatividad para perseguir sus sueños.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[..]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Con AWS estamos creando poderosas plataformas de autoservicio que permiten a miles de personas experimentar y lograr cosas que de otro modo serían imposibles o poco prácticas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[..]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;AWS es una plataforma autoservicio, ningún cliente necesita negociar un contrato ni comunicarse con un vendedor; el cliente solo tiene que leer la documentación online y comenzar a usar el servicio.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[..]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Estoy enfatizando la naturaleza de autoservicio de estas plataformas porque es importante por una razón que creo que no es obvia: incluso los intermediarios bien intencionados retrasan la innovación. Cuando una plataforma es de autoservicio, incluso las ideas improbables se pueden probar, porque no hay un intermediario experto listo para decir “¡eso nunca funcionará!” Y adivina qué: muchas de esas ideas improbables funcionan, y la sociedad es la beneficiaria de esa diversidad.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;[..]&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Estas plataformas autoservicio innovadoras a gran escala no son modelos de negocio de suma cero, crean situaciones en las que todos los stakeholders involucrados ganan y crean un valor significativo para desarrolladores, empresarios, clientes, autores y lectores.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plataformas&quot;&gt;Plataformas&lt;/h2&gt;
+
+&lt;p&gt;De todos los modelos de negocios existentes, mi favorito es el modelo de negocio de las plataformas. Para los que queráis una pequeña introducción, tenéis un informe anterior &lt;a href=&quot;https://planaspa.com/2021/04/18/Teoria-plataformas.html&quot;&gt;aquí&lt;/a&gt; al respecto.&lt;/p&gt;
+
+&lt;p&gt;De este modelo de negocio se puede extraer un patrón, a mi juicio clave, que se puede llevar otros modelos negocios y que Bezos remarcaba en esta carta:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Pensar siempre en &lt;strong&gt;capacidades autoservicio&lt;/strong&gt; y no en funcionalidades cuando se crea un producto.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;capacidades-autoservicio&quot;&gt;Capacidades autoservicio&lt;/h3&gt;
+
+&lt;p&gt;Cuando crees tu producto, no pienses en como crear una funcionalidad de manera aislada, piensa esa funcionalidad como una capacidad autoservicio para que cualquier persona del planeta pueda consumirla de manera independiente para lograr su sueño.&lt;/p&gt;
+
+&lt;p&gt;No te ates a que esa funcionalidad pueda ser solo empleada por el segmento de clientes que ahora mismo tienes en la cabeza. Otros segmentos en otras industrias pueden estar interesados y puede que ni seas consciente de ello.&lt;/p&gt;
+
+&lt;p&gt;No obligues a los clientes a que para que una capacidad sea utilizada deba de utilizarse una gama de productos completa, crea estas capcidades de manera independiente y crea sinergias entre ellas para fomentar &lt;em&gt;up-selling&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Piensa el producto y la funcionalidad para que dicho cliente nunca tenga que pasar por un ciclo de ventas con un equipo comercial para facilitarle el uso del producto, los &lt;strong&gt;equipos de ventas no escalan&lt;/strong&gt; al mismo ritmo que la tecnología permite.&lt;/p&gt;
+
+&lt;p&gt;Evita ponerte en medio, evita poner a cualquier persona de tu equipo entre la capacidad y cualquier cliente final, cualquier intermediario existente dificultará la innovación que podría existir al utilizarse tu capacida autoservicio.&lt;/p&gt;
+
+&lt;h3 id=&quot;se-que-no-es-fácil&quot;&gt;Se que no es fácil&lt;/h3&gt;
+
+&lt;p&gt;Soy muy consciente que llevar esta teoría a la práctica es altamente complicado en el día a día y requiere de mucha disciplina, pero merece la pena recordarnoslo cada cierto tiempo para abrirnos la mente y reflexionar.&lt;/p&gt;
+
+&lt;p&gt;Piensa en capacidades autoservicio y no en funcionalidades en tu próximo &lt;em&gt;roadmap&lt;/em&gt;. Haz el ejercicio.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 15 May 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/05/15/Autoservicio/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/05/15/Autoservicio/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Web3 y fintechs</title>
+        <description>&lt;p&gt;Ya hablamos sobre qué era la &lt;a href=&quot;https://planaspa.com/2021/01/24/Web3.html&quot;&gt;web3&lt;/a&gt; hace un año. También introducimos el concepto de &lt;a href=&quot;https://planaspa.com/2021/07/11/DAOs.html&quot;&gt;DAOs&lt;/a&gt; como esas comunidades autónomas nacidas de manera nativa sobre la propia web3.&lt;/p&gt;
+
+&lt;p&gt;Hoy, quiero compartir con vosotros mi reflexión sobre la &lt;strong&gt;oportunidad&lt;/strong&gt; que se presenta en el sector financiero al albor de estas nuevas comunidades que se están creando en la Web3 y que, por su naturaleza, generan tokens descentralizados para operar internamente.&lt;/p&gt;
+
+&lt;h2 id=&quot;qué-son-los-tokens&quot;&gt;¿Qué son los tokens?&lt;/h2&gt;
+
+&lt;p&gt;La tendencia es que las nuevas empresas que nacen sobre la web3 con un concepto de comunidad por detrás lanzan al mercado “tokens” que les permite financiarse sin necesidad de pasar por las manos de los VCs o banca de inversión tradicional a través de las denominadas &lt;em&gt;ICOs&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Estos tokens son adquiridos por la comunidad que cree en el proyecto con el objeto de financiarlo y a su vez sirven para poder adquirir productos y servicios u operar dentro de la nueva comunidad creada.&lt;/p&gt;
+
+&lt;p&gt;Están diseñados para funcionar como un &lt;strong&gt;medio de intercambio descentralizado&lt;/strong&gt;, independiente de una institución financiera o cualquier otra autoridad central y para servir a la comunidad sobre la que se ha creado.&lt;/p&gt;
+
+&lt;h2 id=&quot;punto-lucrativo&quot;&gt;Punto lucrativo&lt;/h2&gt;
+
+&lt;p&gt;No obstante, si miro a mi alrededor, en la mayoría de escenarios, los usuarios buscan adentrarse dentro de estas comunidades para  beneficiarse del progreso de las mismas.&lt;/p&gt;
+
+&lt;p&gt;Si las comunidades progresan adecuadamente, existe la hipótesis de que la demanda de su token superará a la oferta, y como si de una materia prima se tratara, su precio subirá para equilibrar el mercado.&lt;/p&gt;
+
+&lt;p&gt;De alguna manera, estos tokens pueden asemejarse al pétroleo en la economía actual.&lt;/p&gt;
+
+&lt;p&gt;Se puede usar para producir valor añadido dentro de la industria petrolera convirtiéndolo en otros subproductos, pero su precio sube o baja dependiendo de la demanda y oferta estructural.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto, volviendo a la web3, si las comunidades progresan adecuadamente se espera que dicho token se pueda vender en el futuro a un precio mayor al generarse mayor demanda vs. la oferta que existirá.&lt;/p&gt;
+
+&lt;p&gt;A través de esta persepectiva &lt;strong&gt;puramente financiera&lt;/strong&gt; de observar el token como un activo financiero y no como una tecnología para adquirir servicios dentro de la comunidad, se puede observar como se necesitan capacidades financieras a su alrededor que a día de hoy no existen.&lt;/p&gt;
+
+&lt;h2 id=&quot;una-industria-nueva&quot;&gt;Una industria nueva&lt;/h2&gt;
+
+&lt;p&gt;Por esta razón, mi hipótesis es que se ha de trasladar casi cualquier concepto de la industria financiera tradicional a la web3. Y &lt;strong&gt;está todo por hacer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Existe todo un mar de oportunidades en replicar los conceptos que ya funcionan en la industria financiera hoy en día en la web3 apoyándonos en esta visión de los tokens o criptomonedas como un activo financiero más. ¿Por qué?&lt;/p&gt;
+
+&lt;p&gt;La gran diferencia con el resto de activos financieros existentes a día de hoy es que las criptomonedas funcionan en infraestructuras tecnológicas muy alejadas de la banca tradicional, lo que les convierte en un &lt;em&gt;“blue ocean”&lt;/em&gt; de manual.&lt;/p&gt;
+
+&lt;p&gt;Si nos fijamos en la industria financiera actual y damos por válida la hipótesis de que las criptomonedas han llegado para quedarse y hacer crecer a sus comunidades, se va a tener que crear toda una industria capaz de:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Crear herramientas y capacidades para analizar todos estos activos financieros digitales.&lt;/li&gt;
+  &lt;li&gt;Tener empresas de &lt;em&gt;rating&lt;/em&gt; y análisis de los diferentes riesgos sobre estos activos.&lt;/li&gt;
+  &lt;li&gt;Educar a analistas que informen de sus evoluciones y posibles problemas estructurales.&lt;/li&gt;
+  &lt;li&gt;Crear vehículos financieros que faciliten el acceso a estos tokens independientemente del mercado donde se opere.&lt;/li&gt;
+  &lt;li&gt;Generar préstamos o servicios de banca tradicional.&lt;/li&gt;
+  &lt;li&gt;Procesas seguros, derivados o futuros.&lt;/li&gt;
+  &lt;li&gt;Ofrecer tarjetas de crédito o medios de pago digitales…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En definitiva, si creemos que las comunidades de web3 van a prosperar y por lo tanto lo haran sus tokens descentralizados, existe todo un universo de oportunidades a los que estoy seguro que la banca tradicional no va a saber llegar con velocidad.&lt;/p&gt;
+
+&lt;p&gt;¿Quién llegará primero?&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 01 May 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/05/01/Web3-Finance/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/05/01/Web3-Finance/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Discovery vs delivery</title>
+        <description>&lt;p&gt;¿Cómo podemos elevar a nuestro producto hasta el siguiente nivel? ¿Cómo podemos maravillar a nuestros usuarios?&lt;/p&gt;
+
+&lt;p&gt;Todos los equipos de producto buscan ser más eficientes a la hora de entregar valor a sus clientes en sus productos. Sin embargo, no siempre a través de la mejor estrategia.&lt;/p&gt;
+
+&lt;h2 id=&quot;las-dos-fases&quot;&gt;Las dos fases&lt;/h2&gt;
+
+&lt;p&gt;Cuando hablamos de optimizar el proceso de entrega de valor a usuarios existen dos fases totalmente diferentes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;La fase que optimiza el &lt;em&gt;discovery&lt;/em&gt;, es decir, la que se centra en encontrar el número mínimo de funcionalidad que se ha de crear o la menor cantidad de esfuerzo que se ha de realizar para producir el efecto final o consecuencia buscada.&lt;/li&gt;
+  &lt;li&gt;La fase que optimiza el &lt;em&gt;delivery&lt;/em&gt;, es decir, la que se centra en planificar la ejecución al milímetro de todos los equipos y exprimir hasta la última hora en una planificación para entregar la mayor cantidad de funcionalidad en el periodo más corto de tiempo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;¿Qué crees que se optimiza más en tu organización? ¿Cuántas ceremonias se dedican a optimizar el &lt;em&gt;delivery&lt;/em&gt; en tu organización en el día a día? ¿Cuántas ceremonias se dedican a optimizar el &lt;em&gt;discovery&lt;/em&gt; en tu organización en el día a día?&lt;/p&gt;
+
+&lt;h3 id=&quot;objetivo-discovery&quot;&gt;Objetivo: Discovery&lt;/h3&gt;
+
+&lt;p&gt;Sin lugar a dudas, si tuviésemos que elegir optimizar solo una de las dos fases, la opción de optimizar solamente el &lt;em&gt;discovery&lt;/em&gt;  es la más deseada.&lt;/p&gt;
+
+&lt;p&gt;Es la opción que nos lleva a producir &lt;strong&gt;menos funcionalidad pero mucho más inteligente&lt;/strong&gt;, lo que implica crear menos complejidad en el sistema y menos infraestructura digital que luego no se ha de mantener, lo que permite a los equipos dedicar menos tiempo a mantenimiento en el futuro.&lt;/p&gt;
+
+&lt;p&gt;Invertir en tomar las decisiones correctas previene trabajar en cosas realmente innecesarias o meramente superficiales, lo cual se traduce en la fase que mejor maximiza el retorno sobre la inversión.&lt;/p&gt;
+
+&lt;p&gt;Por todas estas razones es la fase que más eficiencias produce a largo plazo y la que más valor aporta al final.&lt;/p&gt;
+
+&lt;h3 id=&quot;sin-olvidar-delivery&quot;&gt;Sin olvidar delivery&lt;/h3&gt;
+
+&lt;p&gt;Por supuesto, optimizar el &lt;em&gt;delivery&lt;/em&gt; es necesario para no quedarnos estancados en la ejecución, pero no sirve de mucho si no se ha optimizado el &lt;em&gt;discovery&lt;/em&gt; primero.&lt;/p&gt;
+
+&lt;p&gt;Podemos ejecutar mucho y a las mil maravillas, tener &lt;em&gt;roadmaps&lt;/em&gt; cargados hasta arriba y sentirnos bien con nosotros mismos al creernos la falsa sensación de estar entregando mucho.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, hagamos una reflexión, echemos un ojo a todas las funcionalidades entregadas en el último trimestre, vayamos una a una… ¿realmente todas ellas han aportado tanto valor? ¿realmente &lt;strong&gt;ha merecido la pena su inversión&lt;/strong&gt;?&lt;/p&gt;
+
+&lt;p&gt;Por lo general, las organizaciones tienden a buscar muchas más eficiencias en el &lt;em&gt;delivery&lt;/em&gt; que en el &lt;em&gt;discovery&lt;/em&gt; porque son problemas más fácilmente accesibles en el día a día. Pero deberíamos estar haciendo justamente lo contrario.&lt;/p&gt;
+
+&lt;p&gt;Optimizar el &lt;em&gt;discovery&lt;/em&gt; no es responsabilidad de una sola persona en la organización, es obligación de todos los equipos, sin embargo, lanzo las preguntas de nuevo…&lt;/p&gt;
+
+&lt;p&gt;¿Cuántas ceremonias dedicamos a optimizar el &lt;em&gt;delivery&lt;/em&gt;? ¿Cuántas ceremonias dedicamos a optimizar el &lt;em&gt;discovery&lt;/em&gt;? ¿Cuánto tiempo dedicas a pensar en como hacer el &lt;em&gt;delivery&lt;/em&gt; vs. cuánto tiempo dedicas a pensar en como hacer el mejor &lt;em&gt;discovery&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;En enero del año pasado ya escribí un &lt;strong&gt;#InformeLanaspa&lt;/strong&gt; explicando porqué &lt;a href=&quot;https://planaspa.com/2021/01/10/Costovation.html&quot;&gt;menos es más&lt;/a&gt; y todos los costes asociados del más en general.&lt;/p&gt;
+
+&lt;p&gt;Que no se nos olvide dónde realmente merece la pena estrujar nuestro cerebro y utilizar nuestra energía. Reflexionemos sobre nuestro &lt;em&gt;dicovery&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Apr 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/04/17/Discovery-Delivery/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/04/17/Discovery-Delivery/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Los datos, una commodity</title>
+        <description>&lt;p&gt;Desde hace años se lleva comparando al dato con el petróleo. Equivalencia que nunca me ha convencido del todo en el que se da a entender que se es rico por el simple hecho de poseer una fuente de datos.&lt;/p&gt;
+
+&lt;p&gt;El dato, a mi juicio, no es mas que la materia prima para algo más elevado, para crear algo que aporta más valor. Y no se debe dar por hecho el proceso de tener un dato a tener una ventaja competitiva.&lt;/p&gt;
+
+&lt;p&gt;Donde si que creo que la similitud con el petróleo es buena es al poner ambos elementos al nivel de materia prima, de &lt;em&gt;commodity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;commodity&quot;&gt;Commodity&lt;/h2&gt;
+
+&lt;p&gt;El dato, si se puede obtener gratis de fuentes públicas o adquirir en el mercado, no crea barreras de entrada ni puntos diferenciales en tu producto. No deja de ser un elemento más que importas en tu negocio para fabricar tu producto final.&lt;/p&gt;
+
+&lt;p&gt;Puede costar más o menos dinero conseguirlo, importarlo e incorporarlo en tu línea de producción, pero está al alcance de cualquier persona en el mercado con capacidad económica para incorporarlo. Estos datos son los datos commodity con amplias reservas en el mundo.&lt;/p&gt;
+
+&lt;p&gt;Ejemplos de estos datos los podemos ver en:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Los precios de activos financieros en bolsa que cambian cada día en la aplicación &lt;em&gt;broker&lt;/em&gt; de tu banco.&lt;/li&gt;
+  &lt;li&gt;Los mapas que Uber utiliza para mostrarte la ruta que vas a seguir.&lt;/li&gt;
+  &lt;li&gt;Los datos de las aerolíneas que puedes encontrar en tu buscador de viajes favorito.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Estos datos son los que proporcionan las funcionalidades &lt;em&gt;must-have&lt;/em&gt; de tu producto. Aquellas funcionalidades que los usuarios dan por hecho, aquellas que nadie va a apreciar si están ahí pero que sirven de motivo de queja y descontento si no lo están.&lt;/p&gt;
+
+&lt;p&gt;Son el &lt;strong&gt;precio que has de pagar para poder entrar&lt;/strong&gt; en el mercado. Sin pagar este peaje ni si quiera se puede jugar en el mercado.&lt;/p&gt;
+
+&lt;h3 id=&quot;la-excepción&quot;&gt;La excepción&lt;/h3&gt;
+
+&lt;p&gt;El dato, por lo tanto, es una &lt;em&gt;commodity&lt;/em&gt;. Sin embargo, no todas las &lt;em&gt;commodities&lt;/em&gt; son iguales. El agua, el trigo y el cobre son &lt;em&gt;commodities&lt;/em&gt; pero ofrecen valores diferentes.&lt;/p&gt;
+
+&lt;p&gt;En el mundo digital, los datos que si que se pueden empezar a entender como &lt;em&gt;commodities&lt;/em&gt; estratégicas son aquellas que no puede poseer nadie más.&lt;/p&gt;
+
+&lt;p&gt;Solo si se es el único que posee una fuente de datos se está en condiciones de comenzar a crear una &lt;strong&gt;barrera de entrada&lt;/strong&gt; entorno a esta información.&lt;/p&gt;
+
+&lt;p&gt;No obstante, esto es algo difícil de conseguir en el mundo del software a no ser que se sea quien genere ese dato y nadie más pueda obtener datos similares o sustitutivos.&lt;/p&gt;
+
+&lt;p&gt;Hay datos que pueden parecer únicos a cada plataforma pero que tienen muchos &lt;strong&gt;sustitutivos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Podría parecer que los &lt;em&gt;likes&lt;/em&gt; de Facebook son únicos para Facebook. Sin embargo, el like en Facebook a un video vale lo mismo que el me gusta en Youtube o el me gusta en TikTok.&lt;/p&gt;
+
+&lt;h2 id=&quot;hay-que-trabajarlos&quot;&gt;Hay que trabajarlos&lt;/h2&gt;
+
+&lt;p&gt;El dato por si solo, por lo tanto, rara vez puede considerarse un elemento diferencial en tu negocio por el cual se deban regir las decisiones de diferenciación comercial. Sin embargo, si que es, en la mayoría de las ocasiones, el &lt;strong&gt;precio que se ha de pagar por poder jugar en el mercado&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;En el caso de tener un dato único que no se pueda conseguir de ninguna otra manera en el mercado a base de inversión, se está en condiciones de &lt;strong&gt;comenzar&lt;/strong&gt; a construir una barrera de entrada interesante en nuestro negocio.&lt;/p&gt;
+
+&lt;p&gt;Pero es importante recordar que el dato nunca será la barrera de entrada, el dato se ha de trabajar, el dato será siempre la materia prima sobre la que poder construir una ventaja competitiva o un &lt;em&gt;must-have&lt;/em&gt; en nuestro producto.&lt;/p&gt;
+
+&lt;p&gt;Constuir esas ventajas competitivas es lo realmente &lt;strong&gt;difícil&lt;/strong&gt;. Lo importante es como explotamos los datos para ofrecer una experiencia única o un modelo de negocio diferente. Tener los datos o integrarlos en nuestro producto rara vez suponen un salto cualitativo.&lt;/p&gt;
+
+&lt;p&gt;No pongamos a los datos como diana para cumplir objetivos estratégicos, pongámolos como base fundamental en un objetivo más grande que marque un diferencia real para el usuario.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 20 Mar 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/03/20/Dato-Commodity/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/03/20/Dato-Commodity/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Código al servicio político</title>
+        <description>&lt;p&gt;Cada vez más la tecnología está presente en nuestros días. Las grandes plataformas tecnológicas globales se han impuesto como producto de uso diario para la mayoría de los ciudadanos del planeta.&lt;/p&gt;
+
+&lt;p&gt;Unas plataformas tecnológicas que ofrecen el mismo producto a todos los ciudadanos del mundo. ¿Y cual es una de las consecuencias?&lt;/p&gt;
+
+&lt;p&gt;Cuando un producto se comienza a usar con frecuencia y registra beneficios record empieza a ponerse en el punto de mira de los gobiernos que buscan regularlos, pero eso si, cada gobierno a su manera.&lt;/p&gt;
+
+&lt;h2 id=&quot;regulación&quot;&gt;Regulación&lt;/h2&gt;
+
+&lt;p&gt;La regulación siempre ha existido, todo aquel sector que se haya ido imponiendo ha sido puesto en la diana política de la voracidad regulatoria. Esto no es nuevo.&lt;/p&gt;
+
+&lt;p&gt;No obstante, hace unas décadas el problema era más simple de resolver para las empresas porque la mayoría concentraban sus operaciones en un único país en concreto o pocos países.&lt;/p&gt;
+
+&lt;p&gt;Las grades plataformas globales, sin embargo, ofrecen un mismo producto con caracter global, con la ambición de cubrir todas las fronteras existentes. Sus efectos de red son globales, no entienden de jurisdicciones.&lt;/p&gt;
+
+&lt;p&gt;Esto implica que los grandes productos tecnológicos han de adaptarse a diferentes reglas legislativas. Hasta ahora la presión regulatoria ha sido suave por la lentitud o inacción de algunos gobiernos, pero poco a poco comienza a ser mayor y a exigir cambios en cada una de las plataformas.&lt;/p&gt;
+
+&lt;p&gt;¿Qué es lo que implica para las plataformas tecnológicas globales?:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implica tener que generar código y lógica diferente para cada regulación.&lt;/li&gt;
+  &lt;li&gt;Implica tener que tratar información y flujos de datos de manera diferente.&lt;/li&gt;
+  &lt;li&gt;Implica mantener bases de código diferentes que evolucionan según los dictamenes de unos políticos, que no suelen ser rápidos, pero si enrevesados e incoherentes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;La regulación hace que los productos y plataformas globales no escalen&lt;/strong&gt; de manera tan sencilla.&lt;/p&gt;
+
+&lt;h3 id=&quot;fragmentación-y-complejidad&quot;&gt;Fragmentación y complejidad&lt;/h3&gt;
+
+&lt;p&gt;Hasta ahora, Internet y sus grandes plataformas han funcionado en su mayoría en base a las ideas y legislaciones estadounidenses, principalmente porque de ahí provino la mayor parte de las principales mayores plataformas tecnológicas.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, poco a poco, nos estamos moviendo hacia un mundo de fronteras regulatorias múltiples y superpuestas. &lt;strong&gt;Probablemente comenzarán a chocar entre sí, llegarán a ser incluso incompatibles&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Añadir requisitos regulatorios a nuestras bases de código implica dejar de tener un producto horizontal y tener que crear verticales por jurisdicción. Verticales diferentes que exigen un mantenimiento independiente y que incrementan en órdenes de magnitud la complejidad del producto. Y por lo tanto, su &lt;strong&gt;coste de mantenimiento&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Un país puede querer implantar medidas proteccionistas que protejan a ciertos sectores o culturas mientras que otro país quiera promover unas narrativas aperturistas y de total libre competencia. Llevado a un extremo podemos ver la actual GDPR europea.&lt;/p&gt;
+
+&lt;p&gt;Una regulación de datos mucho más estricta que la existente en EEUU y que no solo regula lo que ocurre en territorio europeo, si no que impone requisitos regulatorios para cualquier dato perteneciente a cualquier ciudadano de la UE, independientemente de donde estén los servidores de la plataforma digital o desde donde se esté conectando el ciudadano.&lt;/p&gt;
+
+&lt;p&gt;¿Podríamos llegar a un punto en el que hubiese incompatibilidades entre regulaciones de varios paises?&lt;/p&gt;
+
+&lt;p&gt;Esta claro que la complejidad no va más que a aumentar en los próximos años y que puede llegar a ser un quebradero de cabeza para algunas de las hoy grandes plataformas tecnológicas: Google, Facebook, Amazon, Uber, Airbnb…&lt;/p&gt;
+
+&lt;p&gt;Todas ellas expuestas a jurisdicciones de muy diversa índole conforme el tiempo vaya pasando y los políticos vayan dictando unas u otras decisiones.&lt;/p&gt;
+
+&lt;h2 id=&quot;barreras-de-entrada&quot;&gt;Barreras de entrada&lt;/h2&gt;
+
+&lt;p&gt;En Europa somos líderes en regulación, somos expertos en regular. Es muy difícil seguir la regulación europea si no se vive y entiende Europa.&lt;/p&gt;
+
+&lt;p&gt;¿Podrían llegar a ser las diferentes regulaciones creadores de nichos de negocio tecnológico? No sería descabellado empezar a ver productos verticales especializados en solventar problemáticas regulatorias europeas y quién mejor que los propios europeos para resolverlas.&lt;/p&gt;
+
+&lt;p&gt;¿Podrían incluso llegar a ser barreras de entrada en favor de las plataformas tecnológicas europeas que tuviesen la mejor comprensión de la regulación local?&lt;/p&gt;
+
+&lt;p&gt;Puede que la regulación llegue a tener un punto a favor de la europa que se ha quedado atrás en la carrera tecnológica si la comparamos con EEUU o poco a poco Asia.&lt;/p&gt;
+
+&lt;p&gt;Lo que está claro es que la regulación no va a parar de crecer y atrapar a todas las plataformas tecnológicas que por ahora han podido vivir ajenas a estas complejidades.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, los políticos y su voracidad regulatoria nunca descansan. No cabe duda que acabaremos creando código al servicio político.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Mar 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/03/06/Regulacion/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/03/06/Regulacion/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Rompiendo silos de datos</title>
+        <description>&lt;p&gt;Existe un reto que comparten tanto las empresas que están sufriendo un &lt;strong&gt;alto crecimiento&lt;/strong&gt; en un periodo corto de tiempo como aquellas que son más maduras pero que han estado operando durante las últimas décadas. La gestión de su información.&lt;/p&gt;
+
+&lt;h2 id=&quot;silos&quot;&gt;Silos&lt;/h2&gt;
+
+&lt;p&gt;En entornos de alto crecimiento o en entornos de empresas maduras que llevan años operando se tienden a generar silos funcionales y de información.&lt;/p&gt;
+
+&lt;p&gt;Los silos no son una decisión proactiva ni deseada a nivel funcional, &lt;strong&gt;son una consecuencia&lt;/strong&gt; de organizar a los equipos en células totalmente autónomas con el fin de que sean independientes y puedan ser lo más ágiles posibles.&lt;/p&gt;
+
+&lt;p&gt;Cuando un equipo o departamento autónomo comienza a centrarse en resolver un problema en específico, es natural que lo intenten resolver de la forma más rápida dentro del equipo y que no dediquen tiempo a pensar en como las micro decisiones que están tomando pueden afectar al resto de los equipos de la compañía.&lt;/p&gt;
+
+&lt;p&gt;De hecho, muchas veces los equipos ni son conscientes que deberían comunicar según que decisiones al resto de la organización.&lt;/p&gt;
+
+&lt;p&gt;Estos comportamientos tienden a generar silos. Toda organización tiene sus ventajas y desventajas.&lt;/p&gt;
+
+&lt;p&gt;Las organizaciones que buscan la velocidad, agilidad e independencia total de equipos para resolver sus problemas tienen este resultado. No es malo, simplemente hay que ser consciente de ello para poder ponerle solución.&lt;/p&gt;
+
+&lt;h3 id=&quot;consecuencias&quot;&gt;Consecuencias&lt;/h3&gt;
+
+&lt;p&gt;Las consecuencias de estos silos son información, código y datos desconectados.&lt;/p&gt;
+
+&lt;p&gt;Los datos que son necesarios para un departamento, equipo o módulo de un producto en específico se suelen generar en silos de información que, en consecuencia, no son fácilmente compartibles con el resto.&lt;/p&gt;
+
+&lt;p&gt;Esos datos están aún &lt;strong&gt;menos pensados&lt;/strong&gt; para ser analizados ni investigados por equipos externos que no se dedican al mantenimiento del producto.&lt;/p&gt;
+
+&lt;p&gt;Tener la información desperdigada en silos implica que otras partes de la empresa no pueden acceder a ella de una manera sencilla lo que lleva a dos escenarios:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Desconocimiento&lt;/strong&gt; y no utilización de la misma información entre equipos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Duplicidad&lt;/strong&gt; de esfuerzos y mayor &lt;strong&gt;sobrecarga&lt;/strong&gt; de trabajo para poder utilizar la información empleada por otros equipos.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esto puede aparentar un problema menor cuando la empresa está en una fase muy embrionaria, pero conforme se comienza a escalar la existencia de silos de información puede ser una razón perfecta para dejar de crecer.&lt;/p&gt;
+
+&lt;p&gt;Romper silos y unificar datos entre diferentes equipos y departamentos es la única manera de explotar el máximo potencial de una organización. Los silos no escalan, generan duplicidades de esfuerzos y de datos.&lt;/p&gt;
+
+&lt;p&gt;Normalmente los datos entre silos no se actualiza al mismo ritmo, lo que lleva a trabajar con información desactualizada, te hace trabajar en soluciones tecnológicas independientes que cada equipo ha de mantener por su cuenta y, en última instancia, impide aplicar una política de seguridad común para cada silo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Los silos acaban destruyendo tus ventajas competitivas si no acabas con ellos antes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Por todo esto, la única alternativa a la creación de silos de información entre departamentos, productos o módulos dentro de un mismo producto es la creación de una &lt;strong&gt;plataforma de datos&lt;/strong&gt; centralizada.&lt;/p&gt;
+
+&lt;p&gt;Una plataforma de datos común a tu empresa que te permita eliminar la complejidad de tener que gestionar datos, proveedores de tecnología o información y que te provea de una estrategia común para que los consumidores de esta información puedan centrarse en las actividades donde &lt;strong&gt;aportan más valor&lt;/strong&gt;, olvidándose de todos los problemas de datos asociados.&lt;/p&gt;
+
+&lt;h2 id=&quot;plataformas-de-datos&quot;&gt;Plataformas de datos&lt;/h2&gt;
+
+&lt;p&gt;Desde un punto de vista más técnico, una plataforma de datos centralizada permite comprender, gobernar y acceder a los datos de toda una organización. Además, asegura la entrega y seguridad de los datos para toda la empresa.&lt;/p&gt;
+
+&lt;p&gt;Es una combinación de tecnologías interoperables, escalables y modulares que trabajan juntas para satisfacer las necesidades generales de datos de una empresa.&lt;/p&gt;
+
+&lt;p&gt;Son la solución al problema de tener inconsistencias y redundancias de datos dentro de una organización y permiten maximizar el potencial ocultos en la información que se posee.&lt;/p&gt;
+
+&lt;p&gt;Se ágil, pero no olvides romper tus silos de información, construye tu plataforma de datos.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Feb 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/02/20/Rompiendo-Silos/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/02/20/Rompiendo-Silos/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Canibalismo informático</title>
+        <description>&lt;p&gt;Esta semana, DeepMind ha sacado a la luz resultados de otro de sus proyectos que prometen dejar huella en nuestra industria.&lt;/p&gt;
+
+&lt;p&gt;Ya vimos grandes avances en el campo de la inteligencia artificial con los proyectos de &lt;a href=&quot;https://planaspa.com/2020/07/26/GPT-3.html&quot;&gt;GPT-3&lt;/a&gt; y &lt;a href=&quot;https://planaspa.com/2020/12/13/Alphafold2.html&quot;&gt;Alphafold2&lt;/a&gt; durante el año pasado.&lt;/p&gt;
+
+&lt;p&gt;Este año, en la primera semana de febrero ya hemos empezado fuerte con AlphaCode.&lt;/p&gt;
+
+&lt;h1 id=&quot;lo-que-ha-ocurrido&quot;&gt;Lo que ha ocurrido&lt;/h1&gt;
+
+&lt;p&gt;En el mundo de la tecnología existen competiciones internacionales en el que se publican retos de programación a resolver en un tiempo limitado en los que miles de ingenieros y desarrolladores de muy alto nivel tratan de generar el algoritmo correcto para dar respuesta al problema planteado.&lt;/p&gt;
+
+&lt;p&gt;De esta manera se generan &lt;em&gt;rankings&lt;/em&gt; y se otorgan premios a los desarrolladores más hábiles que a su vez, en muchas ocasiones, son abordados por equipos de RRHH de gigantes tecnológicos para incorporarlos a sus equipos.&lt;/p&gt;
+
+&lt;p&gt;AlphaCode, ha sido entrenado con muchas de éstas pruebas generadas en estas competiciones. Este es el esquema que han publicado su &lt;a href=&quot;https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode&quot;&gt;nota de prensa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;post_image_center&quot;&gt;
+&lt;img src=&quot;https://www.planaspa.com/assets/img/posts/20220206/AlphaCode.png&quot; alt=&quot;[Imagen] - &quot; class=&quot;post_image&quot; /&gt;
+&lt;figcaption class=&quot;post_image_caption&quot;&gt;&lt;/figcaption&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Como entrada, AlphaCode recibe un problema bien definido y escrito a modo de &lt;strong&gt;enunciado por seres humanos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Utiliza todos los repositorios de código en Github utilizados por estos desarrolladores para aprender como se genera una pieza de código capaz de resolver el problema descrito en inglés por un ser humano.&lt;/p&gt;
+
+&lt;p&gt;De esta manera se obtiene un &lt;em&gt;dataset&lt;/em&gt; capaz de formar a una inteligencia artifical en el arte de la programación.&lt;/p&gt;
+
+&lt;p&gt;El resultado ha sido muy bueno, aunque aún le queda un largo camino por recorrer.&lt;/p&gt;
+
+&lt;p&gt;AlphaCode es capaz de recibir la misma descripción de un problema que un desarrollador y se quedaría por encima del 50% de los participantes en el ranking de competiciones de programación.&lt;/p&gt;
+
+&lt;p&gt;Resultado nada malo si contextualizamos entendiendo que estas competiciones de programación normalmente son frecuentadas por programadores de muy alto rendimiento hoy en día.&lt;/p&gt;
+
+&lt;h1 id=&quot;futuro&quot;&gt;Futuro&lt;/h1&gt;
+&lt;p&gt;Ahora trasladémonos 10 años al futuro. Un futuro en el que AlphaCode sea una realidad en el día día. Suelo mirar siempre a 10 años vista porque estos cambios suelen suceder rápido, pero hasta que se masifican y esntandarizan les lleva un tiempo.&lt;/p&gt;
+
+&lt;p&gt;En 10 años es posible que si AlphaCode evoluciona favorablemente y a su calor se van sucediendo otros proyectos apoyados por grandes comunidades, podríamos llegar a un punto en el que &lt;strong&gt;no sea necesario programar&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Si una máquina es capaz de programar, probablemente se hagan proyectos para que las máquinas escriban en los lenguajes más eficientes posibles, por lo que la amplia gama de lenguajes de programación existentes podrían tender a un subconjunto menor.&lt;/p&gt;
+
+&lt;p&gt;Las aplicaciones ya desarrolladas, deberían seguir manteniéndose probablemente por humanos al no haber sido inicialmente dearrolladas por máquinas y posiblemente tener lógicas dificilmente acoplables a los paradigmas de programación máquina.&lt;/p&gt;
+
+&lt;p&gt;Esto nos llevaría a una &lt;strong&gt;gran divergencia&lt;/strong&gt; entre bases de software de nueva creación vs. las ya existentes.&lt;/p&gt;
+
+&lt;p&gt;Los nuevos proyectos se harían con código desarrollado por máquinas lo que aceleraría muchísimo la evolución software de nuevos productos digitales vs. las bases de código &lt;em&gt;legacy&lt;/em&gt; que haya que seguir manteniendo “a mano” y con lenguajes no soportados para generarse de manera automática.&lt;/p&gt;
+
+&lt;p&gt;Veríamos un cambio brutal en el tipo de trabajo a desarrollar por desarrolladores de software. Se pondría en relevancia la importancia de &lt;strong&gt;una buena definición de requisitos&lt;/strong&gt; y de un buen conjunto de pruebas para validar el correcto funcionamiento de un código desarrollado por una máquina.&lt;/p&gt;
+
+&lt;p&gt;Los programadores evolucionarían hacia un rol más de definición detallada de requisitos y de gestión de batería de pruebas.&lt;/p&gt;
+
+&lt;p&gt;Podríamos visualizar fácilmente un aumento de las tecnologías no-code en la que no se necesite una formación técnica para poder crear software de una manera más avanzada, utilizando el lenguaje natural.&lt;/p&gt;
+
+&lt;p&gt;Todo esto no parece descabellado, aunque si todavía lejano.&lt;/p&gt;
+
+&lt;p&gt;Este avance tecnológico me resulta muy paradójico… ¿Podría ser el gremio informático el primero en crear una tecnología capaz de mandar a todo su gremio al paro?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Feb 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/02/06/Canibalismo-Informatico/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/02/06/Canibalismo-Informatico/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Homo suscriptor</title>
+        <description>&lt;p&gt;El pasado 7 de enero, Taco Bell, la cadena de comida rápida especializada en Tex-Mex, lanzó al mercado su propio modelo de suscripción mensual de comida rápida. 10$ al mes por poder comer un taco diario en cualquiera de sus establecimientos.&lt;/p&gt;
+
+&lt;p&gt;A bote pronto parece claro movimiento para intentar:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Convertir a clientes esporádicos en clientes &lt;strong&gt;regulares&lt;/strong&gt; creándoles el hábito de visitar su cadena de restaurantes.&lt;/li&gt;
+  &lt;li&gt;La posibilidad de &lt;strong&gt;upsell&lt;/strong&gt; de otros productos en sus visitas diarias. Ya que voy a por un taco me compro cualquier otra cosa ahí.&lt;/li&gt;
+  &lt;li&gt;Información, &lt;strong&gt;datos&lt;/strong&gt; de hábitos de consumo de sus clientes para optimizar la oferta comercial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Los modelos de suscripción se están imponiendo en muchas industrias, aunque personalmente no me la esperaba en la de la comida rápida, me ha cogido por sorpresa.&lt;/p&gt;
+
+&lt;p&gt;Parece que nos estamos adentrando en una era en la que todo servicio que antes comprábamos bajo demanda está tendiendo a ser consumido bajo un modelo de suscripción. Estamos camino a convertirnos en un &lt;strong&gt;Homo Suscriptor&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;psicología-del-homo-suscriptor&quot;&gt;Psicología del Homo Suscriptor&lt;/h2&gt;
+
+&lt;p&gt;Los modelos de suscripción se están imponiendo por diferentes razones.&lt;/p&gt;
+
+&lt;p&gt;Por un lado, son modelos que no requieren por parte del cliente una necesidad de capital inicial alto para poder consumir el producto. Lo que &lt;strong&gt;reduce las barreras de entrada&lt;/strong&gt; al consumo del bien en particular.&lt;/p&gt;
+
+&lt;p&gt;El Homo Suscriptor ya no necesita ahorrar durante un periodo de tiempo para poder disfrutar de un bien o servicio.&lt;/p&gt;
+
+&lt;p&gt;Los modelos de suscripción tienden a generar &lt;strong&gt;hábitos de consumo&lt;/strong&gt; en los clientes al forzar al Homo Suscriptor a relizar actos repetitivos que quedan grabados y automatizados en el subconsciente, lo que repercute en una mayor lealtad al producto.&lt;/p&gt;
+
+&lt;p&gt;Además, una vez hemos adquirido una suscripción, existe un perverso juego mental en el que necesitamos &lt;strong&gt;justificar&lt;/strong&gt; el gasto mensual que tenemos, por lo que se potencia el consumo de la suscripción.&lt;/p&gt;
+
+&lt;p&gt;El Homo Suscriptor se fuerza a usar más el producto o servicio y tiene mayor inclinación a comprar cualquier cosa que se venda por encima de esa paquete de suscripción base por el que ya está pagando.&lt;/p&gt;
+
+&lt;h2 id=&quot;tipos-de-suscripción&quot;&gt;Tipos de suscripción&lt;/h2&gt;
+
+&lt;p&gt;Hasta ahora los modelos de suscripción han ido cubriendo las siguientes necesidades de los usuarios:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Entretenimiento ilimitado&lt;/strong&gt;: Modelo en el que se ofrece un servicio infinito de consumo como Spotify. Un agregador de contenido y entretenimiento ilimitado. Ofrece constantes actualizaciones y mejoras includias en el precio para estar a la última.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sorprender&lt;/strong&gt;: Aquí se incluyen modelos de suscripción en los que se prepara un cojunto de nuevos productos o aventuras emocionantes o de interés para el usuario de manera recurrente en cada envío, por ejemplo Lookiero en España te envia ropa de manera mensual de acuerdo a tu estilo.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ahorrar tiempo&lt;/strong&gt;: Modelos que te ahorran el quebradero de cabeza de tener que recordar y pensar compras diarias que necesitas. Por ejemplo el supermercado, comida de perros, maquinillas de afeitar… Por ejemplo, Amazon permite tener pedidos recurrentes a los que te puedes suscribir.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Los modelos de suscripción cada vez van cubriendo más necesidades del Homo Suscriptor… ¿Cómo será el futuro? ¿Hasta donde llegarán los modelos de suscripción?&lt;/p&gt;
+
+&lt;p&gt;¿Llegaremos a una evolución total del Homo Suscriptor como ser que &lt;strong&gt;no posea nada&lt;/strong&gt; y esté suscrito a todo?&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 23 Jan 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/01/23/Homo-suscriptor/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/01/23/Homo-suscriptor/</guid>
+        
+      </item>
+    
+      <item>
+        <title>Costes --&gt; Beneficios</title>
+        <description>&lt;p&gt;Empieza el nuevo año, y yo no voy a hacer un ejercicio de propósitos de año nuevo, pero si que quiero hacernos pensar.&lt;/p&gt;
+
+&lt;p&gt;Quiero hacernos reflexionar sobre un tema al que creo que le debemos de reservar un hueco de manera &lt;strong&gt;anual&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Miremos a nuestro alrededor e identifiquemos cuales son los mayores costes en los que nuestro equipo está incurriendo.&lt;/p&gt;
+
+&lt;p&gt;¿Son imprescindibles para el largo plazo de nuestro equipo? Si es un coste que me va a acompañar durante los próximos largos años y no es un coste despreciable… ¿Existe alguna manera de &lt;strong&gt;sacar ventaja&lt;/strong&gt; de ello?&lt;/p&gt;
+
+&lt;p&gt;¿Existe alguna manera de convertir esos costes en una fuente de ingresos para hacer nuestra unidad/departamento una unidad más sostenible (más aún si cabe) en el tiempo?&lt;/p&gt;
+
+&lt;p&gt;Pensemos en cómo podemos &lt;strong&gt;abrir nuestra infraestructura a terceros&lt;/strong&gt; como un servicio más y en como podemos generar &lt;strong&gt;subproductos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esto no solo aplica a los costes. Observemos cada inversión en activos que estamos realizando, ¿existe la posibilidad de utilizar esos activos no solo para nosotros si no también para beneficio de terceros?&lt;/p&gt;
+
+&lt;p&gt;Activos no solo incluyen activos físicos como torres de telecomunicaciones, carreteras o centros de ĺogística. Los &lt;strong&gt;datos&lt;/strong&gt; que poseemos, el &lt;strong&gt;software&lt;/strong&gt; que construimos o las &lt;strong&gt;audiencias&lt;/strong&gt; que generamos también son activos perfectamente explotables.&lt;/p&gt;
+
+&lt;p&gt;¿Podemos sacarles partido de alguna manera? ¿Existen mercados o necesidades en el mercado que podemos cubrir aunque no sea algo &lt;em&gt;core&lt;/em&gt; a nuestro negocio principal?&lt;/p&gt;
+
+&lt;h2 id=&quot;abrir-a-terceros&quot;&gt;Abrir a terceros&lt;/h2&gt;
+
+&lt;p&gt;A veces, implementar algo para ser consumido por nosotros mismos tiene un delta de trabajo pequeño para ser abierto a terceros como una línea de negocio nueva si se piensa desde un principio para no ser consumido únicamente por nosotros.&lt;/p&gt;
+
+&lt;p&gt;Esta es una &lt;a href=&quot;https://twitter.com/BrianFeroldi/status/1284795114187919362/photo/1&quot;&gt;diapositiva&lt;/a&gt; que creó SocialCapital hace unos años en la que presentaba cómo una de las estrategias de Amazon había sido precisamente esta.&lt;/p&gt;
+
+&lt;div class=&quot;post_image_center&quot;&gt;
+&lt;img src=&quot;https://www.planaspa.com/assets/img/posts/20220109/amazon_costs.png&quot; alt=&quot;[Imagen] - &quot; class=&quot;post_image&quot; /&gt;
+&lt;figcaption class=&quot;post_image_caption&quot;&gt;&lt;/figcaption&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Básicamente Amazon fomentó la conversión de fuentes importantes de gastos en fuentes de beneficios.&lt;/p&gt;
+
+&lt;p&gt;Abrió servicios que se consumían internamente para el correcto funcionamiento de Amazon a terceras empresas que tuviesen la necesidad de estos servicios.&lt;/p&gt;
+
+&lt;p&gt;Si piensas en ti mismo como el primer cliente de cualquier servicio, hacer que sea consumible por N clientes más no requiere de un esfuerzo titánico.&lt;/p&gt;
+
+&lt;p&gt;Muchas veces tus necesidades no son únicas en el mercado y existen nichos ya existentes que puedes complementar o cubrir por completo.&lt;/p&gt;
+
+&lt;h2 id=&quot;subproductos&quot;&gt;Subproductos&lt;/h2&gt;
+
+&lt;p&gt;Los subproductos son productos que se generan como derivada de crear el producto final.&lt;/p&gt;
+
+&lt;p&gt;Si observásemos nuestra empresa de software como una fábrica de muebles, la fábrica utiliza materias primas que adquiere en el mercado, contruye el mueble final que venderá al usuario pero en el camino ha generado subproductos que puede tirar e ignorar o &lt;strong&gt;comercializar&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Serrín, para la fabricación de tableros aglomerado.&lt;/li&gt;
+  &lt;li&gt;Troncos de madera cortados pero que aún pueden servir como combustible para otras industrias.&lt;/li&gt;
+  &lt;li&gt;Resinas para la utilización en barnices o adhesivos…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Toda fábrica genera subproductos y abre líneas de negocios menores en base a ellos. Líneas en las que &lt;strong&gt;no te has de volver loco&lt;/strong&gt;, porque no son el &lt;em&gt;core&lt;/em&gt; de tu negocio, pero que tampoco has de dejar escapar la oportunidad si merece la pena.&lt;/p&gt;
+
+&lt;p&gt;¿Cuales son los subproductos que generas en la creación de tu producto principal de software? ¿Estás intentando hacer algo con ellos? ¿Puedes convertir fácilmente costes en nuevas líneas menores de beneficios para tener una fábrica más sostenible?&lt;/p&gt;
+
+&lt;p&gt;Comencemos el año pensando en como convertir nuestros &lt;strong&gt;costes en beneficios&lt;/strong&gt;. En como abrir nuestra infraestructura a &lt;strong&gt;terceros&lt;/strong&gt;. En como sacar partido de nuestros &lt;strong&gt;subproductos&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Jan 2022 10:10:10 +0000</pubDate>
+        <link>https://www.planaspa.com/2022/01/09/Costs-into-benefits/</link>
+        <guid isPermaLink="true">https://www.planaspa.com/2022/01/09/Costs-into-benefits/</guid>
+        
+      </item>
+    
+  </channel>
+</rss>

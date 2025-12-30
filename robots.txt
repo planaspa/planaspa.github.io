@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://planaspa.com/sitemap.xml
