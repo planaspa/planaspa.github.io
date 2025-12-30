@@ -1,6 +1,7 @@
 ## Core Principles
 -- **Content is King:** All Markdown files in '/_posts' must remain untouched in content and structure.
 -- **Tech stack:** Jekyll, Liquid, HTML, CSS, JavaScript, and Ruby Gems for dependency management via Bundler.
+-- **Mobile/Desktop Optimization:** Optimize all changes for mobile experience and desktop experience following best UX and front-end practices when developing the code.
 
 
 ## Directory Map
@@ -42,3 +43,4 @@
 ## Git protocol
 - Before suggesting code, verify the current branch name.
 - All code suggestions must include a suggested "Conventional Commit" message.
+- When creating a commit, please dedicate some time to explain all the key changes made in the commit message.
