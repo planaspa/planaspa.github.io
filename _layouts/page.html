@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+{% if page.permalink == '/about' %}
+  {% include hero.html %}
+  {{ content }}
+{% else %}
 <div class="container">
 	<div class="page-title-box">
 		<div class="row">
@@ -29,3 +34,4 @@ layout: default
 		<!-- end page -->
 	</div>
 </div>
+{% endif %}
