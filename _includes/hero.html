@@ -7,7 +7,7 @@
           {% if page.hero_title %}
             <h1 class="hero__title">{{ page.hero_title }}</h1>
           {% else %}
-            <h1 class="hero__title">#InformeLanaspa</h1>
+            <h1 class="hero__title">Pablo Lanaspa</h1>
           {% endif %}
           
           {% if page.hero_subtitle %}
@@ -19,7 +19,7 @@
           {% if page.hero_description %}
             <p>{{ page.hero_description }}</p>
           {% else %}
-            <p>Una newsletter para interesados en tecnología, producto y servicios digitales. Una newsletter para comprender la economía digital que nos rodea. Una newsletter donde lanzo mis reflexiones y aprendizajes personales.</p>
+            <p>{{ site.data.settings.description }}</p>
           {% endif %}
 
           <div class="hero__social">
