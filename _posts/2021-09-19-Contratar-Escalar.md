@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Escalar contratando"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210919/bigO.png
 date: 2021-09-19 10:10:10 -0000
 categories: []

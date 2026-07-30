@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El crash tejano"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200426/cotizacion.png
 date: 2020-04-25 11:00:10 -0000
 categories: []
@@ -13,7 +11,7 @@ visible_on_index: false
 
 El mundo empezó a dejar de tener sentido hace unos meses. En Dinamarca, el pasado agosto comenzaron a [ofrecer hipotecas a tipos en negativo](https://www.theguardian.com/money/2019/aug/13/danish-bank-launches-worlds-first-negative-interest-rate-mortgage), eso implicaba que en vez de que un cliente tuviese que pagar intereses al banco por pedir un crédito, el banco te pagaba a ti intereses por endeudarte con ellos. Es decir, pedías un préstamo y tenías que devolverles menos dinero del que te habían dado. Un **sinsentido** total. 
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20200426/cotizacion.png" description="Cotización en MarketWatch" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200426/cotizacion.png" description="Cotización en MarketWatch" %}
 
 La existencia de tipos negativos no es algo nuevo porque muchos países se estaban financiando a tipos negativos desde hace años, los estados más solventes del mundo podían hacer la misma jugada en los mercados financieros, pero nunca antes había llegado al consumidor. De cualquier manera, son escenarios que no atienden a ninguna lógica.
 

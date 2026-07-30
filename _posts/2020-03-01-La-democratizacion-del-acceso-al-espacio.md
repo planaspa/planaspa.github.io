@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La democratización del acceso al espacio"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200301/infografia.png
 date: 2020-03-01 10:10:10 -0000
 categories: []
@@ -15,7 +13,7 @@ Muchos servicios de los que disfrutamos en nuestro día a día hacen uso de tecn
 
 Para que este tipo de servicios funcionen, existe una cadena de desarrollos que han de producirse: desde la construcción del satélite hasta la creación de aplicaciones para el usuario final que hagan uso de su tecnología. La cadena de valor a alto nivel sería algo así:
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200301/cadena.png" description="Cadena de valor de satélites con fines comerciales a muy alto nivel" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200301/cadena.png" description="Cadena de valor de satélites con fines comerciales a muy alto nivel" %}
 
 Hasta hace poco, todas las fases de la cadena de valor estaban abiertas al ámbito privado, con más o menos competencia en cada una de ellas, pudiendose desarrollar proyectos empresariales según las necesidades del mercado. Todas, menos una: **El lanzamiento y puesta en órbita de satélites**.
 
@@ -41,7 +39,7 @@ Las cohetes funcionan a grandes rasgos a través de dos etapas:
 * **Primera etapa**: Cuyo objetivo es crear toda la fuerza inicial para llevar la segunda etapa y carga útil más allá de la estratosfera. Es la etapa más voluminosa y potente del cohete.
 * **Segunda etapa**: Encargada de dejar la carga útil en el lugar adecuado de la órbita. Una vez la primera etapa se ha desprendido del cohete al cruzar la estratosfera, a unos 60 km de altura, la segunda etapa se encarga de posicionar la carga útil en la órbita adecuada aprovechando la inercia generada por la primera etapa y encendiendo y apagando su motor mucho más pequeño. Una vez conseguido se desprende también.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200301/infografia.png" description="Aunque de 2015 la infografía de Space.com sigue siendo vigente a alto nivel" ref="https://www.space.com/28167-spacex-risky-reusable-rocket-landing-infographic.html" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200301/infografia.png" description="Aunque de 2015 la infografía de Space.com sigue siendo vigente a alto nivel" ref="https://www.space.com/28167-spacex-risky-reusable-rocket-landing-infographic.html" %}
 
 Tal y como muestra la infografía de la izquierda, SpaceX ha conseguido que una vez la primera etapa ha finalizado su trabajo pueda volver de manera intacta a la superficie terrestre de manera autónoma en vez de despegarse del cohete y destruirse antes de llegar a la Tierra.
 

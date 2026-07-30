@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Código al servicio político"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220306/politician.png
 date: 2022-03-06 10:10:10 -0000
 categories: []

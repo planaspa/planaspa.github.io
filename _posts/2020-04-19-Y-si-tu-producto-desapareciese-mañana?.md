@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "¿Y si tu producto desapareciese mañana?"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200419/diagrama.png
 date: 2020-04-19 11:30:00 -0000
 categories: []
@@ -28,7 +26,7 @@ Una pregunta dolorosa, pero muy interesante de formular a nuestros usuarios ofre
 * Me molestaría un poco
 * No me molestaría
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200419/clasificacion.png" description="Fans, curiosos y los demás" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200419/clasificacion.png" description="Fans, curiosos y los demás" %}
 
 Por supuesto esta pregunta hay que realizarla vía encuesta anónima o algún proceso en el que nuestra mera presencia no obligue moralmente a nuestros usuarios a mentirnos para *no hacernos daño* con su respuesta. Si la pregunta la realizamos en un entorno totalmente seguro, podremos crear tres grupos principales de usuarios que nos ayudarán a poner foco:
 1. **Nuestros fans**: En el primer grupo incluiremos a los usuarios que se enfadarían si nuestro producto desapareciese. Son aquellos a los cuales realmente les estamos solucionando un problema o aportando valor que de otra manera no podrían encontrar. Estos usuarios son los que nos van a conseguir un crecimiento orgánico a coste 0. **Estos usuarios no son simplemente usuarios, son fans**.
@@ -63,7 +61,7 @@ Nuestra base de fans hay que cuidarla siempre, por encima de todo, y no queremos
 
 Poco a poco, nuestro grupo de fans irá aumentando al atraer a perfiles del grupo de los curiosos y esto hará que la variedad de perfiles vayan incrementando. Estos movimientos tienen otra derivada y es que de manera natural varios nuevos perfiles del tercer grupo que habíamos sacado fuera de la ecuación al principio se irán moviendo al grupo de curiosos. De alguna manera esto es una rueda que conforme va cogiendo movimiento va atrayendo a más usuarios. Por esta razón, deberemos ir repitiendo el test de preguntas de manera recurrente porque nuestros usuarios, como hemos visto, no serán estáticos y se irán moviendo y transformando.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200419/diagrama.png" description="Fans, curiosos y el resto. Ciclo propuesto a seguir" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200419/diagrama.png" description="Fans, curiosos y el resto. Ciclo propuesto a seguir" %}
 
 ## La importancia de segmentar
  

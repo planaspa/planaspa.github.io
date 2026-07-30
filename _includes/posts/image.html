@@ -1,0 +1,7 @@
+{% assign align = include.align | default: 'center' %}
+<div class="post_image_{{ align }}">
+<img src="{{ include.url | prepend: site.baseurl | prepend: site.url }}" alt="[Imagen] - {{ include.description }}" class="post_image">
+{% if include.description %}
+<figcaption class="post_image_caption">{{ include.description }}{% if include.ref %}, <a href="{{ include.ref }}" target="_blank">fuente</a>{% endif %}</figcaption>
+{% endif %}
+</div>

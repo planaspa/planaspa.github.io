@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Teoría de plataformas"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210418/platform_diagram.png
 date: 2021-04-18 10:10:10 -0000
 categories: []
@@ -60,7 +58,7 @@ Esta interacción clave debe generar **efectos de red**, es decir, debe ayudar a
 
 Una vez indentificados consumidores, productores e interacciones clave, el rol de la plataforma se divide en tres partes claramente diferenciadas.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20210418/platform_diagram.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20210418/platform_diagram.png" %}
 
 Por un lado, los equipos de producto de la plataforma deben enfocarse en crear capacidades para consumidores y productores. Capacidades que les permitan realizar cada vez más interacciones clave dentro de la plataforma. Capacidades que les permita hacer lo que ya están haciendo pero mucho más rápido y generándoles más atracción por el producto.
 
@@ -76,7 +74,7 @@ Los efectos de red que comentábamos a raíz de la interacción clave y la utili
 
 Los enfoques de plataforma tienen una gran ventaja competitiva frente a otros modelos, **escalan**. Es decir, con un aumento linear (o incluso constante) del esfuerzo en la creación de la plataforma, existe un crecimiento exponencial de las interacciones realizadas sobre la misma.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20210418/grafica_plataforma.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20210418/grafica_plataforma.png" %}
 
 Este crecimiento exponencial ocurre gracias a los efectos de red generados a través de las interacciones clave por un lado.
 

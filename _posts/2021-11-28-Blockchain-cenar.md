@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Blockchain hasta para cenar"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20211128/blocks.png
 date: 2021-11-28 10:10:10 -0000
 categories: []

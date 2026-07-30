@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Proyectos vs. operaciones"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220605/org.png
 date: 2022-06-05 10:10:10 -0000
 categories: []

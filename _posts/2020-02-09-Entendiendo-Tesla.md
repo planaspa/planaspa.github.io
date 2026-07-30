@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Entendiendo Tesla"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: assets/img/posts/20200209/cortos.png
 date: 2020-02-09 11:10:10 -0000
 categories: []
@@ -12,7 +10,7 @@ summary: "Mucho se ha hablado de Tesla últimamente, pero ¿cuales son sus venta
 
 Es imprescindible estar al tanto de las grandes novedades tecnológicas del mercado para poder entender hacia dónde va el futuro. En este sentido, una de las grandes novedades a la que últimamente estamos atendiendo es a la irrupción y disrupción de Tesla en el sector automovilístico. Además, Tesla abrió muchas portadas de la prensa económica cuando esta semana llegó a cotizar casi 1000$ por acción muy empujado por algún [short-squeeze](https://electrek.co/2020/02/04/tesla-tsla-stock-jumps-900-short-sqeeze/) de los muchos que quedan tras ser la empresa contra la que más se ha apostado en los últimos meses. Por estas razones, veo interesante hacer un análisis de la situación.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200209/cortos.png" description="Las posiciones cortas sobre Tesla llegan hasta casi un 19% del float total" ref="https://twitter.com/MattUntermanS3/status/1222195961709154307" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200209/cortos.png" description="Las posiciones cortas sobre Tesla llegan hasta casi un 19% del float total" ref="https://twitter.com/MattUntermanS3/status/1222195961709154307" %}
 
 ### ¿Qué es lo que diferencia a Tesla del resto?
 
@@ -24,7 +22,7 @@ Es imprescindible estar al tanto de las grandes novedades tecnológicas del merc
 * Elon Musk ha anunciado que su visión es poder crear robotaxis, coches autónomos que funcionen como taxis para llenar la ciudad de coches autónomos que funcionen como taxis, visión muy similar a la de Uber. No sabemos si llegará a ocurrir o no, pero lo que si sabemos es que Elon Musk [anunció](https://www.fool.com/earnings/call-transcripts/2020/01/30/tesla-inc-tsla-q4-2019-earnings-call-transcript.aspx) en la presentación de resultados del último trimestre que el primer paso que darán en este sentido es habilitar capacidades de car-sharing para que sus conductores puedan hacer de taxistas mientras Tesla se llevará alrededor de un 20% de comisión.
 * Tesla fabrica sus propias baterías eléctricas, lo que le permite ahorrar costes al no tener que comprársela a terceros y además le permite escalar el mercado de baterías a la velocidad que Tesla realmente necesita. Invierte fuertemente en aumentar la capacidad de las baterías y pronto será el mayor fabricante de baterías eléctricas de todo el mercado. Uno de los beneficios claros que ha repercutido el tener que hacer una integración vertical del sector desde 0.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200209/baterias.png" description="Informe de Tesla a sus inversores Q4 FY2019" ref="https://ir.tesla.com/static-files/b3cf7f5e-546a-4a65-9888-c928b914b529" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200209/baterias.png" description="Informe de Tesla a sus inversores Q4 FY2019" ref="https://ir.tesla.com/static-files/b3cf7f5e-546a-4a65-9888-c928b914b529" %}
 
 Además, y como bonus temporal:
 * Tesla **invierte 0 en publicidad**, Elon Musk le es suficiente. Tesla ha sabido posicionarse como marca tecnológica revolucionaria y con el simple seguimiento que se le hace en los medios le es suficiente para vender todos los coches que pueden llegar a producir. Tesla será estudiada en las carreras de marketing de las universidades sobre cómo conseguir una imagen de marca tan sólida invirtiendo 0$ en publicidad. Esto muy probablemente sea algo temporal y en un futuro Tesla quiera invertir en marketing, pero por ahora el *asset allocation* de la compañía está claro: desarrollo del canal de venta *online*, despliegue de infraestructura para el negocio e investigación y desarrollo. **0$ en publicidad. Sus fans son su verdadera fuerza de venta**.
@@ -41,7 +39,7 @@ Si el sueño de Tesla sale según lo planeado, estaremos ante algo más que un s
 
 Dicho así, parece que lo más sensato sea comprar todas las acciones de Tesla que podamos, esperar unos años a comprarnos una isla en el caribe y retirarnos de por vida. Y es que la apuesta tecnológica de Elon Musk es sin duda una revolución en toda regla, pero eso no quiere decir que Tesla vaya a ser una mina de oro para el que compre acciones actualmente. A día de hoy, Tesla está valorada bursatilmente más que la suma de las 3 grandes marcas de EEUU y sin embargo el número de vehículos que entrega anualmente es muy inferior a estos.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200209/market_cap.png" description="Capitalización bursatil y número de vehículos vendidos por fabricante" ref="hhttps://twitter.com/celsootero/status/1224724089270652930?s=12" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200209/market_cap.png" description="Capitalización bursatil y número de vehículos vendidos por fabricante" ref="hhttps://twitter.com/celsootero/status/1224724089270652930?s=12" %}
 
 Entonces, ¿está el mercado descontando actualmente cualquier crecimiento futuro de Tesla ya en el precio de sus acciones? Honestamente, hacer un análisis de este calibre alargaría mucho el artículo, pero si que me gustaría dejar algunos datos que pueden justificar estos precios:
 * **La deuda** que arrastran los fabricantes más importantes. Echando unos número rápidos, Volkswagen tiene alrededor de $170B de deuda a largo plazo, Toyota $130B, Ford $120B, GM $100B, Daimler $105B y BMW $80B. Tesla solo tiene $15B. Esto implica que a las capitalizaciones bursatiles que tenemos en la tabla de arriba deberíamos sumar estas cifras porque cuando se paga por un negocio se paga por lo que tiene, por su potencial y por lo que debe. De esta manera, solo añadiendo la deuda a la capitalización ya tendríamos que Tesla vale más o menos lo mismo que el resto de sus competidores a día de hoy, pese a vender muchos menos coches.

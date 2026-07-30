@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Discovery vs delivery"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220417/question.png
 date: 2022-04-17 10:10:10 -0000
 categories: []

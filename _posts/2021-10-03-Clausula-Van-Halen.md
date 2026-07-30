@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La cláusula Van Halen"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20211003/rock.png
 date: 2021-10-03 10:10:10 -0000
 categories: []
@@ -15,7 +13,7 @@ Escondida entre una lista interminable y excéntrica de requisitos, cuando el fa
 M&Ms no comercializaba bolsas de M&Ms sin M&Ms marrones, por lo que esta cláusula implicaba que alguien en la organización del concierto debía de ir bol a bol quitando los M&Ms marrones del cuenco. En caso contrario el promotor podía perder millones por un único M&M.
 
 Podéis ver un ejemplo del contrato que he encontrado en [TheSmokingGun](http://www.thesmokinggun.com/sites/default/files/imagecache/750x970/documents/1982vanhalen9_0.gif) en el que se ve claramente la cláusula:
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20211003/van_halen.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20211003/van_halen.png" %}
 
 
 ## ¿Por qué?

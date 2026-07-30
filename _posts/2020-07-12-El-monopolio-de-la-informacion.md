@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El monopolio de la información"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200712/Anuncio_DuckDuckGo.jpeg
 date: 2020-07-12 9:30:10 -0000
 categories: []
@@ -12,7 +10,7 @@ summary: "Google tiene el monopolio de la búsqueda de la información a nivel g
 
 El fin de semana pasado conducía camino de Huesca cuando al entrar a la ciudad vi un cartel en el que se anunciaba DuckDuckGo. Me hizo gracia porque parecía que DuckDuckGo era un buscador para un perfil de personas más *freaks* o alternativas que luchan por su privacidad. Cuando llegué a casa decidí [publicarlo](https://twitter.com/planaspa/status/1277341507104759808) en mi cuenta de twitter lo que me llevó a un curioso hallazgo.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200712/Anuncio_DuckDuckGo.jpeg" description="Anuncios de DuckDuckGo por toda España" ref="https://twitter.com/pablodmartin/status/1273694189109329922"%}
+{% include posts/image.html align="left" url="/assets/img/posts/20200712/Anuncio_DuckDuckGo.jpeg" description="Anuncios de DuckDuckGo por toda España" ref="https://twitter.com/pablodmartin/status/1273694189109329922"%}
 
 Durante toda la tarde no paré de recibir respuestas de personas que también habían visto todos esos carteles pero no era algo único a la zona de Huesca... ¡Estaban por toda España! Carteles anunciando DuckDuckGo en Zaragoza, Sabadell, Galicia, Barcelona, Alicante... Incluso en Suecia. 
 
@@ -28,7 +26,7 @@ Hasta ahora DuckDuckGo era un buscador utilizado por un perfil muy específico d
 DuckDuckGo es un buscador que ofrece privacidad a sus usuarios. Cuando navegamos por internet utilizando Google, Google nos perfila y nos sigue por internet para poder ofrecer espacios de publicidad *targetizada* en toda su red de AdWords. DuckduckGo sin embargo ofrece privacidad a sus usuarios, no almacena información sobre ellos y solo ofrece publicidad en base a las palabras clave que el usuario ha introducido en el buscador olvidándose acto seguido de ellas.
 
 En la última década, DuckDuckGo ha multiplicado por 2000 el número de búsquedas realizadas a través de su buscador, pasando de 30 mil búsquedas diarias en 2010 a 64 millones en los últimos días. Es un crecimiento enorme pero nada comparable con las 3500 millones de búsquedas diarias que tiene Google a día de hoy.
-{% include posts/images/image_left.html url="/assets/img/posts/20200712/Trafico_DuckDuckGo.png" description="Incremento de las búsquedas a través de DuckDuckGo" ref="https://duckduckgo.com/traffic"%}
+{% include posts/image.html align="left" url="/assets/img/posts/20200712/Trafico_DuckDuckGo.png" description="Incremento de las búsquedas a través de DuckDuckGo" ref="https://duckduckgo.com/traffic"%}
 
 
 A modo de curiosidad, la estrategia de DuckDuckGo sobre cómo crear un buscador es diferente a la de Google. 

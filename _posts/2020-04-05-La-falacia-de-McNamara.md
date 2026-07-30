@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La falacia de McNamara"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200405/McNamara.jpeg
 date: 2020-04-05 11:00:00 -0000
 categories: []
@@ -13,7 +11,7 @@ visible_on_index: false
 
 De 1961 a 1968 la Secretaría de Defensa de los Estados Unidos estaba dirigida por Robert McNamara, coincidiendo con la guerra de Vietnam. McNamara decidió afrontar la guerra tomando decisiones únicamente basadas en observaciones cuantitativas, métricas, e ignorando todas las demás. De alguna manera se convirtió en el pionero en la implantación de OKRs en el sector bélico. Algo, que como [ya hablamos]({% post_url 2020-02-05-Toda-una-organizacion-empujando-en-la-misma-direccion %}) hace unas semanas puede ser muy interesante de aplicar cuando queremos garantizar que toda una organización trabaja con un mismo foco.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200405/McNamara.jpeg" description="Robert McNamara (Departamento de Defensa de EEUU)" ref="https://www.defense.gov/observe/photo-gallery/igphoto/2002027222/" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200405/McNamara.jpeg" description="Robert McNamara (Departamento de Defensa de EEUU)" ref="https://www.defense.gov/observe/photo-gallery/igphoto/2002027222/" %}
 
 McNamara eligió una métrica objetivo clara para toda su organización que les garantizaría el éxito de la campaña en Vietnam: **Maximizar el recuento de cuerpos enemigos**. Esa métrica implicaba dos cosas:
 1. Causar el máximo número de bajas enemigas.

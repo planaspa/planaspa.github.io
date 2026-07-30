@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Canibalismo informático"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220206/AlphaCode.png
 date: 2022-02-06 10:10:10 -0000
 categories: []
@@ -25,7 +23,7 @@ De esta manera se generan *rankings* y se otorgan premios a los desarrolladores 
 
 AlphaCode, ha sido entrenado con muchas de éstas pruebas generadas en estas competiciones. Este es el esquema que han publicado su [nota de prensa](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode).
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20220206/AlphaCode.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20220206/AlphaCode.png" %}
 
 Como entrada, AlphaCode recibe un problema bien definido y escrito a modo de **enunciado por seres humanos**.
 

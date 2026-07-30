@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "(Des)Paquetizar"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210207/Pendulo.png
 date: 2021-02-07 10:10:10 -0000
 categories: []
@@ -26,7 +24,7 @@ La primera vez que leí la frase me pareció una frase demasiado simple. No obst
 
 Un ejemplo claro de este principio pendular de paquetización y despaquetización es el de la música.
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20210207/Pendulo.png" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20210207/Pendulo.png" %}
 
 La música comenzó a distribuirse a través de las grandes productoras músicales a través de vinilos, casetes y posteriormente de CDs. Diferentes soportes pero una misma práctica, la de la paquetización.
 

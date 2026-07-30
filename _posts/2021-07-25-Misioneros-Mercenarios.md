@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Misioneros y mercenarios"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210725/mercenariesvsmissionaries.png
 date: 2021-07-25 10:10:10 -0000
 categories: []

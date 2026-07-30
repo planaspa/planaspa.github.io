@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Axie Ponzi Infinity"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20211212/axie.jpeg
 date: 2021-12-12 10:10:10 -0000
 categories: []
@@ -23,7 +21,7 @@ Axie Infinity es un juego con dinámicas al estilo Pokémon. Para poder jugar ne
 
 Hasta aquí nada fuera de lo normal, un juego con unas dinámicas muy tradicionales y unos gráficos muy básicos.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20211212/axie.jpeg" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20211212/axie.jpeg" %}
 
 Lo diferente de este juego son los **incentivos económicos** que se han creado alrededor.
 

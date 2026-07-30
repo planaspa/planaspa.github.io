@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Sobredosis de apps"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210530/fusion_apps.png
 date: 2021-05-30 10:10:10 -0000
 categories: []
@@ -12,7 +10,7 @@ summary: "Ninguna empresa necesita once apps para relacionarse con sus clientes.
 
 Hace aproximadamente seis meses [tweeteaba](https://twitter.com/planaspa/status/1335532431525490690) la siguiente foto de un documento explicativo para clientes que me encontré en un cajero de la Caixa.
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20210530/apps_caixa.jpeg" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20210530/apps_caixa.jpeg" %}
 
 Un documento que trataba de explicar una a una las diferentes apps existentes dentro del banco para que los clientes entendiesen para qué servía cada una. 
 
@@ -45,7 +43,7 @@ Un usuario medio [tiene alrededor](https://www.socialmediatoday.com/news/60-fasc
 
 Si los usuarios solo utilizan una pequeña proporción de las aplicaciones que se descargan y tienen un universo bastante limitado de aplicaciones que se descarguen, ¿por qué poner tanto empeño en desarrollarlas? **¿No tiene más sentido posicinoarnos dentro de aquellas que si que utilizan?**
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20210530/fusion_apps.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20210530/fusion_apps.png" %}
 
 Desde luego, aquellas empresas que vivan de la necesidad de tener usuarios diarios en su plataforma o servicio necesiten al menos una app. Es la mejor manera de estar a un "click" de tus usuarios controlando tu propia experiencia, no hay duda.
 

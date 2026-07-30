@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Desmontando Starlink"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200531/LEOvsGEO.png
 date: 2020-05-31 09:10:10 -0000
 categories: []
@@ -23,7 +21,7 @@ Recuerdo cuando, después de haber estado trabajando durante unos meses para la 
 
 Una constelación de satélites es básicamente un conjunto de satélites artificiales que orbitan alrededor de un cuerpo y que cumplen una tarea de manera conjunta. Starlink es el proyecto de SpaceX para poder crear una constelación de satélites alrededor de la tierra con el objetivo de ofrecer conexión a internet de bajo coste a todo el planeta. 
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200531/constellation.jpeg" description="Constelación de Starlink" ref="https://www.newsbreak.com/news/0NmzLfzD/what-is-starlink-elon-musk-is-building-a-satellite-constellation" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200531/constellation.jpeg" description="Constelación de Starlink" ref="https://www.newsbreak.com/news/0NmzLfzD/what-is-starlink-elon-musk-is-building-a-satellite-constellation" %}
 
 Es decir, construir miles de satélites que lancen al espacio ([ventaja competitiva](https://planaspa.com/2020/03/01/La-democratizacion-del-acceso-al-espacio.html) muy importante siendo SpaceX la empresa que ofrece estos servicios al coste más bajo de la industria) y que se conecten entre si creando una gran red de telecomunicaciones en el espacio. 
 
@@ -49,7 +47,7 @@ Si bien el internet via satélite ha existido durante décadas, generalmente ha 
 
 Básicamente, la única manera de conseguir baja latencia, y por lo tanto dar una calidad de servicio mínima requerida hoy en día por cualquier usuario medio, es tener el satélite lo más cerca del suelo posible para que haya menos distancia entre el dispositivo y el satélite. Además, sin entrar en temas más técnicos, el estar más cerca del suelo implica cubrir una superficie terrestre menor y por lo tanto también tener que dar respuesta a menos usuarios, lo que permite repartir el internet ofrecido entre menos usuarios y por lo tanto ofrecerlo de mejor calidad.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200531/LEOvsGEO.png" description="Perspectiva de la cercanía de una órbita leo vs una geo que utilizan los sistemas de GPS" ref="https://www.researchgate.net/figure/Illustration-of-satellite-angular-ranges-in-LEO-MEO-and-GEO-IGSO_fig2_327062553" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200531/LEOvsGEO.png" description="Perspectiva de la cercanía de una órbita leo vs una geo que utilizan los sistemas de GPS" ref="https://www.researchgate.net/figure/Illustration-of-satellite-angular-ranges-in-LEO-MEO-and-GEO-IGSO_fig2_327062553" %}
 
 No obstante, poder ofrecer este servicio satelital de órbita baja implica tener que poner en órbita miles y miles de satélites para que siempre haya al menos un satélite cubriendo una zona del planeta. Por esta razón los servicios satelitales hasta la fecha ofrecían servicios a órbitas más altas y por lo tanto con una calidad de servicio peor. Construir y lanzar un satélite no era barato.
 

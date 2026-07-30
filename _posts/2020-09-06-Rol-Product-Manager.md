@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El rol del Product Manager"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200906/rol.png
 date: 2020-09-06 09:10:10 -0000
 categories: []
@@ -19,7 +17,7 @@ Por otro lado, no todas las personas del mundillo comprenden correctamente el ro
 
 Comencé mi carrera como *data engineer*, para pasar a trabajar como *data scientist* para terminar en el actual rol en el que trabajo, *product manager*. Muchos pasos laterales hasta encontrar la posición en la que más disfruto. 
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20200906/rol.png" description="El product manager entre la UX, el negocio y el desarrollo" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200906/rol.png" description="El product manager entre la UX, el negocio y el desarrollo" %}
 
 El rol de product manager a diferencia del resto de roles en la creación de software no es algo que se pueda aprender en las escuelas o universidades, **no existe formación reglada** para ser product manager y es por ello que el rol no está tan claramente delimitado e identificado como otros.
 

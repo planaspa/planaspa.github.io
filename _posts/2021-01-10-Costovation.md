@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Costovación, cuando menos es más"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210110/complex_vs_simple.png
 date: 2021-01-10 10:10:10 -0000
 categories: []

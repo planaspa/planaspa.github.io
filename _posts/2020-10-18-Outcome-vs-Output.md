@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Outcome vs output"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20201018/OutputVsOutcome.png
 date: 2020-10-18 10:10:10 -0000
 categories: []
@@ -23,7 +21,7 @@ Dar un paso atrás y reflexionar, pensar si lo que estamos haciendo realmente no
 
 Uno de los grandes errores que cometemos en el día a día es relacionar el completar una tarea con el éxito dentro de la organización. La tarea es un *output*, y está bien haberla terminado, pero no implica un éxito para la organización... 
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20201018/OutputVsOutcome.png" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20201018/OutputVsOutcome.png" %}
 
 ¿Por qué estamos haciendo esa tarea? ¿Realmente esa tarea genera el impacto esperado? ¿Existe otra tarea que consiga el mismo impacto con menor esfuerzo?
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Guía de supervivencia"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210808/explore.png
 date: 2021-08-08 10:10:10 -0000
 categories: []

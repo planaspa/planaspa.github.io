@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Homo suscriptor"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220123/subscribe.png
 date: 2022-01-23 10:10:10 -0000
 categories: []

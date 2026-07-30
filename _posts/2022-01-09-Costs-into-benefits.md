@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Costes --> Beneficios"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220109/amazon_costs.png
 date: 2022-01-09 10:10:10 -0000
 categories: []
@@ -35,7 +33,7 @@ A veces, implementar algo para ser consumido por nosotros mismos tiene un delta 
 
 Esta es una [diapositiva](https://twitter.com/BrianFeroldi/status/1284795114187919362/photo/1) que creó SocialCapital hace unos años en la que presentaba cómo una de las estrategias de Amazon había sido precisamente esta. 
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20220109/amazon_costs.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20220109/amazon_costs.png" %}
 
 Básicamente Amazon fomentó la conversión de fuentes importantes de gastos en fuentes de beneficios.
 

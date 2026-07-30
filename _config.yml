@@ -1,20 +1,23 @@
 # Site settings
 title: Surcando la economía digital
 description: >-
-  Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital. 
+  Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital.
 baseurl: ""
 url: "https://planaspa.com"
 twitter_username: planaspa
 
-# Allow posts in future date
-future: true
+author:
+  name: Pablo Lanaspa Ferrer
+  image: bio_img.jpg
+
+# Google Analytics (leave blank to disable)
+google_analytics:
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll/tagging
 
 paginate: 5

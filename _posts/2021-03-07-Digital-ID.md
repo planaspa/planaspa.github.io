@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Identidad digital"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210307/ID.png
 date: 2021-03-07 10:10:10 -0000
 categories: []

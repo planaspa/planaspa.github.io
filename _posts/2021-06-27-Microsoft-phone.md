@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Recordemos a Windows Phone"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210627/w_phone.png
 date: 2021-06-27 10:11:10 -0000
 categories: []
@@ -28,7 +26,7 @@ Una de las razones por las que Windows Phone no crecía era porque no había una
 
 Esto era una pescadilla que se mordía la cola, los usuarios no compraban Windows Phone porque éste no tenía muchas apps en su store y los desarrolladores no creaban aplicaciones para Windows Phone porque no había una masa crítica de usuarios que utilizasen éste sistema oeprativo.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20210627/circulo_vicioso.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20210627/circulo_vicioso.png" %}
 
 
 ¿Solución? En las oficinas centrales de Microsoft se les ocurrió la idea de crear herramientas que **portasen automáticamente** aplicaciones creadas para Android, el OS que más apps tenía, a Windows Phone. 

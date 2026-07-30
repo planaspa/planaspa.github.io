@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "¿Pagarás en Bitcoin?"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20201101/Bitcoin.png
 date: 2020-11-01 10:10:10 -0000
 categories: []

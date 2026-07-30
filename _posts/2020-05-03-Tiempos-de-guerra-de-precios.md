@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Tiempos de guerra de precios"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200503/cost_curve.png
 date: 2020-05-03 10:00:00 -0000
 categories: []
@@ -23,7 +21,7 @@ Ahorrándonos muchos titulares e idas y venidas, lo que ha ocurrido desde marzo 
 
 Hace unos años Estados Unidos popularizó la extracción de petróleo en Texas, el *shale oil*, utilizando técnicas de *fracking* que permitían extraer petróleo de lugares que antes no eran aptos para la extracción de crudo. Desde que el *shale oil* de Estados Unidos comenzó su andadura hace poco tiempo se ha hecho con el liderazgo del mercado y Arabia Saudi no está dispuesta a dejar escapar su liderato mundial. Abrir el mercado a más competidores nos beneficia a nosotros, los consumidores, pero no al oligopolio de la OPEC.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200503/oil_market_share.png" description="Cuota de mercado de venta de petróleo por país" ref="https://www.cnbc.com/2020/04/01/5-charts-that-explain-the-saudi-arabia-russia-oil-price-war-so-far.html" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200503/oil_market_share.png" description="Cuota de mercado de venta de petróleo por país" ref="https://www.cnbc.com/2020/04/01/5-charts-that-explain-the-saudi-arabia-russia-oil-price-war-so-far.html" %}
 
 Pero… ¿Y por qué aumentar la producción? El mercado del petróleo es un mercado totalmente libre, donde aplican las leyes de la oferta y de la demanda. Cuando la oferta sube y la demanda permanece intacta o baja, el precio baja. ¿Y por qué quiere Arabia Saudi que el precio baje? Realmente, un precio de petróleo bajo es malo para toda la industria del petróleo… Pero un precio bajo es mucho peor para unos que para otros.
 
@@ -33,7 +31,7 @@ Un precio del petróleo bajo es una sentencia de muerte para toda la industria a
 1. Porque el coste de extracción de un barril de petróleo no es igual para todos los productores.
 2. Porque la operativa de extracción de cada productor es más flexible para unos que para otros.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200503/cost_curve.png" description="Coste de producción de un barril de crudo por tipo" ref="https://www.caixabankresearch.com/node/26901" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200503/cost_curve.png" description="Coste de producción de un barril de crudo por tipo" ref="https://www.caixabankresearch.com/node/26901" %}
 
 El coste de producción de los barriles producidos por Saudi Aramco, la gran empresa de Arabia Saudi en extracción de petróleo, están en torno a 30 dólares, mientras que los del *shale* americano están entorno a los 60 dólares. ¿Qué quiere decir esto? Si el precio del petróleo se encuentra por debajo de estos costes, la empresa productora del barril de petróleo pierde dinero por cada barril que vende. A un precio de 30 dólares Saudi Aramco tiene ingresos mínimos y TODOS los productores americanos pierden dinero, una quiebra total si el precio permanece a esos niveles.
 

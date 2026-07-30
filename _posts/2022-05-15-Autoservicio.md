@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Autoservicio"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220515/aws.png
 date: 2022-05-15 10:10:10 -0000
 categories: []

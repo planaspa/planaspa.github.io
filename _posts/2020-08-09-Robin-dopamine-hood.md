@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Robin-dopamine-hood"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200809/pfof.png
 date: 2020-08-09 10:00:10 -0000
 categories: []
@@ -52,7 +50,7 @@ Lo que está claro es que cuando el producto es gratis, el producto eres tú.
 
 En definitiva, Robinhood busca crear un mercado, que haya movimiento, cuanto más mejor. ¿Son los únicos que hacen esto en EEUU? No, las grandes corporaciones financieras lo llevan haciendo hace tiempo, pero ojo a los datos.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200809/pfof.png" description="Comparativa sobre cuanto ganan los diferentes brokers por las PFOFs" ref="https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200809/pfof.png" description="Comparativa sobre cuanto ganan los diferentes brokers por las PFOFs" ref="https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html" %}
 
 Robinhood estaría consiguiendo 15 veces más de dinero que Charles Schwab a través de los PFOFs por cada dolar de operación vendido. Indicador de que o bien el gran player del mercado, Charles Schwab, no tiene ni idea de como monetizar esta herramienta financiera o que Robinhood es mucho más rentable para los mayoristas por lo mal gestionados que están las órdenes para sus usuarios.
 
@@ -63,7 +61,7 @@ Por otro lado, el segundo elemento del éxito de Robinhood, algo que Silicon Val
 
 Robinhood posee un entramado de incentivos psicológicos, *push-notifications* y gamificación que hace que cada movimiento dentro de la app sea una generación de dopamina absoluta que genera atracción por realizar cuantos más movimientos mejor. Algo denominado: *High-frecuency trading*. Esto lo hace muy diferente del resto de *brokers* del mercado que no hace de la inversión nada divertido.
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20200809/robinhood-call-options.png" description="Página oficial de Robinhood invitando a los usuarios a operar de manera ''divertida''"  %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200809/robinhood-call-options.png" description="Página oficial de Robinhood invitando a los usuarios a operar de manera ''divertida''"  %}
 
 Esto no tendría nada de malo si no generase incentivos a que personas inexpertas jueguen con activos financieros complejos, sobretodo *call-options*, apostando sus ahorros como si los mercados financieros fuesen un casino y no una herramienta de adquisición de negocios bajo un proceso de análisis bien pensado, reflexivo y sosegado. Cada uno es responsable de sus propias decisiones, pero existe una dimensión ética que Robinhood debería evaluar.
 
@@ -71,7 +69,7 @@ Cuantos más usuarios tenga Robinhood operando con *call-options* y más veces o
 
 En los primeros tres meses de 2020, los usuarios de Robinhood negociaron nueve veces más acciones que los clientes de E-Trade y 40 veces más que los clientes de Charles Schwab, indicador claro de cómo Robinhood empuja a sus usuarios hacia el *High-frecuency trading*. Además, los usuarios de Robinhood compraron y vendieron 88 veces más *call-options* que los clientes de Schwab según el estudio del [New York Times](https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html){:target="_blank"} .
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200809/hihg-frequency-trading.png" description="Call-options negociadas por usuario entre los diferentes brokers" ref="https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200809/hihg-frequency-trading.png" description="Call-options negociadas por usuario entre los diferentes brokers" ref="https://www.nytimes.com/2020/07/08/technology/robinhood-risky-trading.html" %}
 
 La app está pensada para generar cuantas más transacciones mejor, convirtiendo la bolsa en una especie de casino para sus usuarios aprendiendo de las mejores técnicas de *engagement* de Silicon Valley. El final de todo esto para la mayoría de sus usuarios inexpertos está claro. **Cuando las inversiones las tratas como un casino, siempre gana la banca.**
 

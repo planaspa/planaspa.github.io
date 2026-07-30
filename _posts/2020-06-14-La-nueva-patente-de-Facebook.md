@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La nueva patente de Facebook"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200614/figura_15.png
 date: 2020-06-14 10:10:10 -0000
 categories: []
@@ -19,7 +17,7 @@ Desgranemos la nueva patente de Facebook que aún no ha llegado a implementar en
 
 ## Qué desvela la patente
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200614/figura_3.png" description="Figura número 3 de la patente" ref="https://patents.google.com/patent/US20200143485A1/en?oq=US2020%2f0143485+A1" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200614/figura_3.png" description="Figura número 3 de la patente" ref="https://patents.google.com/patent/US20200143485A1/en?oq=US2020%2f0143485+A1" %}
 
 He extraído este diagrama de la patente que creo que explica bastante bien a alto nivel la interacción patentada.
 
@@ -29,7 +27,7 @@ Facebook no explica cómo será recompensando el usuario, no obstante, muy proba
 
 Para los que os mováis por los círculos de start-ups españolas esta patente os recordará bastante al modelo de negocio de [21buttons](https://es.21buttons.com){:target="_blank"}. De hecho, no he conseguido encontrar una patente de 21buttons protegiendo esta interacción, quizás no he sabido buscar bien, pero de ser así esto podría erosionar notablemente a la start-up española que en algún momento podría ir a litigios con Facebook si la implementación final de la propia funcionalidad derivada de esta patente no fagocita de manera orgánica a gran parte de sus usuarios antes.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200614/figura_15.png" description="Figura número 15 de la patente, flujo completo del usuario" ref="https://patents.google.com/patent/US20200143485A1/en?oq=US2020%2f0143485+A1" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200614/figura_15.png" description="Figura número 15 de la patente, flujo completo del usuario" ref="https://patents.google.com/patent/US20200143485A1/en?oq=US2020%2f0143485+A1" %}
 
 ### Cambios de paradigma
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La ley Parkinson"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210613/tiempo.png
 date: 2021-06-13 10:10:10 -0000
 categories: []

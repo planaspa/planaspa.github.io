@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Web3 y fintechs"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220501/web3_fintech.png
 date: 2022-05-01 10:10:10 -0000
 categories: []

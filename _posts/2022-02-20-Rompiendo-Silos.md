@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Rompiendo silos de datos"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220220/silo.png
 date: 2022-02-20 10:10:10 -0000
 categories: []

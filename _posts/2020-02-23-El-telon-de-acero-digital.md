@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El telón de acero digital"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200223/firewall.jpeg
 date: 2020-02-23 10:10:10 -0000
 categories: []
@@ -20,7 +18,7 @@ Parece que ha llovido mucho desde entonces, sin embargo, hoy nos encontramos en 
 
 En 1998 en China comenzó un proyecto con el nombre en clave interno “*Escudo Dorado*”. Un *firewall* que separase el internet de China del resto del mundo, algo así como una Gran Muralla China digital para que el gobierno pudiese implantar sus propias normas en Internet y que los ciudadanos chinos no pudiesen acceder a según que partes de internet del resto del mundo. Este proyecto duró una década y se fue desplegando en varias fases hasta que en 2008 se terminó completando finalmente. De esta manera, el partido único chino puede decidir qué webs se pueden visitar en el país y cuales no.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200223/firewall.jpeg" description="El gran firewall chino" ref="https://futurism.com/china-just-made-vpns-illegal-for-internet-users" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200223/firewall.jpeg" description="El gran firewall chino" ref="https://futurism.com/china-just-made-vpns-illegal-for-internet-users" %}
 
 China aún no es capaz de filtrar por contenido debido a la gran complejidad de esta tarea, así que decide filtrar por dominios enteros. Es decir, China no bloquea ciertos videos de Youtube o ciertos tweets de Twitter, si no que si hay algo que no le gusta bloquea Youtube y Twitter de manera completa. De esta manera, China no permite a sus ciudadanos acceder a plataformas digitales donde cualquier ciudadano pueda libremente expresar su opinión como Twitter, Youtube o Facebook. Para los curiosos dejo la lista completa de dominios web bloqueados en China [aquí](https://www.vpnmentor.com/blog/the-complete-list-of-blocked-websites-in-china-how-to-access-them/).
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "¿Me va a quitar mi trabajo la IA?"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200216/banco.jpeg
 date: 2020-02-16 10:10:10 -0000
 categories: []
@@ -16,7 +14,7 @@ El domingo pasado estaba leyendo el [post](https://medium.com/@jrgomezutrilla/ro
 
 Vamos a viajar a Inglaterra como país más cercano en el tiempo y en la distancia donde ocurrió algo similar hace unos 200 años.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200216/banco.jpeg" description="Banco de Inglaterra" ref="https://www.museumoflondonprints.com/image/143807/the-bank-of-england-19th-century" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200216/banco.jpeg" description="Banco de Inglaterra" ref="https://www.museumoflondonprints.com/image/143807/the-bank-of-england-19th-century" %}
 
 Allá por el año 1800, Inglaterra estaba recogiendo los frutos de su última gran revolución, la revolución agrícola. La cual, a través de diferentes avances tecnológicos como la perfección de la máquina sembradora o la rotación de cultivos de 4 años, aumentó enormemente la cantidad de producción del país con una inferior mano de obra y misma área de terreno cultivado. Sin embargo, esto sería la antesala de la gran revolución industrial, que es el hito histórico que me gustaría estudiar como momento histórico similar al actual con la IA.
 
@@ -24,7 +22,7 @@ No soy muy fan del término “revolución” (en la revolución industrial) por
 
 Partimos de un escenario en el que, desde el año 1300 (o mucho antes) hasta alrededor de 1800, la mayor parte de la población de Inglaterra (y en el resto del mundo) se dedicaba a la agricultura. Como hemos visto, la revolución agrícola ya comenzó a requerir de menor cantidad de mano de obra en el campo en Inglaterra, no así en Francia o Italia por ejemplo. Sin embargo, el gran momento disruptor lo tenemos en todos los países a partir de la revolución industrial en Inglaterra, cuando las mejoras tecnológicas permitieron automatizar de manera paulatina gran parte del trabajo que anteriormente se seguía haciendo a mano pese a las mejoras tecnológicas que se habían conseguido anteriormente.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200216/agriculture.png" description="Datos facilitados por la Universidad de Oxford" ref="https://ourworldindata.org/employment-in-agriculture" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200216/agriculture.png" description="Datos facilitados por la Universidad de Oxford" ref="https://ourworldindata.org/employment-in-agriculture" %}
 
 Esto provocó que una parte de la población se fuera viendo poco a poco alejada del nuevo modelo productivo que se estaba desarrollando. Parte de la población fue entendiendo que su mano de obra en el campo ya no era tan valiosa ni útil. Estos trabajadores tuvieron que buscar nuevos puestos de trabajo que se generaron a raíz del nuevo modelo productivo y que ya no estaban ligados a la agricultura: fábricas de nuevos productos más elaborados o incluso fábricas para crear las máquinas que ahora sustituían su trabajo... Dando así pie a un engrosamiento nunca antes visto de lo que ahora denominados sector secundario.
 
@@ -39,7 +37,7 @@ En absoluto, la sustitución de una parte de la mano de obra en el campo por má
 
 Además, es importante recalcar que la mano de obra era uno de los mayores costes que se tenía en la agricultura en aquel momento por lo que sustituirla por máquinas implicó que el precio final del producto bajase, haciendo los productos agrícolas más accesibles para toda la población. De esta manera la riqueza de la población creció a niveles nunca antes vistos anteriormente a la revolución industrial.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200216/gdp.png" description="Datos facilitados por la Universidad de Oxford" ref="https://ourworldindata.org/economic-growth" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200216/gdp.png" description="Datos facilitados por la Universidad de Oxford" ref="https://ourworldindata.org/economic-growth" %}
 
 De esta manera obtenemos el segundo “*insight*”:
 * El aumento de la eficiencia en la producción y el desplazamiento de la fuerza laboral hacia otros lugares del modelo productivo donde se generaba más y nuevo valor para la sociedad **llevó a una generación de riqueza para la población nunca antes vista**.

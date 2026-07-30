@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "La estrategia de tu producto"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200510/3_steps.png
 date: 2020-05-10 9:10:10 -0000
 categories: []
@@ -23,7 +21,7 @@ Si atendemos a las lecciones de Richard Rumlet, profesor de la escuela de negoci
 2. **Política de actuación**: Manera de hacer frente al reto, identificación de los obstáculos y definición de objetivos operativos concretos.
 3. **Acciones a realizar**: Selección de las tareas críticas a realizar en base los objetivos operativos seleccionados.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200510/3_steps.png" description="Las tres partes de una buena estrategia" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200510/3_steps.png" description="Las tres partes de una buena estrategia" %}
 
 ## Diagnóstico de la situación
 

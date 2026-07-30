@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Alto rendimiento"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20211114/level_up.png
 date: 2021-11-14 10:10:10 -0000
 categories: []
@@ -51,7 +49,7 @@ No se puede pensar en las necesidades de nivel superior si las necesidades del n
 
 Os dejo por aquí un recordatorio de la pirámide de Maslow extraída de [Wikipedia](https://es.wikipedia.org/wiki/Pir%C3%A1mide_de_Maslow):
 
-{% include posts/images/image_left_nourl.html url="/assets/img/posts/20211114/maslow.png" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20211114/maslow.png" %}
 
 Está claro que todas las personas tenemos varias necesidades latentes siempre en paralelo, sin embargo, siempre hay una que despunta más que el resto.
 

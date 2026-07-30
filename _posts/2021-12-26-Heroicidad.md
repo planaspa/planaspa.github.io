@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Heroicidades"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20211226/heroes.png
 date: 2021-12-26 10:10:10 -0000
 categories: []

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Agilidad en tiempos de crisis"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200322/tabla.png
 date: 2020-03-22 10:10:10 -0000
 categories: []
@@ -21,7 +19,7 @@ En entornos de alta incertidumbre es difícil adivinar cual es la estrategia cor
 
 De un líder se espera que en los momentos difíciles sea capaz de tomar las riendas y, con toda la humildad necesaria, marcar una dirección. Esto no quiere decir que haya que precipitarse en la toma de decisiones y no pensar las cosas antes de emprender un camino, pero si que es **necesario decidir lo que se va a hacer y sobretodo a lo que se va a renunciar de una manera ágil**.
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200322/tabla.png" description="Creación propia" ref="https://corona.help/#countries-nav" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200322/tabla.png" description="Creación propia" ref="https://corona.help/#countries-nav" %}
 
 No importa la estrategia inicial si no la rapidez con la que se tomen decisiones y se pueda ir aprendiendo y pivotando sobre la marcha. Siguiendo el ejemplo del COVID-19, España declaró el estado de alarma cuando ya teníamos más de 6.000 infectados y casi 200 fallecidos. Una gestión nada ágil pese a que la estrategia de confinamiento anunciada en la declaración del estado de alarma si parece tener resultado en los países que van por delante nuestro y donde ya se pueden observar resultados positivos.
 
@@ -40,7 +38,7 @@ De nuevo, no quiero reflexionar sobre si las medidas son correctas o suficientes
 Volviendo al ejemplo del COVID-19, hasta le fecha **somos el país con peores cifras de fallecimientos del mundo** debido en gran medida a la lentitud inicial en la toma de decisiones. La estrategia de confinamiento probablemente sea acertada viendo lo que ocurre en otros países pero llegó muy tarde. Un movimiento poco ágil que ha dado como resultado que dupliquemos las muertes de Italia y tripliquemos las de China en la misma fase.
 
 
-{% include posts/images/image_center.html url="/assets/img/posts/20200322/grafico.png" description="Gráfica publicada por el Financial Times" ref="https://www.ft.com/coronavirus-latest" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200322/grafico.png" description="Gráfica publicada por el Financial Times" ref="https://www.ft.com/coronavirus-latest" %}
 
 Ya hemos puesto una estrategia para frenar el número de infectados o fallecimientos para resolver el principal problema de esta pandemia, el coste humano. Ahora, como en cualquier proyecto ágil, vayamos observando los resultados y ajustemos rápidamente la ejecución y las medias a tomar a los datos que vayamos obteniendo. Pivotemos si es necesario.
 

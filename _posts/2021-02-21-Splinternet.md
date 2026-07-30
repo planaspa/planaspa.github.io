@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Splinternet"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210221/Splinternet.png
 date: 2021-02-21 10:10:10 -0000
 categories: []

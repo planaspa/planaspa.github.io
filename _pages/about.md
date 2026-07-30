@@ -3,7 +3,7 @@ layout: page
 title: "Quién soy"
 permalink: /about
 hero_title: "Pablo Lanaspa Ferrer"
-hero_subtitle: "Digital Product Manager"
+hero_subtitle: "Senior Product Manager | Fintech | Data | Platforms"
 hero_description: "Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI."
 hero_contact: "¡Contacta conmigo!"
 ---
@@ -17,7 +17,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/clarity.png" alt="Clarity AI">
+            <img src="/assets/img/about/clarity.png" alt="Clarity AI">
           </div>
           <div class="media-entry__content">
             <h4>Lead Product Manager</h4>
@@ -28,7 +28,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/telefonica.png" alt="Telefónica">
+            <img src="/assets/img/about/telefonica.png" alt="Telefónica">
           </div>
           <div class="media-entry__content">
             <h4>Product Manager</h4>
@@ -39,7 +39,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/Semmantica.jpg" alt="Semmantica">
+            <img src="/assets/img/about/Semmantica.jpg" alt="Semmantica">
           </div>
           <div class="media-entry__content">
             <h4>Data engineer</h4>
@@ -50,7 +50,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/ESA.jpg" alt="Agencia Espacial Europea">
+            <img src="/assets/img/about/ESA.jpg" alt="Agencia Espacial Europea">
           </div>
           <div class="media-entry__content">
             <h4>Software dev. intern</h4>
@@ -64,7 +64,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/Microsoft.png" alt="Microsoft">
+            <img src="/assets/img/about/Microsoft.png" alt="Microsoft">
           </div>
           <div class="media-entry__content">
             <h4>Microsoft</h4>
@@ -74,7 +74,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/univ_virginia.png" alt="Universidad de Virginia">
+            <img src="/assets/img/about/univ_virginia.png" alt="Universidad de Virginia">
           </div>
           <div class="media-entry__content">
             <h4>Univ. Virginia</h4>
@@ -84,7 +84,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/IESE.png" alt="Escuela de negocios IESE">
+            <img src="/assets/img/about/IESE.png" alt="Escuela de negocios IESE">
           </div>
           <div class="media-entry__content">
             <h4>IESE Business School</h4>
@@ -94,7 +94,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/stanford.jpg" alt="Stanford">
+            <img src="/assets/img/about/stanford.jpg" alt="Stanford">
           </div>
           <div class="media-entry__content">
             <h4>Stanford</h4>
@@ -104,7 +104,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/mit.jpg" alt="Massachusets Institute of Technology">
+            <img src="/assets/img/about/mit.jpg" alt="Massachusets Institute of Technology">
           </div>
           <div class="media-entry__content">
             <h4>MIT</h4>
@@ -117,7 +117,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/unizar.png" alt="Universidad de Zaragoza">
+            <img src="/assets/img/about/unizar.png" alt="Universidad de Zaragoza">
           </div>
           <div class="media-entry__content">
             <h4>Ingeniería Informática</h4>
@@ -127,7 +127,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/dtu.png" alt="Universidad técnica de Dinamarca">
+            <img src="/assets/img/about/dtu.png" alt="Universidad técnica de Dinamarca">
           </div>
           <div class="media-entry__content">
             <h4>Erasmus y más</h4>
@@ -137,7 +137,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/urjc.jpg" alt="Universidad Rey Juan Carlos">
+            <img src="/assets/img/about/urjc.jpg" alt="Universidad Rey Juan Carlos">
           </div>
           <div class="media-entry__content">
             <h4>Master Sist. Decisión</h4>
@@ -150,7 +150,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/AgileTrends.png" alt="Festival Agile Trends">
+            <img src="/assets/img/about/AgileTrends.png" alt="Festival Agile Trends">
           </div>
           <div class="media-entry__content">
             <h4>Ponencia AgileTrends</h4>
@@ -160,7 +160,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/nebrija.jpg" alt="Universidad de Nebrija">
+            <img src="/assets/img/about/nebrija.jpg" alt="Universidad de Nebrija">
           </div>
           <div class="media-entry__content">
             <h4>Seminarios IA</h4>
@@ -170,7 +170,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/spaceapps.jpeg" alt="NASA Spaceapps Zaragoza">
+            <img src="/assets/img/about/spaceapps.jpeg" alt="NASA Spaceapps Zaragoza">
           </div>
           <div class="media-entry__content">
             <h4>NASA SpaceApps Zaragoza</h4>
@@ -183,7 +183,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/unizar.png" alt="Universidad de Zaragoza">
+            <img src="/assets/img/about/unizar.png" alt="Universidad de Zaragoza">
           </div>
           <div class="media-entry__content">
             <h4>Premio Estudiante</h4>
@@ -193,7 +193,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/MYC.jpg" alt="Millennium Youth Camp">
+            <img src="/assets/img/about/MYC.jpg" alt="Millennium Youth Camp">
           </div>
           <div class="media-entry__content">
             <h4>MYC</h4>
@@ -203,7 +203,7 @@ hero_contact: "¡Contacta conmigo!"
 
         <div class="media-entry">
           <div class="media-entry__image">
-            <img src="/images/about/olimpiadas_fisica.jpeg" alt="Olimpiadas de física">
+            <img src="/assets/img/about/olimpiadas_fisica.jpeg" alt="Olimpiadas de física">
           </div>
           <div class="media-entry__content">
             <h4>Olimpiadas de Física</h4>

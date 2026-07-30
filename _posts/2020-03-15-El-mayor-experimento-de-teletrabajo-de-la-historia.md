@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El mayor experimento de teletrabajo de la historia"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200315/teletrabajo.jpeg
 date: 2020-03-15 10:10:10 -0000
 categories: []
@@ -12,7 +10,7 @@ summary: "Nos encontramos ante un momento histórico en el que empresas y gobier
 
 Hoy no vengo a hablar del coronavirus del que tan saturados estamos a través de todas las vías de comunicación de las que disponemos, pero si que vengo a hablar sobre uno de los tantos efectos colaterales que esta crisis está teniendo alrededor del mundo y especialmente en España en los últimos días.
 
-{% include posts/images/image_left.html url="/assets/img/posts/20200315/teletrabajo.jpeg" description="Teletrabajo" ref="https://www.flickr.com/photos/marcoruiz/13980402113" %}
+{% include posts/image.html align="left" url="/assets/img/posts/20200315/teletrabajo.jpeg" description="Teletrabajo" ref="https://www.flickr.com/photos/marcoruiz/13980402113" %}
 
 Debido a los brotes de COVID-19 en nuestro país, y con el fin de colaborar de la manera más ágil a atenuar el contagio exponencial de este virus, muchas de las empresas han decretado que sus empleados debían realizar sus tareas desde casa dejando así de asistir a la oficina. Adelantándose, de esta manera, a las medidas del gobierno y evitando así contactos innecesarios que pueden provocar contagios no solo durante la actividad laboral si no durante al desplazamiento a la misma. Una muestra de la agilidad del sector privado frente a la lentitud de la administración pública de nuestro país (en otros países la administración pública ha sabido moverse mucho más rápido).
 

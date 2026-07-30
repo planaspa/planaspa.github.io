@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El Pecado Original"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20201004/original_sin.jpg
 date: 2020-10-04 10:10:10 -0000
 categories: []

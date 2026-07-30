@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "El nuevo ecosistema"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210822/planet.png
 date: 2021-08-21 10:10:10 -0000
 categories: []
@@ -43,7 +41,7 @@ Son estas empreas las que están queriendo ofrecernos a la población experienci
 
 Además, es curioso observar como esto está ocurriendo incluso aunque las grandes organizaciones gubernamentales sigan teniendo presupuestos órdenes de magnitud por encima que estas empresas. Pero de manera contraintuitiva, son estas "pequeñas" empresas las que están liderando el cambio en el sector.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20210822/budget_chart.png" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20210822/budget_chart.png" %}
 
 Está claro que el dinero no siempre es la respuesta al avance tecnológico y científico. Existen muchas otras variables que empujan hacía el éxito y la disrupción.
 

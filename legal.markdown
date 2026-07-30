@@ -2,7 +2,7 @@
 layout: page
 title: "Aviso legal"
 permalink: /legal
-post_pic: /assets/img/bio_img.png
+post_pic: /assets/img/bio_img.jpg
 summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital."
 ---
 <div class="legal_page">

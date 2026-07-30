@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Toda una organización empujando en la misma dirección"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200205/plantilla.png
 date: 2020-02-05 10:10:10 -0000
 categories: []
@@ -30,7 +28,7 @@ La operativa para crear un árbol de la vida, capaz de mover las piezas a bajo n
 
 En el nivel más bajo del árbol, es donde se situan las tareas tácticas a realizar para solucionar dichos problemas. Estas tareas pueden ser acciones especificas, construcción de funcionalidades o cambios de procesos internos, es bueno recordar de vez en cuando que no todo se soluciona a golpe de feature. A modo de ejemplo he creado un árbol genérico y un ejemplo para que entendáis como quedaría:
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200205/plantilla.png" description="Ejemplo de un árbol genérico" %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200205/plantilla.png" description="Ejemplo de un árbol genérico" %}
 
 ## Qué nos aporta el árbol de la vida
 
@@ -43,7 +41,7 @@ En el nivel más bajo del árbol, es donde se situan las tareas tácticas a real
 
 Con esta herramienta un administrador de base de datos puede explicar claramente al CEO de una empresa por qué sus actividades de mejora de performance de los índices de las tablas reduce el tiempo de respuesta de la aplicación que tras escalar todo el árbol hacia arriba apunta a tener un NPS alto del producto entre sus usuarios porque perciben el servicio más rápido. De esta manera el CEO no se debe preocupar por las tareas a bajo nivel si no de decidir tras una reflexión concienzuda si debemos mejorar el NPS o si es más importante el nuevo lanzamiento para generar nuevos revenues.
 
-{% include posts/images/image_center_nourl.html url="/assets/img/posts/20200205/ejemplo.png" description="Así quedaría el árbol en un ejemplo real." %}
+{% include posts/image.html align="center" url="/assets/img/posts/20200205/ejemplo.png" description="Así quedaría el árbol en un ejemplo real." %}
 
 ## Beneficios indirectos del árbol
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Regulación asimétrica"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20200823/zuckerberg.jpg
 date: 2020-08-23 09:10:10 -0000
 categories: []

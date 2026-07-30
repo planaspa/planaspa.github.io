@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Los datos, una commodity"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20220320/oil.png
 date: 2022-03-20 10:10:10 -0000
 categories: []
