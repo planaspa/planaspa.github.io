@@ -9,6 +9,11 @@ twitter:
   username: planaspa
   card: summary_large_image
 
+social:
+  twitter: planaspa
+  linkedin: planaspa
+  email: info@planaspa.com
+
 author:
   name: Pablo Lanaspa Ferrer
   image: bio_img.png

@@ -1,0 +1,85 @@
+{% assign share_variant = include.variant | default: 'end' %}
+{% assign share_url = page.url | absolute_url %}
+{% assign share_title = page.title %}
+{% assign share_desc = page.summary | default: page.description | strip_html | strip_newlines %}
+{% assign twitter_user = site.social.twitter | default: site.twitter.username %}
+{% assign share_email = site.social.email %}
+
+{% assign tweet_body = share_title %}
+{% if share_desc != '' %}
+  {% assign tweet_body = tweet_body | append: ' — ' | append: share_desc %}
+{% endif %}
+{% assign twitter_mention = ' @' | append: twitter_user %}
+{% assign tweet_text = tweet_body | truncate: 248, '…' | append: twitter_mention %}
+
+{% capture twitter_share_url %}https://twitter.com/intent/tweet?text={{ tweet_text | uri_escape }}&url={{ share_url | uri_escape }}&via={{ twitter_user | uri_escape }}{% endcapture %}
+{% capture facebook_share_url %}https://www.facebook.com/sharer/sharer.php?u={{ share_url | uri_escape }}{% endcapture %}
+{% capture linkedin_share_url %}https://www.linkedin.com/sharing/share-offsite/?url={{ share_url | uri_escape }}{% endcapture %}
+
+{% capture email_body %}I thought you might find this interesting:
+
+{{ share_title }}
+{% if share_desc %}{{ share_desc }}
+
+{% endif %}{{ share_url }}
+
+By {{ site.author.name }} (@{{ twitter_user }} on X){% endcapture %}
+{% capture email_share_url %}mailto:{{ share_email }}?subject={{ share_title | uri_escape }}&body={{ email_body | strip | uri_escape }}{% endcapture %}
+
+<div class="post__share post__share--{{ share_variant }}">
+  <span class="share__title">{% include i18n.html key="post_share" %}</span>
+  <ul class="share__list list-reset">
+    <li class="share__item">
+      <a class="share__link share__link--x"
+        href="{{ twitter_share_url | strip }}"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        aria-label="{% include i18n.html key='share_x' %}">
+        <i class="ion ion-logo-twitter" aria-hidden="true"></i>
+        <span class="share__label">X</span>
+      </a>
+    </li>
+
+    <li class="share__item">
+      <a class="share__link share__link--linkedin"
+        href="{{ linkedin_share_url | strip }}"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        aria-label="{% include i18n.html key='share_linkedin' %}">
+        <i class="ion ion-logo-linkedin" aria-hidden="true"></i>
+        <span class="share__label">LinkedIn</span>
+      </a>
+    </li>
+
+    <li class="share__item">
+      <a class="share__link share__link--facebook"
+        href="{{ facebook_share_url | strip }}"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        aria-label="{% include i18n.html key='share_facebook' %}">
+        <i class="ion ion-logo-facebook" aria-hidden="true"></i>
+        <span class="share__label">Facebook</span>
+      </a>
+    </li>
+
+    <li class="share__item">
+      <a class="share__link share__link--email"
+        href="{{ email_share_url | strip }}"
+        aria-label="{% include i18n.html key='share_email' %}">
+        <i class="ion ion-ios-mail" aria-hidden="true"></i>
+        <span class="share__label">Email</span>
+      </a>
+    </li>
+
+    <li class="share__item">
+      <button type="button"
+        class="share__copy"
+        data-share-copy="{{ share_url }}"
+        data-share-copy-success="{% include i18n.html key='share_copy_success' %}"
+        aria-label="{% include i18n.html key='share_copy' %}">
+        <i class="ion ion-ios-link" aria-hidden="true"></i>
+        <span class="share__label">{% include i18n.html key='share_copy' %}</span>
+      </button>
+    </li>
+  </ul>
+</div>
