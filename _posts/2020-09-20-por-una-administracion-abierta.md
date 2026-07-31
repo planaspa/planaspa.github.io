@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/09/20/Por-Una-Administracion-Abierta/
 layout: post
 title: "Por una Administración digital abierta"
 post_pic: /assets/img/posts/20200920/opensource.png
 date: 2020-09-20 09:10:10 -0000
 categories: []
-tags: [open-source, estado, administracion-publica, covid]
+tags: [open-source, government, public-administration, covid]
 summary: "La Administración Pública debería abrazar las ventajas del código abierto, es casi un derecho ciudadano."
 visible_on_index: false
 ---

@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/10/17/Trash-in-trash-out/
 layout: post
 title: "Calidad del dato"
 post_pic: /assets/img/posts/20211017/gigo.png
 date: 2021-10-17 10:10:10 -0000
 categories: []
-tags: [ia, data, quality]
+tags: [ai, data, quality]
 summary: "Garbage in, garbage out. La importancia de la calidad del dato."
 ---
 

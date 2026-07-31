@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/02/21/Splinternet/
 layout: post
 title: "Splinternet"

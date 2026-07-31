@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2022/02/20/Rompiendo-Silos/
 layout: post
 title: "Rompiendo silos de datos"
 post_pic: /assets/img/posts/20220220/silo.png
 date: 2022-02-20 10:10:10 -0000
 categories: []
-tags: [data, platforms, plataformas, plataforma]
+tags: [data, platforms]
 summary: "Porqué necesitas una plataforma de datos."
 ---
 

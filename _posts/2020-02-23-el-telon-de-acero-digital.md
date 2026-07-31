@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/02/23/El-telon-de-acero-digital/
 layout: post
 title: "El telón de acero digital"
 post_pic: /assets/img/posts/20200223/firewall.jpeg
 date: 2020-02-23 10:10:10 -0000
 categories: []
-tags: [china, privacidad, competencia, tecnologia, startups, innovacion]
+tags: [china, privacy, competition, technology, startups, innovation]
 summary: "Una reflexión sobre cómo se ha creado el ecosistema digital chino y los retos que afrontamos con su manera de operar."
 visible_on_index: false
 ---

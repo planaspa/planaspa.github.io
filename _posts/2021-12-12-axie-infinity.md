@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/12/12/Axie-Infinity/
 layout: post
 title: "Axie Ponzi Infinity"
 post_pic: /assets/img/posts/20211212/axie.jpeg
 date: 2021-12-12 10:10:10 -0000
 categories: []
-tags: [Axie, blockchain, web3, roblox]
+tags: [axie, blockchain, web3, roblox]
 summary: "Las nuevas tecnologías tienden a utilizarse para disfrazar viejos modelos conocidos de una manera más sutil."
 ---
 

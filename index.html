@@ -33,7 +33,7 @@ redirect_from:
 		{% endfor %}
 		<div class="col col-12">
 			<p class="timeline-end">
-				Fin del archivo · {{ site.posts.size }} artículos{% assign oldest_post = site.posts | last %}{% if oldest_post %} · desde {{ oldest_post.date | date: '%Y' }}{% endif %}
+				{% include i18n.html key="timeline_end" %} · {{ site.posts.size }} {% include i18n.html key="timeline_articles" %}{% assign oldest_post = site.posts | last %}{% if oldest_post %} · {% include i18n.html key="timeline_since" %} {{ oldest_post.date | date: '%Y' }}{% endif %}
 			</p>
 		</div>
 	{% endif %}

@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/07/25/Misioneros-Mercenarios/
 layout: post
 title: "Misioneros y mercenarios"
 post_pic: /assets/img/posts/20210725/mercenariesvsmissionaries.png
 date: 2021-07-25 10:10:10 -0000
 categories: []
-tags: [cultura, product-management]
+tags: [culture, product-management]
 summary: "John Doer nos ayuda a identificar dos culturas organizativas diferentes."
 ---
 

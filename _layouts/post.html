@@ -6,21 +6,25 @@ layout: default
     <div class="row">
       <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
         <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date-es.html date=page.date %}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
         </span>
 
         <h1 class="post-title">{{ page.title | escape }}</h1>
 
+        {% if page.lang == 'es' %}
+        <p class="post__lang-note">{% include i18n.html key="post_lang_note" %}</p>
+        {% endif %}
+
         <div class="post__info">
           <div class="post__author">
-            <span>Por</span>
+            <span>{% include i18n.html key="post_by" %}</span>
             <a href="{{ '/about/' | relative_url }}" class="author-name">{{ site.author.name }}</a>
           </div>
 
           {% if page.tags.size >= 1 %}
           <div class="post__tags">
             {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="post__tags-tag">{{ tag }}</a>
+              {% include tag-link.html tag=tag class="post__tags-tag" %}
             {% endfor %}
           </div>
           {% endif %}
@@ -41,14 +45,14 @@ layout: default
   <div class="container">
     <div class="row">
       <!-- begin post -->
-      <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+      <article class="post {{ no-image }} col col-8 col-t-10 col-m-12"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
         <div class="post__content">
           {{ content }}
         </div>
 
         {% assign share_summary = page.summary | default: page.description | uri_escape %}
         <div class="post__share">
-          <span class="share__title">Comparte este artículo:</span>
+          <span class="share__title">{% include i18n.html key="post_share" %}</span>
           <ul class="share__list list-reset">
             <li class="share__item">
               <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"

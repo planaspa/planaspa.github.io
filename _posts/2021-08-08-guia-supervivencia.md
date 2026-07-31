@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/08/08/Guia-Supervivencia/
 layout: post
 title: "Guía de supervivencia"

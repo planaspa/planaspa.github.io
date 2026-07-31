@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/09/05/idea-euros-tiempo/
 layout: post
 title: "1 idea, 100€, 3 días"
 post_pic: /assets/img/posts/20210905/kemvy.png
 date: 2021-09-05 10:10:10 -0000
 categories: []
-tags: [agile, business-model, bootstraping]
+tags: [agile, business-model, bootstrapping]
 summary: "Kemvy, o lo poco que cuesta hoy en día validar una idea de negocio digital."
 ---
 

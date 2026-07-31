@@ -1,7 +1,7 @@
 # Site settings
-title: Surcando la economía digital
+title: Navigating the Digital Economy
 description: >-
-  Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital.
+  Personal website of Pablo Lanaspa. I write about product management, platforms, and the digital economy.
 baseurl: ""
 url: "https://planaspa.com"
 lang: en
@@ -29,6 +29,10 @@ defaults:
     values:
       layout: page
       permalink: /:basename/
+  - scope:
+      path: "_pages/tag-redirects"
+    values:
+      layout: null
   - scope:
       path: "_posts"
       type: "posts"

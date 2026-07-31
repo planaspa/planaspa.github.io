@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/04/05/La-falacia-de-McNamara/
 layout: post
 title: "La falacia de McNamara"
 post_pic: /assets/img/posts/20200405/McNamara.jpeg
 date: 2020-04-05 11:00:00 -0000
 categories: []
-tags: [guerra, datos, falacia, covid]
+tags: [war, data, fallacy, covid]
 summary: "Lo que podemos aprender de la guerra de Vietnam."
 visible_on_index: false
 ---

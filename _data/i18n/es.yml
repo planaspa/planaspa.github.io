@@ -1,0 +1,3 @@
+# Legacy Spanish post helpers (used only when lang: es is set on a post)
+image_alt: "Imagen"
+image_source: "fuente"

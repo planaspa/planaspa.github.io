@@ -36,7 +36,7 @@
       </div>
       <div class="col col-6 col-t-12">
         <div class="hero__image">
-          <img class="hero__profile-image" src="{{ '/assets/img/' | append: site.author.image | relative_url }}" alt="Imagen de perfil de Pablo">
+          <img class="hero__profile-image" src="{{ '/assets/img/' | append: site.author.image | relative_url }}" alt="{% include i18n.html key='profile_alt' %}">
         </div>
       </div>
     </div>

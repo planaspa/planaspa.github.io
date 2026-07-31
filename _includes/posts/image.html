@@ -1,7 +1,8 @@
 {% assign align = include.align | default: 'center' %}
+{% assign post_lang = include.lang | default: page.lang | default: site.lang | default: 'en' %}
 <div class="post_image_{{ align }}">
-<img src="{{ include.url | prepend: site.baseurl | prepend: site.url }}" alt="[Imagen] - {{ include.description }}" class="post_image">
+<img src="{{ include.url | prepend: site.baseurl | prepend: site.url }}" alt="[{% include i18n.html key='image_alt' locale=post_lang %}] - {{ include.description }}" class="post_image">
 {% if include.description %}
-<figcaption class="post_image_caption">{{ include.description }}{% if include.ref %}, <a href="{{ include.ref }}" target="_blank">fuente</a>{% endif %}</figcaption>
+<figcaption class="post_image_caption">{{ include.description }}{% if include.ref %}, <a href="{{ include.ref }}" target="_blank">{% include i18n.html key="image_source" locale=post_lang %}</a>{% endif %}</figcaption>
 {% endif %}
 </div>

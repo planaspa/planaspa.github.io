@@ -15,8 +15,8 @@
 
       <div class="hero-home__content">
         <h1 class="hero-home__title" id="hero-home-title">{{ site.title }}</h1>
-        <p class="hero-home__tagline">Opiniones personales sobre economía digital · {{ site.author.name }}</p>
-        <span class="hero-home__cta">Quién soy <i class="ion ion-ios-arrow-forward"></i></span>
+        <p class="hero-home__tagline">{% include i18n.html key="site_tagline" %} · {{ site.author.name }}</p>
+        <span class="hero-home__cta">{% include i18n.html key="about_link" %} <i class="ion ion-ios-arrow-forward"></i></span>
       </div>
     </div>
   </div>

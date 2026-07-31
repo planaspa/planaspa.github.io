@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/06/13/Ley-Parkinson/
 layout: post
 title: "La ley Parkinson"
