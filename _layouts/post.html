@@ -5,10 +5,6 @@ layout: default
   <div class="post-title-box">
     <div class="row">
       <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-        <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
-        </span>
-
         <h1 class="post-title">{{ page.title | escape }}</h1>
 
         {% if page.lang == 'es' %}
@@ -16,18 +12,37 @@ layout: default
         {% endif %}
 
         <div class="post__info">
-          <div class="post__author">
-            <span>{% include i18n.html key="post_by" %}</span>
-            <a href="{{ '/about/' | relative_url }}" class="author-name">{{ site.author.name }}</a>
-          </div>
+          <a href="{{ '/about/' | relative_url }}" class="post__author-avatar-link" aria-label="{{ site.author.name }}">
+            <img
+              class="post__author-avatar"
+              src="{{ '/assets/img/' | append: site.author.image | relative_url }}"
+              alt=""
+              width="40"
+              height="40"
+              aria-hidden="true"
+            >
+          </a>
 
-          {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            {% for tag in page.tags %}
-              {% include tag-link.html tag=tag class="post__tags-tag" %}
-            {% endfor %}
+          <div class="post__meta-line">
+            <div class="post__author">
+              <a href="{{ '/about/' | relative_url }}" class="post__author-link">
+                <span class="post__author-by">{% include i18n.html key="post_by" %}</span>
+                <span class="author-name">{{ site.author.name }}</span>
+              </a>
+            </div>
+
+            <span class="post__meta-sep" aria-hidden="true">·</span>
+
+            <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
+
+            {% if page.tags.size >= 1 %}
+            <div class="post__tags">
+              {% for tag in page.tags %}
+                {% include tag-link.html tag=tag class="post__tags-tag" %}
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
       </div>
     </div>

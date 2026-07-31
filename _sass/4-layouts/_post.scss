@@ -10,10 +10,6 @@
     line-height: 70px;
   }
 
-  .post__date {
-    font-weight: 700;
-  }
-
   .post__lang-note {
     margin: 0 0 12px;
     font-size: 14px;
@@ -35,37 +31,99 @@
 .post__info {
   display: flex;
   align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 21px;
+  color: $gray;
+
+  .post__author-avatar-link {
+    flex-shrink: 0;
+    line-height: 0;
+  }
+
+  .post__author-avatar {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .post__meta-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 10px;
+    min-height: 21px;
+  }
 
   .post__author {
-    margin-right: 10px;
     font-weight: 700;
-    
-    .author-name {
-      color: $gray;
-      border-bottom: 1px solid transparent;
-      &:hover {
-        border-bottom: 1px solid $gray;
-      }
+  }
+
+  .post__author-link {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    line-height: 21px;
+
+    &:hover .author-name {
+      border-bottom-color: $gray;
     }
   }
 
+  .post__author-by {
+    margin-right: 4px;
+  }
+
+  .author-name {
+    color: $dark;
+    border-bottom: 1px solid transparent;
+    transition: border-color $global-transition;
+  }
+
+  .post__meta-sep {
+    line-height: 21px;
+    color: $light-gray;
+    user-select: none;
+  }
+
+  .post__date {
+    line-height: 21px;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+
   .post__tags {
-   .post__tags-tag {
-     position: relative;
-     padding-left: 15px;
-     font-weight: 700;
-     &:before {
-       content: "";
-       position: absolute;
-       top: 50%;
-       left: 0;
-       transform: translateY(-50%);
-       width: 5px;
-       height: 5px;
-       border-radius: 50%;
-       background: $dark;
-     }
-   } 
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 10px;
+    line-height: 21px;
+
+    .post__tags-tag {
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+      padding-left: 15px;
+      font-weight: 700;
+      line-height: 21px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: $dark;
+      }
+    }
   }
 }
 
