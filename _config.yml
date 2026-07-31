@@ -48,6 +48,8 @@ exclude:
   - README.md
   - .gemini
   - scripts
+  - vendor
+  - .bundle
 
 # Tags (local builds only unless using a custom GitHub Actions workflow)
 tag_page_dir: tag
