@@ -63,9 +63,10 @@
 }
 
 .post-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   &:after {
     content: "";
     display: table;
@@ -97,6 +98,15 @@
 
 .post__content {
   margin-bottom: 40px;
+
+  iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+  }
 }
 
 .post__share {
@@ -146,6 +156,11 @@
       background-size: cover;
       background-repeat: no-repeat;
       transition: .35s ease-in-out;
+
+      &--contain {
+        height: 200px;
+        background-size: contain;
+      }
       &:hover {
         opacity: 0.9;
       }

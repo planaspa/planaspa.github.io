@@ -16,13 +16,13 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+                <a href="{{ '/' | relative_url }}" class="nav__link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/about' | prepend: site.baseurl }}" class="nav__link">Quién soy</a>
+                <a href="{{ '/about/' | relative_url }}" class="nav__link">Quién soy</a>
               </li>
               <li class="nav__item">
-                <a href="{{ '/blog' | prepend: site.baseurl }}" class="nav__link">Blog</a>
+                <a href="{{ '/blog/' | relative_url }}" class="nav__link">Blog</a>
               </li>
             </ul>
 

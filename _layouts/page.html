@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if page.permalink == '/about' %}
+{% if page.url == '/about/' %}
   {% include hero.html %}
   {{ content }}
 {% else %}
@@ -17,7 +17,7 @@ layout: default
 
 	{% if page.image %}
 	<div class="page__head">
-		<div class="page-image" style="background-image: url({{site.baseurl}}/assets/img/{{page.image}})"></div>
+		<div class="page-image bg-contain" style="--bg-image: url({{ '/assets/img/' | append: page.image | relative_url }})"></div>
 	</div>
 	{% endif %}
 </div>

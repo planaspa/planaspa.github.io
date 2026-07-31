@@ -1,7 +1,11 @@
 <!-- begin footer -->
 <footer class="footer">
   <div class="container">
-    <div class="copyright">Copyright &copy; {{site.time | date: '%Y'}} <a href="/">{{ site.title }}</a>.</div>
+    <div class="copyright">
+      Copyright &copy; {{ site.time | date: '%Y' }}
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>.
+      <a href="{{ '/legal/' | relative_url }}">Legal notice</a>
+    </div>
   </div>
 </footer>
 <!-- end footer -->

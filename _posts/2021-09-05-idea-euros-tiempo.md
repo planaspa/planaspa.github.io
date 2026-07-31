@@ -1,4 +1,5 @@
 ---
+permalink: /2021/09/05/idea-euros-tiempo/
 layout: post
 title: "1 idea, 100€, 3 días"
 post_pic: /assets/img/posts/20210905/kemvy.png

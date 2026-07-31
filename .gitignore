@@ -5,6 +5,4 @@ _site
 vendor
 *.gem
 .bundle
-.sass-cache
-Gemfile.lock
 .gemini

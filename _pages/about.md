@@ -1,7 +1,5 @@
 ---
-layout: page
 title: "Quién soy"
-permalink: /about
 hero_title: "Pablo Lanaspa Ferrer"
 hero_subtitle: "Senior Product Manager | Fintech | Data | Platforms"
 hero_description: "Más de 8 años liderando estrategias tecnológicas y digitales. Gestor de productos digitales, plataformas de datos y soluciones analíticas. Experiencia liderando implantación de productos para grandes empresas como Teléfonica y productos especializados para inversores institucionales en ClarityAI."
