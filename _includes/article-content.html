@@ -5,25 +5,6 @@
     <div class="article__content">
       <a href="{{ post.url | relative_url }}" class="article__link" aria-labelledby="article-{{ article_id }}-title"></a>
 
-      {% if post.tags.size >= 1 %}
-        <div class="article-tags">
-          <div class="article-tags__box">
-            {% if post.popular %}
-              <span class="article__badge">{% include i18n.html key="popular_badge" %}</span>
-            {% endif %}
-            {% for tag in post.tags %}
-              {% include tag-link.html tag=tag class="article__tag" %}
-            {% endfor %}
-          </div>
-        </div>
-      {% elsif post.popular %}
-        <div class="article-tags">
-          <div class="article-tags__box">
-            <span class="article__badge">{% include i18n.html key="popular_badge" %}</span>
-          </div>
-        </div>
-      {% endif %}
-
       <h2 class="article__title" id="article-{{ article_id }}-title">{{ post.title }}</h2>
 
       <p class="article__excerpt">
@@ -36,6 +17,9 @@
 
       <div class="article__footer">
         <div class="article__meta">
+          {% if post.popular %}
+            <span class="article__badge">{% include i18n.html key="popular_badge" %}</span>
+          {% endif %}
           <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time></span>
         </div>
 
