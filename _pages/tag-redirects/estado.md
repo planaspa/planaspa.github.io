@@ -1,4 +1,4 @@
 ---
 permalink: /tag/estado/
-redirect_to: /tag/government/
+redirect_to: /
 ---

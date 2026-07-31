@@ -5,7 +5,6 @@ layout: post
 title: "La Ley Goodhart"
 post_pic: /assets/img/posts/20210516/diana.png
 date: 2021-05-16 10:10:10 -0000
-categories: []
 tags: [metrics, product-management, agile]
 summary: "Cuando una métrica se convierte en un objetivo, deja de ser una buena métrica."
 ---

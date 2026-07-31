@@ -1,4 +1,4 @@
 ---
 permalink: /tag/datos/
-redirect_to: /tag/data/
+redirect_to: /
 ---

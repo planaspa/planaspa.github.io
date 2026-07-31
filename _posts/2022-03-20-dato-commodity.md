@@ -5,7 +5,6 @@ layout: post
 title: "Los datos, una commodity"
 post_pic: /assets/img/posts/20220320/oil.png
 date: 2022-03-20 10:10:10 -0000
-categories: []
 tags: [data, strategy, product-management]
 summary: "Entendamos que los datos en nuestro producto digital son una materia prima, no un fin en si mismo."
 ---

@@ -5,7 +5,6 @@ layout: post
 title: "Agilidad en tiempos de crisis"
 post_pic: /assets/img/posts/20200322/tabla.png
 date: 2020-03-22 10:10:10 -0000
-categories: []
 tags: [agile, vuca, decisions, covid]
 summary: "La toma rápida de decisiones es clave en cualquier crisis, no ser ágiles implica la derrota pese a que elijamos la mejor estrategia..."
 visible_on_index: false

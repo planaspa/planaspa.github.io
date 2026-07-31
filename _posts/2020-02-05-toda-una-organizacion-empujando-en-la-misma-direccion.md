@@ -5,7 +5,6 @@ layout: post
 title: "Toda una organización empujando en la misma dirección"
 post_pic: /assets/img/posts/20200205/plantilla.png
 date: 2020-02-05 10:10:10 -0000
-categories: []
 tags: [product-management, teams, leadership, okrs, objectives, focus]
 summary: "Como mantener equipos enfocados en unos mismos objetivos."
 ---

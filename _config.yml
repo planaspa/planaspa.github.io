@@ -52,14 +52,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - .gemini
-  - scripts
   - vendor
   - .bundle
-
-# Tags (local builds only unless using a custom GitHub Actions workflow)
-tag_page_dir: tag
-tag_page_layout: tag_page
-tag_permalink_style: pretty
 
 sass:
   sass_dir: _sass

@@ -1,4 +1,4 @@
 ---
 permalink: /tag/biotecnologia/
-redirect_to: /tag/biotechnology/
+redirect_to: /
 ---

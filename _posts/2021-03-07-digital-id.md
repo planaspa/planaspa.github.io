@@ -5,7 +5,6 @@ layout: post
 title: "Identidad digital"
 post_pic: /assets/img/posts/20210307/ID.png
 date: 2021-03-07 10:10:10 -0000
-categories: []
 tags: [web3, future]
 summary: "Necesitamos una identificación digital común y descentralizada."
 ---

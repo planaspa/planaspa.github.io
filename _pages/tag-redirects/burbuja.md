@@ -1,4 +1,4 @@
 ---
 permalink: /tag/burbuja/
-redirect_to: /tag/bubble/
+redirect_to: /
 ---

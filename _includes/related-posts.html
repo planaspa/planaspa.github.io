@@ -1,0 +1,93 @@
+{%- if page.tags.size >= 1 -%}
+  {%- assign related_max = 3 -%}
+  {%- assign related_posts = "" | split: "" -%}
+  {%- assign related_urls = "" | split: "" -%}
+  {%- assign overlap_levels = "5,4,3,2,1" | split: "," -%}
+
+  {%- for overlap_level in overlap_levels -%}
+    {%- if related_posts.size >= related_max -%}{%- break -%}{%- endif -%}
+    {%- assign overlap_target = overlap_level | plus: 0 -%}
+    {%- for post in site.posts -%}
+      {%- if post.url == page.url -%}{%- continue -%}{%- endif -%}
+      {%- if related_urls contains post.url -%}{%- continue -%}{%- endif -%}
+      {%- assign overlap = 0 -%}
+      {%- for tag in page.tags -%}
+        {%- if post.tags contains tag -%}
+          {%- assign overlap = overlap | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if overlap == overlap_target -%}
+        {%- assign related_posts = related_posts | push: post -%}
+        {%- assign related_urls = related_urls | push: post.url -%}
+        {%- if related_posts.size >= related_max -%}{%- break -%}{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+
+  {%- assign related_context_tags = "" | split: "" -%}
+  {%- for tag in page.tags -%}
+    {%- if related_context_tags.size >= 2 -%}{%- break -%}{%- endif -%}
+    {%- assign tag_shared = false -%}
+    {%- for related in related_posts -%}
+      {%- if related.tags contains tag -%}
+        {%- assign tag_shared = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if tag_shared -%}
+      {%- assign tag_count = site.tags[tag] | size -%}
+      {%- assign tag_entry = tag | append: "::" | append: tag_count -%}
+      {%- assign related_context_tags = related_context_tags | push: tag_entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign sorted_context_tags = related_context_tags | sort -%}
+  {%- assign related_context_tags = "" | split: "" -%}
+  {%- for tag_entry in sorted_context_tags limit: 2 -%}
+    {%- assign tag_parts = tag_entry | split: "::" -%}
+    {%- assign related_context_tags = related_context_tags | push: tag_parts[0] -%}
+  {%- endfor -%}
+{%- else -%}
+  {%- assign related_posts = "" | split: "" -%}
+  {%- assign related_context_tags = "" | split: "" -%}
+{%- endif -%}
+
+{%- if related_posts.size > 0 -%}
+<section class="post__related" aria-labelledby="related-posts-heading">
+  <header class="post__related-header">
+    <h2 class="post__related-title" id="related-posts-heading">{% include i18n.html key="related_heading" %}</h2>
+    {%- if related_context_tags.size > 0 -%}
+    <p class="post__related-subtitle">
+      <span class="post__related-subtitle-label">{% include i18n.html key="related_on_tags" %}</span>
+      {% for tag in related_context_tags %}
+        {% include tag-link.html tag=tag class="post__related-tag" %}{% unless forloop.last %}{% include i18n.html key="related_tag_sep" %}{% endunless %}
+      {% endfor %}
+    </p>
+    {%- endif -%}
+  </header>
+
+  <div class="post__related-grid">
+    {%- for post in related_posts -%}
+      {% include article-content.html %}
+    {%- endfor -%}
+  </div>
+</section>
+{%- endif -%}
+
+{%- if page.previous.url or page.next.url -%}
+<nav class="post__chrono" aria-label="{% include i18n.html key='post_chrono_label' %}">
+  {%- if page.previous.url -%}
+  <a class="post__chrono-link post__chrono-link--prev" href="{{ page.previous.url | relative_url }}">
+    <i class="ion ion-md-arrow-back" aria-hidden="true"></i>
+    <span>{% include i18n.html key="post_older" %}: {{ page.previous.title | escape }}</span>
+  </a>
+  {%- endif -%}
+
+  {%- if page.next.url -%}
+  <a class="post__chrono-link post__chrono-link--next" href="{{ page.next.url | relative_url }}">
+    <span>{% include i18n.html key="post_newer" %}: {{ page.next.title | escape }}</span>
+    <i class="ion ion-md-arrow-forward" aria-hidden="true"></i>
+  </a>
+  {%- endif -%}
+</nav>
+{%- endif -%}

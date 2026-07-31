@@ -5,7 +5,6 @@ layout: post
 title: "El crash tejano"
 post_pic: /assets/img/posts/20200426/cotizacion.png
 date: 2020-04-25 11:00:10 -0000
-categories: []
 tags: [oil, stock-market, crisis, nonsense]
 summary: "El día que en Texas por cada barril de petróleo que quisieras te daban el barril gratis y 40 dólares de regalo."
 visible_on_index: false

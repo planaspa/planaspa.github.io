@@ -5,7 +5,6 @@ layout: post
 title: "(Des)Paquetizar"
 post_pic: /assets/img/posts/20210207/Pendulo.png
 date: 2021-02-07 10:10:10 -0000
-categories: []
 tags: [mental-models, business-model, internet]
 summary: "'Sólo conozco dos maneras de hacer dinero, la primera es paquetizar y la segunda es despaquetizar', Jim Barksdale."
 ---

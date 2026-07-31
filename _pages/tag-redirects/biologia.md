@@ -1,4 +1,4 @@
 ---
 permalink: /tag/biologia/
-redirect_to: /tag/biology/
+redirect_to: /
 ---

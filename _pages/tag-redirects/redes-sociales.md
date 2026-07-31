@@ -1,4 +1,4 @@
 ---
 permalink: /tag/redes-sociales/
-redirect_to: /tag/social-media/
+redirect_to: /
 ---

@@ -5,7 +5,6 @@ layout: post
 title: "Sobredosis de apps"
 post_pic: /assets/img/posts/20210530/fusion_apps.png
 date: 2021-05-30 10:10:10 -0000
-categories: []
 tags: [product-management, apps, channels]
 summary: "Ninguna empresa necesita once apps para relacionarse con sus clientes."
 ---

@@ -5,7 +5,6 @@ layout: post
 title: "Teoría de plataformas"
 post_pic: /assets/img/posts/20210418/platform_diagram.png
 date: 2021-04-18 10:10:10 -0000
-categories: []
 tags: [business-model, product-management]
 summary: "Las plataformas digitales se están comiendo el mundo. Analizamos la teoría detrás de ellas."
 ---

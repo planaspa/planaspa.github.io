@@ -5,7 +5,6 @@ layout: post
 title: "Costovación, cuando menos es más"
 post_pic: /assets/img/posts/20210110/complex_vs_simple.png
 date: 2021-01-10 10:10:10 -0000
-categories: []
 tags: [product-management, agile, costovation, roadmaps]
 summary: "Incluir nueva funcionalidad tiene costes hundidos e implica más complejidad, pero no siempre aporta más valor."
 ---

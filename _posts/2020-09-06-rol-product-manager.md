@@ -5,7 +5,6 @@ layout: post
 title: "El rol del Product Manager"
 post_pic: /assets/img/posts/20200906/rol.png
 date: 2020-09-06 09:10:10 -0000
-categories: []
 tags: [product-management]
 summary: "Existe una mala concepción en muchos equipos que desarrollan software sobre el rol de un product manager."
 popular: true

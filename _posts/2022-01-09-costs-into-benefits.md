@@ -5,7 +5,6 @@ layout: post
 title: "Costes --> Beneficios"
 post_pic: /assets/img/posts/20220109/amazon_costs.png
 date: 2022-01-09 10:10:10 -0000
-categories: []
 tags: [product-management, strategy, amazon]
 summary: "¿Cuáles son los subproductos de tu producto principal? ¿Les puedes sacar algún rendimiento?"
 ---

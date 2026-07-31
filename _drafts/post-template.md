@@ -1,10 +1,9 @@
 ---
 layout: post
 lang: en
-title: "Example post with large tittle just in case"
-post_pic: /assets/img/test_images/test_image1.jpg
+title: "Example post with large title just in case"
+post_pic: /assets/img/bio_img.png
 date: 2000-12-30 10:10:10 -0000
-categories: []
 tags: [Test, Blog]
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero,"
 ---
@@ -20,7 +19,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 [If you want URL something](https://www.google.com) just do this.
 
 With this template you can attach any image you want on the left side:
-{% include posts/image.html align="left" url="/assets/img/test_images/test_image1.jpg" description="My cat, Robert Downey Jr." ref="https://www.google.com" %}
+{% include posts/image.html align="left" url="/assets/img/bio_img.png" description="Example image caption." ref="https://www.google.com" %}
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit nostra curae, porttitor aliquam est mauris laoreet urna odio dui, elementum maecenas lectus euismod fermentum id proin imperdiet. Nulla condimentum curae purus vulputate bibendum a proin elementum odio mollis, nostra molestie accumsan penatibus tellus vivamus et laoreet sapien, dui nascetur pretium ultricies luctus dictum dignissim ante nibh. Blandit sodales risus imperdiet dis luctus congue, natoque scelerisque eu nibh etiam nunc integer, metus vestibulum mauris facilisi est. Cum netus libero ornare ligula luctus viverra mi mus interdum lobortis, blandit dapibus ullamcorper pretium convallis tortor magnis habitasse sagittis, mattis maecenas dui ac ante tristique bibendum fusce nascetur.
 
@@ -43,7 +42,7 @@ Or these other ones:
     * here i'm back to the second level
 * This is awesome!
 
-{% include posts/image.html align="center" url="/assets/img/test_images/test_image1.jpg" description="My cat, Robert Downey Jr." ref="https://www.google.com" %}
+{% include posts/image.html align="center" url="/assets/img/bio_img.png" description="Example image caption." ref="https://www.google.com" %}
 
 Felis rhoncus metus aenean blandit ornare lacus commodo mus arcu, per pretium nostra conubia class auctor sociosqu sociis sollicitudin nisl, fermentum porta congue penatibus est vivamus volutpat feugiat. Faucibus tempor turpis eu fringilla cum velit sapien suspendisse himenaeos, gravida laoreet sem in euismod justo condimentum. Nascetur dis eros risus senectus curabitur vulputate auctor, vivamus litora id euismod sociis nostra placerat inceptos, sollicitudin nibh eleifend tellus est fames.
 
@@ -65,14 +64,14 @@ Vulputate natoque penatibus tristique eget sociosqu curabitur integer velit, sag
 
 Class at augue posuere dignissim hendrerit vitae eu dictumst venenatis, urna iaculis eros leo natoque erat nostra. Gravida cursus porta rhoncus non habitant placerat praesent inceptos quisque nisl, pellentesque dui id auctor risus neque eleifend viverra congue euismod nisi, ullamcorper donec morbi pharetra ridiculus tristique convallis taciti et. Euismod vestibulum morbi vitae eros tristique torquent risus, magnis curae sapien accumsan taciti litora elementum porta, mauris eu sed luctus urna sociis.
 
-{% include posts/image.html align="left" url="/assets/img/test_images/test_image2.png" description="My cat, Robert Downey Jr." ref="https://www.google.com" %}
+{% include posts/image.html align="left" url="/assets/img/logo.svg" description="Example image caption." ref="https://www.google.com" %}
 
 
 Cras conubia augue placerat ultricies sociis primis ornare lectus bibendum risus cubilia, vestibulum sollicitudin tristique montes phasellus faucibus nullam rutrum senectus. Habitant ad commodo tortor sodales cubilia facilisis, dui gravida rutrum aliquam faucibus, suscipit fermentum maecenas vulputate metus. Suspendisse dis convallis sollicitudin rhoncus aliquet, tortor pulvinar tincidunt arcu duis, egestas platea in facilisi. Nostra bibendum etiam imperdiet quam parturient tempus, urna feugiat vulputate fusce hac ac, eros morbi praesent accumsan tellus.
 
 Semper nulla quisque imperdiet risus gravida conubia leo aliquam, class auctor facilisis accumsan curae facilisi eleifend, nisi magna orci aenean rutrum morbi nec. Suspendisse malesuada feugiat tortor risus netus bibendum erat laoreet ac, magna arcu luctus vestibulum egestas orci potenti mauris varius, non volutpat pharetra facilisis nunc odio rhoncus donec. Convallis lobortis porttitor nascetur praesent gravida cubilia dictum lacinia torquent neque, ad a mauris luctus laoreet nunc magnis ante accumsan sagittis, varius dapibus sociosqu nam viverra tristique placerat metus ridiculus. Id libero ac massa platea netus nisl ullamcorper proin vitae pellentesque, vestibulum suscipit congue aliquet porta augue dis quisque mus, rutrum hac euismod ad placerat condimentum primis tellus habitasse.
 
-{% include posts/image.html align="left" url="/assets/img/test_images/test_image3.jpeg" description="My cat, Robert Downey Jr." ref="https://www.google.com" %}
+{% include posts/image.html align="left" url="/assets/img/bio_img.png" description="Example image caption." ref="https://www.google.com" %}
 
 Molestie imperdiet turpis porttitor blandit vestibulum netus nascetur, pulvinar ac porta faucibus ornare etiam mus, lacus sagittis velit conubia morbi dictumst. Sollicitudin magnis neque facilisi condimentum sem class fermentum natoque, curae platea erat risus sodales at id porta accumsan, torquent posuere justo primis maecenas vivamus cubilia. Platea et dictumst arcu justo in libero, luctus dapibus lectus nulla lacus sed, tortor quis blandit montes risus.
 

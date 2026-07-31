@@ -1,4 +1,4 @@
 ---
 permalink: /tag/segmentacion/
-redirect_to: /tag/segmentation/
+redirect_to: /
 ---

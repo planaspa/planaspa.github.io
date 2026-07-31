@@ -1,4 +1,4 @@
 ---
 permalink: /tag/plataforma/
-redirect_to: /tag/platforms/
+redirect_to: /
 ---

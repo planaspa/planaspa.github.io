@@ -5,7 +5,6 @@ layout: post
 title: "La nueva patente de Facebook"
 post_pic: /assets/img/posts/20200614/figura_15.png
 date: 2020-06-14 10:10:10 -0000
-categories: []
 tags: [facebook, business-model, platforms]
 summary: "¿Está Facebook girando hacia una deconstrucción del concepto influencer? Los usuarios podrán monetizar sus perfiles."
 popular: true

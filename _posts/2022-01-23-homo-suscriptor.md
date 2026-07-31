@@ -5,7 +5,6 @@ layout: post
 title: "Homo suscriptor"
 post_pic: /assets/img/posts/20220123/subscribe.png
 date: 2022-01-23 10:10:10 -0000
-categories: []
 tags: [subscription, amazon, spotify]
 summary: "Los modelos de suscripción se siguen imponiendo."
 ---

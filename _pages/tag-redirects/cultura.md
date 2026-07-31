@@ -1,4 +1,4 @@
 ---
 permalink: /tag/cultura/
-redirect_to: /tag/culture/
+redirect_to: /
 ---

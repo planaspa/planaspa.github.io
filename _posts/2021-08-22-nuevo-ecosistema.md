@@ -5,7 +5,6 @@ layout: post
 title: "El nuevo ecosistema"
 post_pic: /assets/img/posts/20210822/planet.png
 date: 2021-08-21 10:10:10 -0000
-categories: []
 tags: [space, spacex]
 summary: "El espacio será el próximo gran ecosistema tecnológico, posicionémonos para innovar desde ya."
 ---
