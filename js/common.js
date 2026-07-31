@@ -1,41 +1,7 @@
 (function () {
   'use strict';
 
-  var headerOverlay = document.querySelector('.header__overlay');
-  var menuOpenIcon = document.querySelector('.nav__icon-menu');
-  var menuCloseIcon = document.querySelector('.nav-icon__close');
-  var menuList = document.querySelector('.main-nav');
   var topButton = document.querySelector('.top');
-
-  function menuOpen() {
-    if (!menuList || !headerOverlay) {
-      return;
-    }
-
-    menuList.classList.add('is-open');
-    headerOverlay.classList.add('is-visible');
-  }
-
-  function menuClose() {
-    if (!menuList || !headerOverlay) {
-      return;
-    }
-
-    menuList.classList.remove('is-open');
-    headerOverlay.classList.remove('is-visible');
-  }
-
-  if (menuOpenIcon) {
-    menuOpenIcon.addEventListener('click', menuOpen);
-  }
-
-  if (menuCloseIcon) {
-    menuCloseIcon.addEventListener('click', menuClose);
-  }
-
-  if (headerOverlay) {
-    headerOverlay.addEventListener('click', menuClose);
-  }
 
   document.querySelectorAll('.page img, .post img').forEach(function (image) {
     var parentLink = image.closest('a');
