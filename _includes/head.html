@@ -14,4 +14,8 @@
         crossorigin="anonymous">
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  {% if site.google_analytics and jekyll.environment != 'development' %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
