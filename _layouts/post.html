@@ -67,43 +67,5 @@ layout: default
       <!-- end post -->
   </div>
 
-  <div class="post__navigation">
-      {% if page.previous.url %}
-      <div class="prev">
-        <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.previous.url | relative_url }}" style="--bg-image: url({{ page.previous.post_pic | relative_url }})"></a>
-        <h2 class="post__nav__title">
-          <i class="ion ion-md-arrow-back"></i>
-          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
-        </h2>
-        <p class="prev__excerpt">
-          {% if page.previous.summary %}
-            {{ page.previous.summary }}
-          {% elsif page.previous.description %}
-            {{ page.previous.description }}
-          {% else %}
-            {{ page.previous.content | markdownify | strip_html | truncate: 110 }}
-          {% endif %}
-        </p>
-      </div>
-      {% endif %}
-
-      {% if page.next.url %}
-      <div class="next">
-        <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.next.url | relative_url }}" style="--bg-image: url({{ page.next.post_pic | relative_url }})"></a>
-        <h2 class="post__nav__title">
-          <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
-          <i class="ion ion-md-arrow-forward"></i>
-        </h2>
-        <p class="next__excerpt">
-          {% if page.next.summary %}
-            {{ page.next.summary }}
-          {% elsif page.next.description %}
-            {{ page.next.description }}
-          {% else %}
-            {{ page.next.content | markdownify | strip_html | truncate: 110 }}
-          {% endif %}
-        </p>
-      </div>
-      {% endif %}
-  </div>
+  {% include related-posts.html %}
 </div>

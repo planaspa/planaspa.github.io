@@ -1,3 +1,3 @@
 {% assign tag_slug = include.tag | downcase | replace: " ", "-" %}
 {% assign tag_label = site.data.tag_labels[tag_slug] | default: include.tag | replace: "-", " " %}
-<span class="{{ include.class }}">{{ tag_label }}</span>
+<a href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}" class="{{ include.class }}">{{ tag_label }}</a>
