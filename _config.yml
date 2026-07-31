@@ -13,8 +13,8 @@ author:
   name: Pablo Lanaspa Ferrer
   image: bio_img.png
 
-# Google Analytics (leave blank to disable)
-google_analytics:
+# Google Analytics 4 (leave blank to disable)
+google_analytics: G-6SDG48R4SK
 
 # Build settings
 markdown: kramdown
