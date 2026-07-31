@@ -1,8 +1,7 @@
 ---
+permalink: /2021/09/05/idea-euros-tiempo/
 layout: post
 title: "1 idea, 100€, 3 días"
-author: Pablo Lanaspa
-profile_pic: /assets/img/bio_img.png
 post_pic: /assets/img/posts/20210905/kemvy.png
 date: 2021-09-05 10:10:10 -0000
 categories: []

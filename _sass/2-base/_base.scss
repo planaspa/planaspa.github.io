@@ -106,6 +106,18 @@ img,
   }
 }
 
+.post__content,
+.page__content {
+  iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+  }
+}
+
 a {
     text-decoration: none;
     color: $link-color;

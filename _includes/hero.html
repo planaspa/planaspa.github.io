@@ -9,34 +9,34 @@
           {% else %}
             <h1 class="hero__title">Pablo Lanaspa</h1>
           {% endif %}
-          
+
           {% if page.hero_subtitle %}
             <h5 class="hero__subtitle">{{ page.hero_subtitle }}</h5>
           {% else %}
-            <h5 class="hero__subtitle">{{ site.data.settings.author.name }}</h5>
+            <h5 class="hero__subtitle">{{ site.author.name }}</h5>
           {% endif %}
-          
+
           {% if page.hero_description %}
             <p>{{ page.hero_description }}</p>
           {% else %}
-            <p>{{ site.data.settings.description }}</p>
+            <p>{{ site.description }}</p>
           {% endif %}
 
           <div class="hero__social">
             {% if page.hero_contact %}
               <p><strong>{{ page.hero_contact }}</strong></p>
             {% endif %}
-            <div>
-              <a href="https://twitter.com/planaspa" title="Twitter" style="font-size: 2em;"><i class="ion ion-logo-twitter"></i></a>
-              <a href="https://linkedin.com/in/planaspa" title="LinkedIn" style="padding: 0 15px; font-size: 2em;"><i class="ion ion-logo-linkedin"></i></a>
-              <a href="mailto:info@planaspa.com" title="Email" style="font-size: 2em;"><i class="ion ion-ios-mail"></i></a>
+            <div class="hero__social-links">
+              <a href="https://twitter.com/planaspa" title="Twitter"><i class="ion ion-logo-twitter"></i></a>
+              <a href="https://linkedin.com/in/planaspa" title="LinkedIn"><i class="ion ion-logo-linkedin"></i></a>
+              <a href="mailto:info@planaspa.com" title="Email"><i class="ion ion-ios-mail"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col col-6 col-t-12">
         <div class="hero__image">
-          <img src="{{site.baseurl}}/images/{{ site.data.settings.author.image }}" alt="Imagen de perfil de Pablo" style="width: 50%; height: auto;">
+          <img class="hero__profile-image" src="{{ '/assets/img/' | append: site.author.image | relative_url }}" alt="Imagen de perfil de Pablo">
         </div>
       </div>
     </div>

@@ -16,6 +16,10 @@
         color: $brand-color;
       }
     }
+
+    a + a {
+      margin-left: 12px;
+    }
   }
 
   @media only screen and (max-width: $mobile) {

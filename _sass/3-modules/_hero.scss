@@ -39,6 +39,22 @@
       font-weight: 700;
     }
 
+    .hero__social-links {
+      a {
+        font-size: 2em;
+        color: inherit;
+
+        &:not(:last-child) {
+          padding-right: 15px;
+        }
+      }
+    }
+
+  }
+
+  .hero__profile-image {
+    width: 50%;
+    height: auto;
   }
 
   .hero__image {

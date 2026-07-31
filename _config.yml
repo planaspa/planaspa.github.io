@@ -1,13 +1,20 @@
 # Site settings
 title: Surcando la economía digital
 description: >-
-  Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital. 
+  Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital.
 baseurl: ""
 url: "https://planaspa.com"
-twitter_username: planaspa
+lang: en
+twitter:
+  username: planaspa
+  card: summary_large_image
 
-# Allow posts in future date
-future: true
+author:
+  name: Pablo Lanaspa Ferrer
+  image: bio_img.png
+
+# Google Analytics (leave blank to disable)
+google_analytics:
 
 # Build settings
 markdown: kramdown
@@ -20,20 +27,34 @@ plugins:
 paginate: 5
 paginate_path: "/page/:num"
 
-# Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
-      permalink: /:basename:output_ext
+      layout: page
+      permalink: /:basename/
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
 
 include:
   - _pages
 
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gemini
+  - scripts
+  - vendor
+  - .bundle
+
+# Tags (local builds only unless using a custom GitHub Actions workflow)
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 
 sass:
   sass_dir: _sass

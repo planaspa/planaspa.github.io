@@ -14,7 +14,7 @@ layout: default
         <div class="post__info">
           <div class="post__author">
             <span>Por</span>
-            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
+            <a href="{{ '/about/' | relative_url }}" class="author-name">{{ site.author.name }}</a>
           </div>
 
           {% if page.tags.size >= 1 %}
@@ -32,88 +32,86 @@ layout: default
   {% assign no-image = nil %}
   {% if page.image %}
     <div class="post__head">
-      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+      <div class="post-image bg-cover" style="--bg-image: url({{ '/assets/img/' | append: page.image | relative_url }})"></div>
     </div>
   {% else %}
     {% assign no-image = 'post-no-image' %}
   {% endif %}
 
-  </div>
-
-
   <div class="container">
-  <div class="row">
-    <!-- begin post -->
-    <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+    <div class="row">
+      <!-- begin post -->
+      <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+        <div class="post__content">
+          {{ content }}
+        </div>
 
-      <div class="post__content">
-        {{ content }}
-      </div>
+        {% assign share_summary = page.summary | default: page.description | uri_escape %}
+        <div class="post__share">
+          <span class="share__title">Comparte este artículo:</span>
+          <ul class="share__list list-reset">
+            <li class="share__item">
+              <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
+                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                title="Share on Facebook" rel="nofollow noopener"><i class="ion ion-logo-facebook"></i></a>
+            </li>
 
-      <div class="post__share">
-        <span class="share__title">Comparte este artículo:</span>
-        <ul class="share__list list-reset">
-          <li class="share__item">
-            <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-          </li>
+            <li class="share__item">
+              <a class="share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}{% if page.summary %}&mdash; {{ page.summary | uri_escape }}{% endif %}&url={{ page.url | absolute_url }}"
+                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+                title="Share on Twitter" rel="nofollow noopener"><i class="ion ion-logo-twitter"></i></a>
+            </li>
 
-          <li class="share__item">
-            <a class="share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
-          </li>
-
-
-        </ul>
-      </div>
-    </article>
-    <!-- end post -->
+            <li class="share__item">
+              <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | uri_escape }}&summary={{ share_summary }}&source={{ site.title | uri_escape }}"
+                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener"><i class="ion ion-logo-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!-- end post -->
     </div>
   </div>
 
   <div class="container">
-  <div class="post__navigation">
-    {% if page.previous.url %}
-    <div class="prev">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}{{page.previous.post_pic}}); height: 200px; background-size: contain; background-position: center;"></a>
-      <h2 class="post__nav__title">
-        <i class="ion ion-md-arrow-back"></i>
-        <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
-      </h2>
-      <p class="prev__excerpt">
-        {% if page.previous.description %}
-          {{ page.previous.description }}
-        {% else %}
-          {{ page.previous.content | markdownify | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
-    </div>
-    {% endif %}
+    <div class="post__navigation">
+      {% if page.previous.url %}
+      <div class="prev">
+        <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.previous.url | relative_url }}" style="--bg-image: url({{ page.previous.post_pic | relative_url }})"></a>
+        <h2 class="post__nav__title">
+          <i class="ion ion-md-arrow-back"></i>
+          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+        </h2>
+        <p class="prev__excerpt">
+          {% if page.previous.summary %}
+            {{ page.previous.summary }}
+          {% elsif page.previous.description %}
+            {{ page.previous.description }}
+          {% else %}
+            {{ page.previous.content | markdownify | strip_html | truncate: 110 }}
+          {% endif %}
+        </p>
+      </div>
+      {% endif %}
 
-    {% if page.next.url %}
-    <div class="next">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}{{page.next.post_pic}}); height: 200px; background-size: contain; background-position: center;">
-      </a>
-      <h2 class="post__nav__title">
-        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
-        <i class="ion ion-md-arrow-forward"></i>
-      </h2>
-      <p class="next__excerpt">
-        {% if page.next.description %}
-          {{ page.next.description }}
-        {% else %}
-          {{ page.next.content | markdownify | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
+      {% if page.next.url %}
+      <div class="next">
+        <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.next.url | relative_url }}" style="--bg-image: url({{ page.next.post_pic | relative_url }})"></a>
+        <h2 class="post__nav__title">
+          <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+          <i class="ion ion-md-arrow-forward"></i>
+        </h2>
+        <p class="next__excerpt">
+          {% if page.next.summary %}
+            {{ page.next.summary }}
+          {% elsif page.next.description %}
+            {{ page.next.description }}
+          {% else %}
+            {{ page.next.content | markdownify | strip_html | truncate: 110 }}
+          {% endif %}
+        </p>
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
-
-  </div>
+</div>

@@ -9,6 +9,10 @@ layout: default
 </div>
 
 
-{% for post in page.posts %}
-  {% include article-content.html %}
-{% endfor %}
+<div class="container">
+  <div class="row">
+    {% for post in page.posts %}
+      {% include article-content.html %}
+    {% endfor %}
+  </div>
+</div>
