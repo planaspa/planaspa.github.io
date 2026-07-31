@@ -24,4 +24,30 @@
       }
     });
   }
+
+  document.querySelectorAll('[data-share-copy]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var url = button.getAttribute('data-share-copy');
+      var defaultLabel = button.getAttribute('aria-label');
+      var copiedLabel = button.getAttribute('data-share-copy-success');
+
+      if (!url || !navigator.clipboard) {
+        return;
+      }
+
+      navigator.clipboard.writeText(url).then(function () {
+        button.classList.add('is-copied');
+        if (copiedLabel) {
+          button.setAttribute('aria-label', copiedLabel);
+        }
+
+        window.setTimeout(function () {
+          button.classList.remove('is-copied');
+          if (defaultLabel) {
+            button.setAttribute('aria-label', defaultLabel);
+          }
+        }, 2000);
+      });
+    });
+  });
 })();

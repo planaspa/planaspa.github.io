@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/04/18/Teoria-plataformas/
 layout: post
 title: "Teoría de plataformas"

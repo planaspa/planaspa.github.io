@@ -4,8 +4,8 @@
     <div class="copyright">
       Copyright &copy; {{ site.time | date: '%Y' }}
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>.
-      <a href="{{ '/about/' | relative_url }}">Quién soy</a>.
-      <a href="{{ '/legal/' | relative_url }}">Legal notice</a>
+      <a href="{{ '/about/' | relative_url }}">{% include i18n.html key="about_link" %}</a>.
+      <a href="{{ '/legal/' | relative_url }}">{% include i18n.html key="legal_link" %}</a>
     </div>
   </div>
 </footer>

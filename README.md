@@ -1,6 +1,6 @@
-# Surcando la economía digital
+# Navigating the Digital Economy
 
-Personal site of Pablo Lanaspa. Opinions on the digital economy.
+Personal site of Pablo Lanaspa. Writing on product management, platforms, and the digital economy.
 
 Built with [Jekyll](https://jekyllrb.com/) and deployed via [GitHub Pages](https://pages.github.com/) to [planaspa.com](https://planaspa.com).
 

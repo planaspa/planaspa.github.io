@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2022/02/06/Canibalismo-Informatico/
 layout: post
 title: "Canibalismo informático"
 post_pic: /assets/img/posts/20220206/AlphaCode.png
 date: 2022-02-06 10:10:10 -0000
 categories: []
-tags: [ia, nlp, innovacion, deepmind]
+tags: [ai, nlp, innovation, deepmind]
 summary: "¿Será el gremio informático el primero en crear una tecnología capaz de mandarse al paro?"
 ---
 

@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/05/31/Desmontando-Starlink/
 layout: post
 title: "Desmontando Starlink"
 post_pic: /assets/img/posts/20200531/LEOvsGEO.png
 date: 2020-05-31 09:10:10 -0000
 categories: []
-tags: [elon, musk, tesla, spacex, business-model, innovacion, espacio]
+tags: [elon-musk, tesla, spacex, business-model, innovation, space]
 summary: "¿Puede ser SpaceX un peligro para las empresas de telecomunicaciones?"
 popular: true
 ---

@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2022/05/15/Autoservicio/
 layout: post
 title: "Autoservicio"
 post_pic: /assets/img/posts/20220515/aws.png
 date: 2022-05-15 10:10:10 -0000
 categories: []
-tags: [business-model, plataformas, platforms, amazon]
+tags: [business-model, platforms, amazon]
 summary: "No pienses en funcionalidades, piensa en capacidades autoservicio."
 ---
 
@@ -61,4 +62,3 @@ Evita ponerte en medio, evita poner a cualquier persona de tu equipo entre la ca
 Soy muy consciente que llevar esta teoría a la práctica es altamente complicado en el día a día y requiere de mucha disciplina, pero merece la pena recordarnoslo cada cierto tiempo para abrirnos la mente y reflexionar.
 
 Piensa en capacidades autoservicio y no en funcionalidades en tu próximo *roadmap*. Haz el ejercicio.
-

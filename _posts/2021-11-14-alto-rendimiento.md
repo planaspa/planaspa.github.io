@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/11/14/Alto-Rendimiento/
 layout: post
 title: "Alto rendimiento"
 post_pic: /assets/img/posts/20211114/level_up.png
 date: 2021-11-14 10:10:10 -0000
 categories: []
-tags: [team, squad, agile, incentivos]
+tags: [teams, squad, agile, incentives]
 summary: "Habilidad técnica y motivación. Las dos dimensiones necesarias."
 ---
 

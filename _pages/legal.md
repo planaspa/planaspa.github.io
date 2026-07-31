@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Aviso legal"
-summary: "Sitio web personal de Pablo Lanaspa. Publico opiniones personales acerca de la economía digital."
+title: "Legal notice"
+summary: "Personal website of Pablo Lanaspa. I write about product management, platforms, and the digital economy."
 ---
 
 <div class="legal_page">
-  <h1>Aviso legal</h1>
+  <h1>Legal notice</h1>
 
-  <p>La presente página se constituye como el Aviso Legal y las Condiciones de Uso que regulan el acceso, navegación y uso de mi sitio web personal ubicada en planaspa.com. Para comunicarse conmigo, se debe de escribir un correo electrónico a la siguiente dirección: <a href="mailto:info@planaspa.com">info@planaspa.com</a>.</p>
+  <p>This page serves as the Legal Notice and Terms of Use governing access to, browsing of, and use of my personal website at planaspa.com. To contact me, please send an email to <a href="mailto:info@planaspa.com">info@planaspa.com</a>.</p>
 
   <h3>Cookies &amp; analytics</h3>
   <p>This site uses <strong>Google Analytics 4</strong> to understand how visitors use the content (pages viewed, general usage patterns). Analytics cookies are only set if you click <strong>Accept</strong> on the cookie banner. If you click <strong>Reject</strong>, no analytics cookies are used.</p>

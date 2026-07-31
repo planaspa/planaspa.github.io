@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Example post with large tittle just in case"
 post_pic: /assets/img/test_images/test_image1.jpg
 date: 2000-12-30 10:10:10 -0000

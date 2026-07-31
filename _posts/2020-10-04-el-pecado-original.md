@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2020/10/04/El-Pecado-Original/
 layout: post
 title: "El Pecado Original"

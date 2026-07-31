@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2020/10/18/Outcome-vs-Output/
 layout: post
 title: "Outcome vs output"

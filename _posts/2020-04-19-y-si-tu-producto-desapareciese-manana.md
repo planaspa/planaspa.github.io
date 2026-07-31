@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/04/19/Y-si-tu-producto-desapareciese-ma%C3%B1ana/
 layout: post
 title: "¿Y si tu producto desapareciese mañana?"
 post_pic: /assets/img/posts/20200419/diagrama.png
 date: 2020-04-19 11:30:00 -0000
 categories: []
-tags: [product-management, segmentacion, audiencia, growth, market-fit]
+tags: [product-management, segmentation, audience, growth, market-fit]
 summary: "Es una pregunta dolorosa pero... ¿Cómo se sentirían tus usuarios si tu producto desapareciese mañana? ¿Estás seguro?"
 ---
 

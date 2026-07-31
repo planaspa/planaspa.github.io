@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2022/01/23/Homo-suscriptor/
 layout: post
 title: "Homo suscriptor"

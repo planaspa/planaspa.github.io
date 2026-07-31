@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/10/03/Clausula-Van-Halen/
 layout: post
 title: "La cláusula Van Halen"

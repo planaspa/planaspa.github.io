@@ -5,76 +5,69 @@ layout: default
   <div class="post-title-box">
     <div class="row">
       <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-        <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{% include date-es.html date=page.date %}</time>
-        </span>
-
         <h1 class="post-title">{{ page.title | escape }}</h1>
 
-        <div class="post__info">
-          <div class="post__author">
-            <span>Por</span>
-            <a href="{{ '/about/' | relative_url }}" class="author-name">{{ site.author.name }}</a>
-          </div>
+        {% assign post_dek = page.summary | default: page.description %}
+        {% if post_dek %}
+        <p class="post__dek">{{ post_dek | escape }}</p>
+        {% endif %}
 
-          {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="post__tags-tag">{{ tag }}</a>
-            {% endfor %}
+        {% if page.lang == 'es' %}
+        <p class="post__lang-note">{% include i18n.html key="post_lang_note" %}</p>
+        {% endif %}
+
+        <div class="post__info">
+          <a href="{{ '/about/' | relative_url }}" class="post__author-avatar-link" aria-label="{{ site.author.name }}">
+            <img
+              class="post__author-avatar"
+              src="{{ '/assets/img/' | append: site.author.image | relative_url }}"
+              alt=""
+              width="40"
+              height="40"
+              aria-hidden="true"
+            >
+          </a>
+
+          <div class="post__meta-line">
+            <div class="post__author">
+              <a href="{{ '/about/' | relative_url }}" class="post__author-link">
+                <span class="post__author-by">{% include i18n.html key="post_by" %}</span>
+                <span class="author-name">{{ site.author.name }}</span>
+              </a>
+            </div>
+
+            <span class="post__meta-sep" aria-hidden="true">·</span>
+
+            <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
+
+            {% if page.tags.size >= 1 %}
+            <div class="post__tags">
+              {% for tag in page.tags %}
+                {% include tag-link.html tag=tag class="post__tags-tag" %}
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
+
+        {% include post-share.html variant="header" %}
       </div>
     </div>
   </div>
 
-  {% assign no-image = nil %}
-  {% if page.image %}
-    <div class="post__head">
-      <div class="post-image bg-cover" style="--bg-image: url({{ '/assets/img/' | append: page.image | relative_url }})"></div>
-    </div>
-  {% else %}
-    {% assign no-image = 'post-no-image' %}
-  {% endif %}
-
-  <div class="container">
-    <div class="row">
-      <!-- begin post -->
-      <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
+  <div class="row">
+    <!-- begin post -->
+    <article class="post col col-8 col-t-10 col-m-12"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
         <div class="post__content">
           {{ content }}
         </div>
 
-        {% assign share_summary = page.summary | default: page.description | uri_escape %}
-        <div class="post__share">
-          <span class="share__title">Comparte este artículo:</span>
-          <ul class="share__list list-reset">
-            <li class="share__item">
-              <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
-                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Facebook" rel="nofollow noopener"><i class="ion ion-logo-facebook"></i></a>
-            </li>
-
-            <li class="share__item">
-              <a class="share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}{% if page.summary %}&mdash; {{ page.summary | uri_escape }}{% endif %}&url={{ page.url | absolute_url }}"
-                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-                title="Share on Twitter" rel="nofollow noopener"><i class="ion ion-logo-twitter"></i></a>
-            </li>
-
-            <li class="share__item">
-              <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title | uri_escape }}&summary={{ share_summary }}&source={{ site.title | uri_escape }}"
-                onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow noopener"><i class="ion ion-logo-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
+        {% include post-share.html variant="end" %}
       </article>
       <!-- end post -->
-    </div>
   </div>
 
-  <div class="container">
-    <div class="post__navigation">
+  <div class="post__navigation">
       {% if page.previous.url %}
       <div class="prev">
         <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.previous.url | relative_url }}" style="--bg-image: url({{ page.previous.post_pic | relative_url }})"></a>
@@ -112,6 +105,5 @@ layout: default
         </p>
       </div>
       {% endif %}
-    </div>
   </div>
 </div>

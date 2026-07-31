@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2022/03/06/Regulacion/
 layout: post
 title: "Código al servicio político"
 post_pic: /assets/img/posts/20220306/politician.png
 date: 2022-03-06 10:10:10 -0000
 categories: []
-tags: [regulacion, plataformas, facebook, google, amazon]
+tags: [regulation, platforms, facebook, google, amazon]
 summary: "La regulación acabará aumentando a la complejidad de las grandes tecnológicas."
 ---
 

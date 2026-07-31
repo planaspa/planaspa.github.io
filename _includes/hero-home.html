@@ -2,17 +2,21 @@
 <div class="hero hero--home">
   <div class="container">
     <div class="hero-home">
+      <a href="{{ '/about/' | relative_url }}" class="hero-home__card-link" aria-labelledby="hero-home-title"></a>
+
       <img
         class="hero-home__avatar"
         src="{{ '/assets/img/' | append: site.author.image | relative_url }}"
-        alt="Imagen de perfil de Pablo"
+        alt=""
         width="72"
         height="72"
+        aria-hidden="true"
       >
+
       <div class="hero-home__content">
-        <h1 class="hero-home__title">{{ site.title }}</h1>
-        <p class="hero-home__tagline">Opiniones personales sobre economía digital · {{ site.author.name }}</p>
-        <a href="{{ '/about/' | relative_url }}" class="hero-home__link">Quién soy <i class="ion ion-ios-arrow-forward"></i></a>
+        <h1 class="hero-home__title" id="hero-home-title">{{ site.title }}</h1>
+        <p class="hero-home__tagline">{% include i18n.html key="site_tagline" %} · {{ site.author.name }}</p>
+        <span class="hero-home__cta">{% include i18n.html key="about_link" %} <i class="ion ion-ios-arrow-forward"></i></span>
       </div>
     </div>
   </div>

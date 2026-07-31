@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2021/12/26/Heroicidad/
 layout: post
 title: "Heroicidades"
 post_pic: /assets/img/posts/20211226/heroes.png
 date: 2021-12-26 10:10:10 -0000
 categories: []
-tags: [hr, cultura, product-management]
+tags: [hr, culture, product-management]
 summary: "Quiero evitar descubrir a mi héroe más cercano."
 ---
 

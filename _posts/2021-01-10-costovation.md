@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/01/10/Costovation/
 layout: post
 title: "Costovación, cuando menos es más"

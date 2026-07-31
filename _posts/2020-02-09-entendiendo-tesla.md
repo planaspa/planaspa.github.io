@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/02/09/Entendiendo-Tesla/
 layout: post
 title: "Entendiendo Tesla"
 post_pic: assets/img/posts/20200209/cortos.png
 date: 2020-02-09 11:10:10 -0000
 categories: []
-tags: [tesla, elon, musk, business-model, valoracion, bolsa, tecnologia]
+tags: [tesla, elon-musk, business-model, valuation, stock-market, technology]
 summary: "Mucho se ha hablado de Tesla últimamente, pero ¿cuales son sus ventajas competitivas? ¿a qué se debe tanto hype? ¿será la nueva Apple?"
 ---
 
@@ -59,4 +60,4 @@ Como detalle final, sólo quería hacer referencia al [plan maestro](https://www
 
 Parece ser que Elon Musk no se ve como un Apple, cuya estrategia fue la de subir los precios de los dispositivos año tras año desde los 499$ iniciales del iPhone hasta los más de 1100$ actuales. Su plan maestro es diametralmente opuesto y pasa por democratizar el uso de coches eléctricos a buen precio, veremos si esta parte del plan también se cumple.
 
-*Como hemos tocado temas de valoración de la compañía aprovecho a dejar el disclaimer habitual en estos casos: Esto no es una recomendación de compra o venta de Tesla, no me encuentro vinculado a la compañía de ninguna manera y no poseo acciones de la misma.
+{% include posts/disclaimer.html text="Como hemos tocado temas de valoración de la compañía aprovecho a dejar el disclaimer habitual en estos casos: Esto no es una recomendación de compra o venta de Tesla, no me encuentro vinculado a la compañía de ninguna manera y no poseo acciones de la misma." %}

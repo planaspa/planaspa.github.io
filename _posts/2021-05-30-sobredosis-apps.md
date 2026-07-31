@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2021/05/30/Sobredosis-Apps/
 layout: post
 title: "Sobredosis de apps"

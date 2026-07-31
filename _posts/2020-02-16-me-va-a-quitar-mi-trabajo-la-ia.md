@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/02/16/Me-va-a-quitar-mi-trabajo-la-IA/
 layout: post
 title: "¿Me va a quitar mi trabajo la IA?"
 post_pic: /assets/img/posts/20200216/banco.jpeg
 date: 2020-02-16 10:10:10 -0000
 categories: []
-tags: [ia, revolucion, futuro, analisis]
+tags: [ai, revolution, future, analysis]
 summary: "Una reflexión sobre la similitud entre el actual momento de la IA y la revolución industrial del siglo XVIII."
 ---
 

@@ -1,0 +1,3 @@
+{%- assign locale = include.locale | default: site.lang | default: 'en' -%}
+{%- assign strings = site.data.i18n[locale] -%}
+{{- strings[include.key] -}}

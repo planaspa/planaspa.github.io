@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2020/09/06/Rol-Product-Manager/
 layout: post
 title: "El rol del Product Manager"

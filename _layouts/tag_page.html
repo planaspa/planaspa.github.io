@@ -1,10 +1,8 @@
----
-layout: default
----
-
+{% assign tag_slug = page.tag | downcase | replace: " ", "-" %}
+{% assign tag_label = site.data.tag_labels[tag_slug] | default: page.tag | replace: "-", " " %}
 <div class="arhive-head">
   <div class="container">
-    <h1 class="archive-title">Tag: <span>{{ page.tag }}</span></h1>
+    <h1 class="archive-title">{% include i18n.html key="tag_prefix" %} <span>{{ tag_label }}</span></h1>
   </div>
 </div>
 

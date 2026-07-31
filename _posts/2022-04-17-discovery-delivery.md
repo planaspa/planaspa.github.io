@@ -1,4 +1,5 @@
 ---
+lang: es
 permalink: /2022/04/17/Discovery-Delivery/
 layout: post
 title: "Discovery vs delivery"

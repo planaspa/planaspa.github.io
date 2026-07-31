@@ -1,11 +1,12 @@
 ---
+lang: es
 permalink: /2020/08/09/Robin-dopamine-hood/
 layout: post
 title: "Robin-dopamine-hood"
 post_pic: /assets/img/posts/20200809/pfof.png
 date: 2020-08-09 10:00:10 -0000
 categories: []
-tags: [robinhood, business-model, plataformas, trading, bolsa, etica]
+tags: [robinhood, business-model, platforms, trading, stock-market, ethics]
 summary: "Robinhood ha sido una historia de éxito pero... ¿Alguien ha pensado en la ética detrás de la app?"
 ---
 
