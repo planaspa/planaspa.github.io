@@ -113,9 +113,34 @@
   background: transparent;
 
   .hero-home {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 20px;
+    transition: opacity $global-transition;
+
+    &:hover {
+      .hero-home__title {
+        color: $black;
+      }
+
+      .hero-home__cta {
+        color: $dark;
+        border-color: $brand-color;
+      }
+    }
+  }
+
+  .hero-home__card-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: $global-radius;
+
+    &:focus-visible {
+      outline: 2px solid $brand-color;
+      outline-offset: 2px;
+    }
   }
 
   .hero-home__avatar {
@@ -133,6 +158,7 @@
     font-weight: normal;
     line-height: 1.3;
     color: $dark;
+    transition: color $global-transition;
   }
 
   .hero-home__tagline {
@@ -142,7 +168,7 @@
     color: $text-color;
   }
 
-  .hero-home__link {
+  .hero-home__cta {
     display: inline-block;
     font-size: 12px;
     line-height: 18px;
@@ -151,11 +177,6 @@
     border-bottom: 1px solid transparent;
     color: $gray;
     transition: color $global-transition, border-color $global-transition;
-
-    &:hover {
-      color: $dark;
-      border-color: $brand-color;
-    }
   }
 
   @media only screen and (max-width: $mobile) {
