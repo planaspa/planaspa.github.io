@@ -41,11 +41,10 @@
   }
 
   .article-tags {
-    position: relative;
-    z-index: 2;
     flex: 0 0 auto;
     min-height: 18px;
     margin-bottom: 8px;
+    pointer-events: none;
   }
 
   .article-tags__box {
