@@ -5,7 +5,6 @@ layout: post
 title: "Proyectos vs. operaciones"
 post_pic: /assets/img/posts/20220605/org.png
 date: 2022-06-05 10:10:10 -0000
-categories: []
 tags: [management, organizations, startups, teams, people, okrs, objectives]
 summary: "No todos los equipos son iguales y debemos de pensar en ellos antes de formarlos."
 ---

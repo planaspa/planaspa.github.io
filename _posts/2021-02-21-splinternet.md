@@ -5,7 +5,6 @@ layout: post
 title: "Splinternet"
 post_pic: /assets/img/posts/20210221/Splinternet.png
 date: 2021-02-21 10:10:10 -0000
-categories: []
 tags: [china, splinternet, russia, firewall, internet]
 summary: "Internet podría caminar hacia una fragmentación en diferentes bloques geopolíticos."
 ---

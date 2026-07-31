@@ -15,16 +15,22 @@ bundle exec jekyll serve
 
 Open [http://localhost:4000](http://localhost:4000).
 
-Tag pages require the development-only `jekyll-tagging` gem and are generated locally. They are not included in the default GitHub Pages build unless you deploy via a custom GitHub Actions workflow.
+## Content model
+
+- **Site shell** (navigation, UI strings, dates): English (`site.lang: en`, `_data/i18n/en.yml`).
+- **Blog posts**: Spanish (`lang: es` in front matter). Posts show an "Originally written in Spanish" note; this is intentional and permanent.
+- **Tags**: Non-clickable labels on post pages. Tag slugs in front matter are English; display names come from `_data/tag_labels.yml`.
+- **Legacy URLs**: Spanish tag URLs under `/tag/{slug}/` redirect to the homepage via `_pages/tag-redirects/`.
 
 ## Project layout
 
 | Path | Purpose |
 |------|---------|
-| `_posts/` | Blog posts |
-| `_pages/` | Static pages (`about`, `blog`, `legal`) |
+| `_posts/` | Blog posts (Spanish) |
+| `_pages/` | Static pages (`about`, `legal`) and Spanish tag redirects |
 | `_layouts/` | Page templates |
 | `_includes/` | Reusable HTML fragments |
+| `_data/` | i18n strings and tag display labels |
 | `_sass/` | Stylesheets (compiled into `assets/css/style.css`) |
 | `assets/` | Images and compiled CSS |
 | `js/` | Site JavaScript |

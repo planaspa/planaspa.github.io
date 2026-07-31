@@ -1,4 +1,4 @@
 ---
 permalink: /tag/valoracion/
-redirect_to: /tag/valuation/
+redirect_to: /
 ---

@@ -5,7 +5,6 @@ layout: post
 title: "Escalar contratando"
 post_pic: /assets/img/posts/20210919/bigO.png
 date: 2021-09-19 10:10:10 -0000
-categories: []
 tags: [scaling, hr, strategy]
 summary: "Contratar debería también entederse también como una derrota en la estrategia de escalado."
 ---

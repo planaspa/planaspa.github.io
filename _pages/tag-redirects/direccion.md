@@ -1,4 +1,4 @@
 ---
 permalink: /tag/direccion/
-redirect_to: /tag/leadership/
+redirect_to: /
 ---

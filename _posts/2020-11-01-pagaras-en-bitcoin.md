@@ -5,7 +5,6 @@ layout: post
 title: "¿Pagarás en Bitcoin?"
 post_pic: /assets/img/posts/20201101/Bitcoin.png
 date: 2020-11-01 10:10:10 -0000
-categories: []
 tags: [paypal, bitcoin, payments, ecommerce, trading]
 summary: "Paypal permitirá realizar pagos con criptomonedas. ¿Tendré que aceptar criptos en mi negocio digital?"
 ---

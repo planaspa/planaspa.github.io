@@ -1,4 +1,4 @@
 ---
 permalink: /tag/analisis/
-redirect_to: /tag/analysis/
+redirect_to: /
 ---

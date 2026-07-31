@@ -5,7 +5,6 @@ layout: post
 title: "La estrategia de tu producto"
 post_pic: /assets/img/posts/20200510/3_steps.png
 date: 2020-05-10 9:10:10 -0000
-categories: []
 tags: [product-management, strategy, leadership]
 summary: "Definir objetivos no significa tener una estrategia, ¿cómo se construye una buena estrategia?"
 ---

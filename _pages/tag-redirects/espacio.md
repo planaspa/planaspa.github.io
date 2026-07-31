@@ -1,4 +1,4 @@
 ---
 permalink: /tag/espacio/
-redirect_to: /tag/space/
+redirect_to: /
 ---

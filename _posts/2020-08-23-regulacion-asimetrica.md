@@ -5,7 +5,6 @@ layout: post
 title: "Regulación asimétrica"
 post_pic: /assets/img/posts/20200823/zuckerberg.jpg
 date: 2020-08-23 09:10:10 -0000
-categories: []
 tags: [regulation, telefonica, innovation, fang]
 summary: "La regulación genera distorsiones en el mercado, más aún si un sector no regulado compite contra otro regulado."
 visible_on_index: false

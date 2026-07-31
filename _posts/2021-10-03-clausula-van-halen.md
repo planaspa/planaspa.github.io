@@ -5,7 +5,6 @@ layout: post
 title: "La cláusula Van Halen"
 post_pic: /assets/img/posts/20211003/rock.png
 date: 2021-10-03 10:10:10 -0000
-categories: []
 tags: [recruiting, meetings, hr]
 summary: "Lo que se puede aprender de un M&M marrón en el backstage."
 ---

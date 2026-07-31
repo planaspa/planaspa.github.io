@@ -1,4 +1,4 @@
 ---
 permalink: /tag/foco/
-redirect_to: /tag/focus/
+redirect_to: /
 ---

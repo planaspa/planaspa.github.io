@@ -5,7 +5,6 @@ layout: post
 title: "Blockchain hasta para cenar"
 post_pic: /assets/img/posts/20211128/blocks.png
 date: 2021-11-28 10:10:10 -0000
-categories: []
 tags: [blockchain, bitcoin, data]
 summary: "Blockchain es la tecnología perfecta para un subconjunto muy específico de casos de uso."
 ---

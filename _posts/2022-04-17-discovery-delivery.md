@@ -5,7 +5,6 @@ layout: post
 title: "Discovery vs delivery"
 post_pic: /assets/img/posts/20220417/question.png
 date: 2022-04-17 10:10:10 -0000
-categories: []
 tags: [product-management, agile, costovation, roadmaps, discovery, delivery]
 summary: "Por lo general, nos centramos más en optimizar el delivery que el discovery. Démosle la vuelta."
 ---

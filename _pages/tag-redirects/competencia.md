@@ -1,4 +1,4 @@
 ---
 permalink: /tag/competencia/
-redirect_to: /tag/competition/
+redirect_to: /
 ---

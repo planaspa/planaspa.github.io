@@ -5,7 +5,6 @@ layout: post
 title: "La ley Parkinson"
 post_pic: /assets/img/posts/20210613/tiempo.png
 date: 2021-06-13 10:10:10 -0000
-categories: []
 tags: [product-management]
 summary: "El trabajo se expande hasta rellenar todo el tiempo disponible para ser completado."
 ---

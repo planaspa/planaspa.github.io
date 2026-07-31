@@ -5,7 +5,6 @@ layout: post
 title: "Guía de supervivencia"
 post_pic: /assets/img/posts/20210808/explore.png
 date: 2021-08-08 10:10:10 -0000
-categories: []
 tags: [onboarding, people, agile]
 summary: "Qué debemos hacer al aterrizar en una nueva organización."
 ---

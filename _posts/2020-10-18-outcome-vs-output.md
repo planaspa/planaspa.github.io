@@ -5,7 +5,6 @@ layout: post
 title: "Outcome vs output"
 post_pic: /assets/img/posts/20201018/OutputVsOutcome.png
 date: 2020-10-18 10:10:10 -0000
-categories: []
 tags: [product-management, agile]
 summary: "Lo importante no es la funcionalidad entregada si no el cambio de comportamiento conseguido."
 popular: true

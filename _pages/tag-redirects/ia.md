@@ -1,4 +1,4 @@
 ---
 permalink: /tag/ia/
-redirect_to: /tag/ai/
+redirect_to: /
 ---

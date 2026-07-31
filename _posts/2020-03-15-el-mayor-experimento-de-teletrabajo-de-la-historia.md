@@ -5,7 +5,6 @@ layout: post
 title: "El mayor experimento de teletrabajo de la historia"
 post_pic: /assets/img/posts/20200315/teletrabajo.jpeg
 date: 2020-03-15 10:10:10 -0000
-categories: []
 tags: [covid, remote-work, experiment, remote]
 summary: "Nos encontramos ante un momento histórico en el que empresas y gobierno deben incentivar el teletrabajo para evitar una gran..."
 ---

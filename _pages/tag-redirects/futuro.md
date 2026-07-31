@@ -1,4 +1,4 @@
 ---
 permalink: /tag/futuro/
-redirect_to: /tag/future/
+redirect_to: /
 ---

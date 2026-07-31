@@ -1,4 +1,4 @@
 ---
 permalink: /tag/decisiones/
-redirect_to: /tag/decisions/
+redirect_to: /
 ---

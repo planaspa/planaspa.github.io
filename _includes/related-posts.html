@@ -60,9 +60,7 @@
     <p class="post__related-subtitle">
       <span class="post__related-subtitle-label">{% include i18n.html key="related_on_tags" %}</span>
       {% for tag in related_context_tags %}
-        {% assign tag_slug = tag | downcase | replace: " ", "-" %}
-        {% assign tag_label = site.data.tag_labels[tag_slug] | default: tag | replace: "-", " " %}
-        <a href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}" class="post__related-tag">{{ tag_label }}</a>{% unless forloop.last %}{% include i18n.html key="related_tag_sep" %}{% endunless %}
+        {% include tag-link.html tag=tag class="post__related-tag" %}{% unless forloop.last %}{% include i18n.html key="related_tag_sep" %}{% endunless %}
       {% endfor %}
     </p>
     {%- endif -%}

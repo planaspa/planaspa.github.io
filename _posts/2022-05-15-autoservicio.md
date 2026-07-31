@@ -5,7 +5,6 @@ layout: post
 title: "Autoservicio"
 post_pic: /assets/img/posts/20220515/aws.png
 date: 2022-05-15 10:10:10 -0000
-categories: []
 tags: [business-model, platforms, amazon]
 summary: "No pienses en funcionalidades, piensa en capacidades autoservicio."
 ---

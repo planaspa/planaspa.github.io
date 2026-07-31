@@ -5,7 +5,6 @@ layout: post
 title: "Tiempos de guerra de precios"
 post_pic: /assets/img/posts/20200503/cost_curve.png
 date: 2020-05-03 10:00:00 -0000
-categories: []
 tags: [oil, charles-schwab, saudi-aramco, pricing, competition, strategy]
 summary: "Lecciones que se pueden aprender de una guerra de precios."
 visible_on_index: false

@@ -1,4 +1,4 @@
 ---
 permalink: /tag/bootstraping/
-redirect_to: /tag/bootstrapping/
+redirect_to: /
 ---

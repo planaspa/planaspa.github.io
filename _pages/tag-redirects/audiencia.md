@@ -1,4 +1,4 @@
 ---
 permalink: /tag/audiencia/
-redirect_to: /tag/audience/
+redirect_to: /
 ---

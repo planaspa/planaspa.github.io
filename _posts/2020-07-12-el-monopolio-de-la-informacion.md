@@ -5,7 +5,6 @@ layout: post
 title: "El monopolio de la información"
 post_pic: /assets/img/posts/20200712/Anuncio_DuckDuckGo.jpeg
 date: 2020-07-12 9:30:10 -0000
-categories: []
 tags: [google, privacy, monopoly, neeva, duckduckgo, advertising]
 summary: "Google tiene el monopolio de la búsqueda de la información a nivel global. DuckDuckGo parece estar moviéndose y Neeva suena interesante como alternativa."
 ---

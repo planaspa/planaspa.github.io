@@ -1,4 +1,4 @@
 ---
 permalink: /tag/publicidad/
-redirect_to: /tag/advertising/
+redirect_to: /
 ---

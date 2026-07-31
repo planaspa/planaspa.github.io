@@ -112,14 +112,6 @@
       font-weight: 700;
       line-height: 21px;
       color: inherit;
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-color $global-transition, color $global-transition;
-
-      &:hover {
-        color: $dark;
-        border-bottom-color: $brand-color;
-      }
 
       &:before {
         content: "";
@@ -371,14 +363,6 @@
   .post__related-tag {
     font-weight: 700;
     color: $dark;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color $global-transition, color $global-transition;
-
-    &:hover {
-      color: $black;
-      border-bottom-color: $brand-color;
-    }
   }
 
   .post__related-grid {

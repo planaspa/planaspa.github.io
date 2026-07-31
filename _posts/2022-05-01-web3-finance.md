@@ -5,7 +5,6 @@ layout: post
 title: "Web3 y fintechs"
 post_pic: /assets/img/posts/20220501/web3_fintech.png
 date: 2022-05-01 10:10:10 -0000
-categories: []
 tags: [web3, fintech, future, daos]
 summary: "Creo que existe una oportunidad enorme en crear todos los servicios financieros necesarios en la Web3"
 ---

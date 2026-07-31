@@ -1,4 +1,4 @@
 ---
 permalink: /tag/team/
-redirect_to: /tag/teams/
+redirect_to: /
 ---

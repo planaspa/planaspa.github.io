@@ -5,7 +5,6 @@ layout: post
 title: "Recordemos a Windows Phone"
 post_pic: /assets/img/posts/20210627/w_phone.png
 date: 2021-06-27 10:11:10 -0000
-categories: []
 tags: [strategy, windows, android, business-model]
 summary: "Windows Phone nos desmotró como no romper un duopolio. Aprendamos de ello."
 ---
