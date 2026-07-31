@@ -7,6 +7,11 @@ layout: default
       <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
         <h1 class="post-title">{{ page.title | escape }}</h1>
 
+        {% assign post_dek = page.summary | default: page.description %}
+        {% if post_dek %}
+        <p class="post__dek">{{ post_dek | escape }}</p>
+        {% endif %}
+
         {% if page.lang == 'es' %}
         <p class="post__lang-note">{% include i18n.html key="post_lang_note" %}</p>
         {% endif %}
@@ -50,19 +55,9 @@ layout: default
     </div>
   </div>
 
-  {% assign no-image = nil %}
-  {% if page.image %}
-    <div class="post__head">
-      <div class="post-image bg-cover" style="--bg-image: url({{ '/assets/img/' | append: page.image | relative_url }})"></div>
-    </div>
-  {% else %}
-    {% assign no-image = 'post-no-image' %}
-  {% endif %}
-
-  <div class="container">
-    <div class="row">
-      <!-- begin post -->
-      <article class="post {{ no-image }} col col-8 col-t-10 col-m-12"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
+  <div class="row">
+    <!-- begin post -->
+    <article class="post col col-8 col-t-10 col-m-12"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
         <div class="post__content">
           {{ content }}
         </div>
@@ -70,11 +65,9 @@ layout: default
         {% include post-share.html variant="end" %}
       </article>
       <!-- end post -->
-    </div>
   </div>
 
-  <div class="container">
-    <div class="post__navigation">
+  <div class="post__navigation">
       {% if page.previous.url %}
       <div class="prev">
         <a class="post__nav__image post__nav__image--contain bg-cover" href="{{ page.previous.url | relative_url }}" style="--bg-image: url({{ page.previous.post_pic | relative_url }})"></a>
@@ -112,6 +105,5 @@ layout: default
         </p>
       </div>
       {% endif %}
-    </div>
   </div>
 </div>
