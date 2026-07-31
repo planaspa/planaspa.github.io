@@ -20,12 +20,8 @@ google_analytics: G-6SDG48R4SK
 markdown: kramdown
 permalink: pretty
 plugins:
-  - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll/tagging
-
-paginate: 5
-paginate_path: "/page/:num"
 
 defaults:
   - scope:
