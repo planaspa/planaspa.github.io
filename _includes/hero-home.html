@@ -1,0 +1,20 @@
+<!-- begin hero-home -->
+<div class="hero hero--home">
+  <div class="container">
+    <div class="hero-home">
+      <img
+        class="hero-home__avatar"
+        src="{{ '/assets/img/' | append: site.author.image | relative_url }}"
+        alt="Imagen de perfil de Pablo"
+        width="72"
+        height="72"
+      >
+      <div class="hero-home__content">
+        <h1 class="hero-home__title">{{ site.title }}</h1>
+        <p class="hero-home__tagline">Opiniones personales sobre economía digital · {{ site.author.name }}</p>
+        <a href="{{ '/about/' | relative_url }}" class="hero-home__link">Quién soy <i class="ion ion-ios-arrow-forward"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end hero-home -->

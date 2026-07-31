@@ -3,37 +3,9 @@
     <div class="col col-12">
       <!-- begin header -->
       <header class="header">
-
-
-        <nav class="main-nav">
-
-          <div class="main-nav__box">
-            <div class="nav-icon__close">
-              <i class="ion ion-ios-close-circle-outline"></i>
-            </div>
-
-            <div class="nav__title">Menu</div>
-
-            <ul class="nav__list list-reset">
-              <li class="nav__item">
-                <a href="{{ '/' | relative_url }}" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ '/about/' | relative_url }}" class="nav__link">Quién soy</a>
-              </li>
-              <li class="nav__item">
-                <a href="{{ '/blog/' | relative_url }}" class="nav__link">Blog</a>
-              </li>
-            </ul>
-
-          </div>
-        </nav>
-
-        <div class="nav-buttons">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu" aria-label="Menu Icon"></i>
+        <div class="logo">
+          <a href="{{ '/' | relative_url }}" class="logo__link">{{ site.title }}</a>
         </div>
-
-        <div class="header__overlay"></div>
       </header>
       <!-- end header -->
     </div>
