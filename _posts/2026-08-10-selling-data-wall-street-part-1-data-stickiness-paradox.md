@@ -4,7 +4,7 @@ permalink: /2026/08/10/Selling-Data-Wall-Street-Part-1-Data-Stickiness/
 layout: post
 title: "Selling Data Products to Wall Street, Part 1: The Stickiness Paradox"
 post_pic: /assets/img/posts/20260810/data-stickiness-paradox.png
-date: 2026-08-10 09:00:00 +0000
+date: 2026-08-10 00:00:00 +0000
 tags: [fintech, finance, data, product]
 summary: "Data stickiness is the dream once you are in and the wall while you are out. Part 1 of selling data products to Wall Street."
 ---
