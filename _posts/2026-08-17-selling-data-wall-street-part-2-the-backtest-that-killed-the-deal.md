@@ -1,10 +1,10 @@
 ---
 lang: en
-permalink: /2026/08/24/Selling-Data-Wall-Street-Part-2-The-Backtest-That-Killed-the-Deal/
+permalink: /2026/08/17/Selling-Data-Wall-Street-Part-2-The-Backtest-That-Killed-the-Deal/
 layout: post
 title: "Selling Data Products to Wall Street, Part 2: The Backtest That Killed the Deal"
 post_pic: /assets/img/posts/20260810/data-stickiness-paradox.png
-date: 2026-08-24 09:00:00 +0000
+date: 2026-08-17 00:00:00 +0000
 tags: [fintech, finance, data, product]
 summary: "The demo worked. The backtest looked phenomenal. They threw the dataset away anyway — because the history was lying."
 ---
