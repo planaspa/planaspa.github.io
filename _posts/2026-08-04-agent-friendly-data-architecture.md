@@ -7,6 +7,7 @@ post_pic: /assets/img/posts/20260804/agent-friendly-architectures.png
 date: 2026-08-04 08:10:10 -0000
 tags: [ai, data]
 summary: "We built superintelligent AI agents... and then forced them to browse the web like humans from 2005. 🤦‍♂️"
+popular: true
 ---
 
 A few days ago, I was testing out the new financial vertical capabilities recently released by [Cala.ai](https://cala.ai/){:target="_blank"}. If it's not on your radar yet, it's one of those platforms trying to solve a quiet but massive problem: how to supply AI agents with structured, verified data without forcing them to crawl the web like you or I would.
