@@ -4,7 +4,7 @@ permalink: /2026/08/24/Selling-Data-Wall-Street-Part-3-You-Are-Not-Selling-Data-
 layout: post
 title: "Selling Data Products to Wall Street, Part 3: You're Not Selling Data. You're Selling Trust."
 post_pic: /assets/img/posts/20260810/data-stickiness-paradox.png
-date: 2026-08-24 00:00:00 +0000
+date: 2026-08-25 00:00:00 +0000
 tags: [fintech, finance, data, product]
 summary: "Banks do not experience your data in a dashboard. They experience it when a limit breaches, a counterparty gets cut, or legal asks where a number came from."
 ---
